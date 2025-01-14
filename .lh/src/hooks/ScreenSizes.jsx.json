@@ -1,0 +1,134 @@
+{
+    "sourceFile": "src/hooks/ScreenSizes.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 29,
+            "patches": [
+                {
+                    "date": 1736842224541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736842230048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const ScreenSizes = () => {\r\n+  return (\r\n+    <div>ScreenSizes</div>\r\n+  )\r\n+}\r\n+\r\n+export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736842242343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  return (\r\n-    <div>ScreenSizes</div>\r\n-  )\r\n+  \r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843143954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  \r\n+  const sm\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843149665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const sm\r\n+  const smScreen = \r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843173536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = \r\n+  const smScreen = useMedia\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843179121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n+import { useMediaQuery } from '@mui/material'\r\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = useMedia\r\n+  const smScreen = useMediaQuery()\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843185356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { useMediaQuery } from '@mui/material'\r\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = useMediaQuery()\r\n+  const smScreen = useMediaQuery('max-width : ')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843212105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { useMediaQuery } from '@mui/material'\r\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = useMediaQuery('max-width : ')\r\n+  const smScreen = useMediaQuery('max-width : 479px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843219439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n+  const mdScreen\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843225950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n-  const mdScreen\r\n+  const mdScreen = useMediaQuery()\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843231224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n-  const mdScreen = useMediaQuery()\r\n+  const mdScreen = useMediaQuery('max-width : ')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843270299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n-  const mdScreen = useMediaQuery('max-width : ')\r\n+  const mdScreen = useMediaQuery('max-width : 639px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843275889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n   const mdScreen = useMediaQuery('max-width : 639px')\r\n+  const l\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843283353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n   const mdScreen = useMediaQuery('max-width : 639px')\r\n-  const l\r\n+  const lgScreen = useMedia\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843344717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n   const mdScreen = useMediaQuery('max-width : 639px')\r\n-  const lgScreen = useMedia\r\n+  const lgScreen = useMediaQuery('max-width : ')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843350866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('max-width : 479px')\r\n   const mdScreen = useMediaQuery('max-width : 639px')\r\n-  const lgScreen = useMediaQuery('max-width : ')\r\n+  const lgScreen = useMediaQuery('max-width : 959px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843443794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { useMediaQuery } from '@mui/material'\r\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = useMediaQuery('max-width : 479px')\r\n+  const smScreen = useMediaQuery('min-width : 479px')\r\n   const mdScreen = useMediaQuery('max-width : 639px')\r\n   const lgScreen = useMediaQuery('max-width : 959px')\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736843451882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import { useMediaQuery } from '@mui/material'\r\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n-  const smScreen = useMediaQuery('min-width : 479px')\r\n-  const mdScreen = useMediaQuery('max-width : 639px')\r\n+  const smScreen = useMediaQuery('min-width : 300px')\r\n+  const mdScreen = useMediaQuery('min-width : 639px')\r\n   const lgScreen = useMediaQuery('max-width : 959px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843457280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n-  const mdScreen = useMediaQuery('min-width : 639px')\r\n+  const mdScreen = useMediaQuery('min-width : px')\r\n   const lgScreen = useMediaQuery('max-width : 959px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843464097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n-  const mdScreen = useMediaQuery('min-width : px')\r\n-  const lgScreen = useMediaQuery('max-width : 959px')\r\n+  const mdScreen = useMediaQuery('min-width : 480px')\r\n+  const lgScreen = useMediaQuery('min-width : 959px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843469760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \r\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n-  const lgScreen = useMediaQuery('min-width : 959px')\r\n+  const lgScreen = useMediaQuery('min-width : 640px')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843477785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n+  const xlgScreen\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843483198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n-  const xlgScreen\r\n+  const xlgScreen = useMediaQuery\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843489025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n-  const xlgScreen = useMediaQuery\r\n+  const xlgScreen = useMediaQuery('min-width')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843494385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n-  const xlgScreen = useMediaQuery('min-width')\r\n+  const xlgScreen = useMediaQuery('min-width : 960')\r\n }\r\n \r\n export default ScreenSizes\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843505342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n const ScreenSizes = () => {\r\n   const smScreen = useMediaQuery('min-width : 300px')\r\n   const mdScreen = useMediaQuery('min-width : 480px')\r\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n-  const xlgScreen = useMediaQuery('min-width : 960')\r\n+  const xlgScreen = useMediaQuery('min-width : 960px')\r\n }\r\n \r\n\\ No newline at end of file\n-export default ScreenSizes\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843511103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n   const xlgScreen = useMediaQuery('min-width : 960px')\r\n }\r\n \r\n-export default \n\\ No newline at end of file\n+export default {sm}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843518270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n   const xlgScreen = useMediaQuery('min-width : 960px')\r\n }\r\n \r\n-export default {sm}\n\\ No newline at end of file\n+export default {smScreen,  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736843525574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n   const lgScreen = useMediaQuery('min-width : 640px')\r\n   const xlgScreen = useMediaQuery('min-width : 960px')\r\n }\r\n \r\n-export default {smScreen,  mdScreen, lgSc}\n\\ No newline at end of file\n+export default {smScreen,  mdScreen, lgScreen}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1736842224541,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

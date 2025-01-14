@@ -1,0 +1,90 @@
+{
+    "sourceFile": "src/main-components/contact/SocialNetworks.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1736851864006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736851882996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,17 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const SocialNetworks = () => {\r\n+  return (\r\n+    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n+    <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n+          <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Stack direction='row' gap='8px'>\r\n+            <FaWhatsapp color=\"green\" size={'24px'}/>\r\n+            <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n+          </Stack>\r\n+    </Stack> \r\n+</Box>\r\n+  )\r\n+}\r\n+\r\n+export default SocialNetworks\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736851888699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1736851894860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1736851900798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const SocialNetworks = () => {\r\n   return (\r\n     <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typograpy fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736851908150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n-import { Box, Stack } from '@mui/material'\r\n+import { Box, Stack, Typography } from '@mui/material'\r\n import React from 'react'\r\n+import { FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n     <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typograpy fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736851920830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n-import React from 'react'\r\n-import { FaWhatsapp } from 'react-icons/fa'\r\n+import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n     <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n"
+                },
+                {
+                    "date": 1736852479665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n-    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n+    <Box height='' width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n"
+                },
+                {
+                    "date": 1736852491365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n-    <Box height='' width={{sm : '50%', md : '20%'}} display={{xs : 'none', sm : 'block'}}>\r\n+    <Box height='5rem' width='' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n"
+                },
+                {
+                    "date": 1736852507555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n-    <Box height='5rem' width='' display={{xs : 'none', sm : 'block'}}>\r\n+    <Box height='5rem' width='12rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n"
+                },
+                {
+                    "date": 1736852517188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const SocialNetworks = () => {\r\n   return (\r\n     <Box height='5rem' width='12rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typography fontSize={{xs : '8px', md : '12px'}} textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typography fontSize='' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736852527509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n-    <Box height='5rem' width='12rem' display={{xs : 'none', sm : 'block'}}>\r\n+    <Box height='5rem' width='16rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typography fontSize='' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n             <FaWhatsapp color=\"green\" size={'24px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736852535243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <Box height='5rem' width='16rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n-            <FaWhatsapp color=\"green\" size={'24px'}/>\r\n+            <FaWhatsapp color=\"green\" size={'32px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n           </Stack>\r\n     </Stack> \r\n </Box>\r\n"
+                },
+                {
+                    "date": 1736852545775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <Box height='5rem' width='16rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='8px'>\r\n-            <FaWhatsapp color=\"green\" size={'32px'}/>\r\n-            <FaTelegram color=\"#20aabd\" size={'24px'}/> \r\n+            <FaWhatsapp color=\"green\" size={'36px'}/>\r\n+            <FaTelegram color=\"#20aabd\" size={'px'}/> \r\n           </Stack>\r\n     </Stack> \r\n </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736852556264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,11 @@\n   return (\r\n     <Box height='5rem' width='16rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n-          <Stack direction='row' gap='8px'>\r\n+          <Stack direction='row' gap='12px'>\r\n             <FaWhatsapp color=\"green\" size={'36px'}/>\r\n-            <FaTelegram color=\"#20aabd\" size={'px'}/> \r\n+            <FaTelegram color=\"#20aabd\" size={'36px'}/> \r\n           </Stack>\r\n     </Stack> \r\n </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736852570893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n   return (\r\n-    <Box height='5rem' width='16rem' display={{xs : 'none', sm : 'block'}}>\r\n+    <Box height='5rem' width='18rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='12px'>\r\n             <FaWhatsapp color=\"green\" size={'36px'}/>\r\n"
+                },
+                {
+                    "date": 1736852579082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const SocialNetworks = () => {\r\n   return (\r\n     <Box height='5rem' width='18rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typography fontSize='18px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typography fontSize='22px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='12px'>\r\n             <FaWhatsapp color=\"green\" size={'36px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'36px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736852709637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n+    \r\n   return (\r\n     <Box height='5rem' width='18rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n-          <Typography fontSize='22px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n+          <Typography fontSize='20px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n           <Stack direction='row' gap='12px'>\r\n             <FaWhatsapp color=\"green\" size={'36px'}/>\r\n             <FaTelegram color=\"#20aabd\" size={'36px'}/> \r\n           </Stack>\r\n"
+                },
+                {
+                    "date": 1736852717933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n-    const {t} = useTransla\r\n+    const {t} = useTranslation\r\n   return (\r\n     <Box height='5rem' width='18rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='20px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n"
+                }
+            ],
+            "date": 1736851864006,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/translator/locales/uzb/translation.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1736846371348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736846384558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\"\r\n+    \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852666041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n {\r\n-    \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\"\r\n+    \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n+    \"onlineAsk\" : \"Ask a question, we are online.\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852697928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n-    \"onlineAsk\" : \"Ask a question, we are online.\"\r\n+    \"onlineAsk\" : \"Savol bering, biz onlayn.\"\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1736846371348,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\"\r\n}"
+        }
+    ]
+}

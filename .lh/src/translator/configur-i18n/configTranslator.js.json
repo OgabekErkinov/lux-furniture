@@ -1,0 +1,74 @@
+{
+    "sourceFile": "src/translator/configur-i18n/configTranslator.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1736850697865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736850716971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,23 +1,24 @@\n-import i18n from 'i18next';\r\n-import { initReactI18next } from 'react-i18next';\r\n-import translationEn from '../locales/eng/translation.json';\r\n-import translationRu from '../locales/rus/translation.json';\r\n-import translationUz from '../locales/uzb/translation.json';\r\n+import i18n  from 'i18next'\r\n+import { initReactI18next } from 'react-i18next'\r\n+import translationEn from '../locales/eng/translation.json'\r\n+import translationRu from '../locales/rus/translation.json'\r\n+import translationUz from '../locales/uzb/translation.json'\r\n \r\n-i18n\r\n-  .use(initReactI18next) // i18nextni react-i18next bilan bog'laydi\r\n-  .init({\r\n-    resources: {\r\n-      en: { translation: translationEn },\r\n-      ru: { translation: translationRu },\r\n-      uz: { translation: translationUz },\r\n+\r\n+i18n.use(initReactI18next).init({\r\n+    resources : {\r\n+        en : {translation : translationEn},\r\n+        ru : {translation : translationRu},\r\n+        uz : {translation : translationUz}\r\n     },\r\n-    lng: 'en',\r\n-    fallbackLng: 'uz',\r\n-    interpolation: {\r\n-      escapeValue: false,\r\n+\r\n+    lng : 'en',\r\n+    fallbackLng : 'uz',\r\n+    interpolation : {\r\n+        escapevalue : false\r\n     },\r\n-    returnObjects: true,\r\n-  });\r\n+    returnObjects : true\r\n \r\n-export default i18n;\r\n+})\r\n+\r\n+export default i18n\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736851293417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         uz : {translation : translationUz}\r\n     },\r\n \r\n     lng : 'en',\r\n-    fallbackLng : 'uz',\r\n+    fallbackLng : 'en',\r\n     interpolation : {\r\n         escapevalue : false\r\n     },\r\n     returnObjects : true\r\n"
+                },
+                {
+                    "date": 1736851306083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \r\n     lng : 'en',\r\n     fallbackLng : 'en',\r\n     interpolation : {\r\n-        escapevalue : false\r\n+        escapeValue : false\r\n     },\r\n     returnObjects : true\r\n \r\n })\r\n"
+                },
+                {
+                    "date": 1736853069046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import translationEn from '../locales/eng/translation.json'\r\n-import translationRu from '../locales/rus/translation.json'\r\n-import translationUz from '../locales/uzb/translation.json'\r\n \r\n \r\n+\r\n i18n.use(initReactI18next).init({\r\n     resources : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n"
+                },
+                {
+                    "date": 1736853082011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n \r\n i18n.use(initReactI18next).init({\r\n     resources : {\r\n-        en : {translation : translationEn},\r\n+        en : {translation : translation},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n     },\r\n \r\n"
+                },
+                {
+                    "date": 1736853094112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n+import translationE\r\n \r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n     resources : {\r\n-        en : {translation : translation},\r\n+        en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n     },\r\n \r\n"
+                },
+                {
+                    "date": 1736853100459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import translationE\r\n+import translationEn from\r\n \r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n"
+                },
+                {
+                    "date": 1736853107397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import translationEn from\r\n+import translationEn from '../locales/eng/translation.json'\r\n+import translationRu from '../locales/rus/translation.json'\r\n+import translationUz from '../locales/uzb/translation.json'\r\n \r\n \r\n-\r\n i18n.use(initReactI18next).init({\r\n     resources : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n@@ -13,9 +14,9 @@\n \r\n     lng : 'en',\r\n     fallbackLng : 'en',\r\n     interpolation : {\r\n-        escapeValue : false\r\n+        escapevalue : false\r\n     },\r\n     returnObjects : true\r\n \r\n })\r\n"
+                },
+                {
+                    "date": 1736853131965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import translationEn from '../locales/eng/translation.json'\r\n+import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translation.json'\r\n import translationUz from '../locales/uzb/translation.json'\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1736853137583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n import translationEn from '../locales/eng/translationEn.json'\r\n-import translationRu from '../locales/rus/translation.json'\r\n+import translationRu from '../locales/rus/translationR.json'\r\n import translationUz from '../locales/uzb/translation.json'\r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n"
+                },
+                {
+                    "date": 1736853143920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n import translationEn from '../locales/eng/translationEn.json'\r\n-import translationRu from '../locales/rus/translationR.json'\r\n-import translationUz from '../locales/uzb/translation.json'\r\n+import translationRu from '../locales/rus/translationRu.json'\r\n+import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n     resources : {\r\n"
+                },
+                {
+                    "date": 1736853325819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(initReactI18next).init({\r\n+i18n.use(ini).init({\r\n     resources : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n"
+                },
+                {
+                    "date": 1736853331274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(ini).init({\r\n+i18n.use(initReactI18next).init({\r\n     resources : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n"
+                },
+                {
+                    "date": 1736853338084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n-    resources : {\r\n+    recour : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n     },\r\n"
+                }
+            ],
+            "date": 1736850697865,
+            "name": "Commit-0",
+            "content": "import i18n from 'i18next';\r\nimport { initReactI18next } from 'react-i18next';\r\nimport translationEn from '../locales/eng/translation.json';\r\nimport translationRu from '../locales/rus/translation.json';\r\nimport translationUz from '../locales/uzb/translation.json';\r\n\r\ni18n\r\n  .use(initReactI18next) // i18nextni react-i18next bilan bog'laydi\r\n  .init({\r\n    resources: {\r\n      en: { translation: translationEn },\r\n      ru: { translation: translationRu },\r\n      uz: { translation: translationUz },\r\n    },\r\n    lng: 'en',\r\n    fallbackLng: 'uz',\r\n    interpolation: {\r\n      escapeValue: false,\r\n    },\r\n    returnObjects: true,\r\n  });\r\n\r\nexport default i18n;\r\n"
+        }
+    ]
+}

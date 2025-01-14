@@ -1,0 +1,174 @@
+{
+    "sourceFile": "src/main-components/contact/Languages.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1736846656940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736846664491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const Languages = () => {\r\n   return (\r\n-    <div>Languages</div>\r\n+    <Box\r\n   )\r\n }\r\n \r\n export default Languages\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846804738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n   return (\r\n-    <Box\r\n+    <Box height=''>\r\n+\r\n+    </Box>\r\n   )\r\n }\r\n \r\n export default Languages\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846810416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const Languages = () => {\r\n   return (\r\n-    <Box height=''>\r\n+    <Box height='5rem' width>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736846818406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n import React from 'react'\r\n \r\n const Languages = () => {\r\n   return (\r\n-    <Box height='5rem' width>\r\n+    <Box height='5rem' width='8rem'>\r\n+        \r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736846824591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n-        \r\n+        <Stack>\r\n+            \r\n+        </Stack>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736846832881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \r\n const Languages = () => {\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n-        <Stack>\r\n-            \r\n+        <Stack direction='row'>\r\n+\r\n         </Stack>\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736846840655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n const Languages = () => {\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n+            \r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736846850197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Languages = () => {\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n-            \r\n+            <B\r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736846872307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n+    \r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n-            <B\r\n+            <Box\r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736846879255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n-    \r\n+    const languages = \r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             <Box\r\n"
+                },
+                {
+                    "date": 1736846889246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n-    const languages = \r\n+    const languages = [\r\n+        \r\n+    ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             <Box\r\n"
+                },
+                {
+                    "date": 1736846895254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n import React from 'react'\r\n \r\n const Languages = () => {\r\n     const languages = [\r\n-        \r\n+        {\r\n+            name\r\n+        }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n"
+                },
+                {
+                    "date": 1736846904049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Languages = () => {\r\n     const languages = [\r\n         {\r\n-            name\r\n+            name : ''\r\n         }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n"
+                },
+                {
+                    "date": 1736846910774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \r\n const Languages = () => {\r\n     const languages = [\r\n         {\r\n-            name : ''\r\n+            name : 'uz',\r\n+            flag\r\n         }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n"
+                },
+                {
+                    "date": 1736846916369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Languages = () => {\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n-            flag\r\n+            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n"
+                },
+                {
+                    "date": 1736846924929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,12 @@\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n+        },\r\n+        {\r\n+            name : 'uz',\r\n+            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n"
+                },
+                {
+                    "date": 1736846931175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,12 @@\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         },\r\n         {\r\n+            name : 'e',\r\n+            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n+        },\r\n+        {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         }\r\n     ]\r\n"
+                },
+                {
+                    "date": 1736846967447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,14 +7,14 @@\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         },\r\n         {\r\n-            name : 'e',\r\n+            name : 'en',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         },\r\n         {\r\n-            name : 'uz',\r\n-            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n+            name : 'ru',\r\n+            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEXQ1vOnJdFtduj75HWAMfOoJ6GRNxCkcaA&s'\r\n         }\r\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n"
+                },
+                {
+                    "date": 1736846995125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n         },\r\n         {\r\n             name : 'en',\r\n-            flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n+            flag : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_the_United_States.png/1200px-Flag_of_the_United_States.png'\r\n         },\r\n         {\r\n             name : 'ru',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEXQ1vOnJdFtduj75HWAMfOoJ6GRNxCkcaA&s'\r\n"
+                },
+                {
+                    "date": 1736847003830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n-            <Box\r\n+            \r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736847064055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n+    const {t}\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847069287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n-    const {t}\r\n+    const {t} = usetRA\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847075673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Languages = () => {\r\n-    const {t} = usetRA\r\n+    const {t} = useTransla\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847083076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n+import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n-    const {t} = useTransla\r\n+    const {t, i18} = useTranslation()\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847121071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n-    const {t, i18} = useTranslation()\r\n+    const {t, i18n} = useTranslation()\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n@@ -21,8 +21,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             \r\n+            \r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736847126440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,12 @@\n     ]\r\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n+            {\r\n+                language\r\n+            }\r\n             \r\n-            \r\n \r\n         </Stack>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736847178240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-                language\r\n+                \r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847184395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-                \r\n+                i18n.l\r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847192862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-                i18n.l\r\n+                i18n.language\r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847334738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n     const {t, i18n} = useTranslation()\r\n+    const\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847340749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n     const {t, i18n} = useTranslation()\r\n-    const\r\n+    const [currentLanguage]\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847346908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n     const {t, i18n} = useTranslation()\r\n-    const [currentLanguage]\r\n+    const [currentLanguage, setCurrentLanguage]\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847352516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import { Box, Stack } from '@mui/material'\r\n-import React from 'react'\r\n+import React, { useState } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n     const {t, i18n} = useTranslation()\r\n-    const [currentLanguage, setCurrentLanguage]\r\n+    const [currentLanguage, setCurrentLanguage] = useState\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n"
+                },
+                {
+                    "date": 1736847375951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n const Languages = () => {\r\n     const {t, i18n} = useTranslation()\r\n-    const [currentLanguage, setCurrentLanguage] = useState\r\n+    const [currentLanguage, setCurrentLanguage] = useState('en')\r\n     const languages = [\r\n         {\r\n             name : 'uz',\r\n             flag : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLCRdyhZfj530pP-6i-Jccj_vWulB1Lf9aA&s'\r\n@@ -22,9 +22,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-                i18n.language\r\n+                \r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847382286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-                \r\n+              languages\r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847388002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-              languages\r\n+              languages.map\r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847395056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   return (\r\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n-              languages.map\r\n+              languages.map((language, idx))\r\n             }\r\n             \r\n \r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736847400369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     <Box height='5rem' width='8rem'>\r\n         <Stack direction='row'>\r\n             {\r\n               languages.map((language, idx) => {\r\n-                return\r\n+                return \r\n               })\r\n             }\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1736847479004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         <Stack direction='row'>\r\n             {\r\n               languages.map((language, idx) => {\r\n                 return (\r\n-                    if(language)\r\n+                    if(language.)\r\n                     <Box component='img' src={language.flag} height='100%' width='100%' key={idx}/>\r\n                 )\r\n               })\r\n             }\r\n"
+                }
+            ],
+            "date": 1736846656940,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Languages = () => {\r\n  return (\r\n    <div>Languages</div>\r\n  )\r\n}\r\n\r\nexport default Languages"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/translator/locales/rus/translation.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1736846348378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736846360684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\"\r\n+    \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852660881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n {\r\n-    \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\"\r\n+    \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\",\r\n+    \"onlineAsk\" : \"Ask a question, we are online.\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852680931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n {\r\n     \"logoDescription\" : \"Производство плетенной мебели премиум класса в Ташкенте\",\r\n-    \"onlineAsk\" : \"Ask a question, we are online.\"\r\n+    \"onlineAsk\" : \"Задайте вопрос, мы онлайн.\"\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1736846348378,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\"\r\n}"
+        }
+    ]
+}

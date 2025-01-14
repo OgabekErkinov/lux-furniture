@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/main-components/contact/WorkTime.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1736854409629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736854433801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,14 @@\n-ra\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const WorkTime = () => {\r\n+  return (\r\n+    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n+              <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n+                   <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n+                   <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n+              </Stack>\r\n+          </Box>\r\n+  )\r\n+}\r\n+\r\n+export default WorkTime\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736854448551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n-    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n+    <B height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n               <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n                    <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n                    <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n               </Stack>\r\n"
+                },
+                {
+                    "date": 1736854455145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n-    <B height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n-              <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n+    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n+        <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n                    <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n                    <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n               </Stack>\r\n           </Box>\r\n"
+                },
+                {
+                    "date": 1736854461582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n const WorkTime = () => {\r\n   return (\r\n     <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n         <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n-                   <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n-                   <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n+            <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n               </Stack>\r\n           </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736854469315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n         <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n-              </Stack>\r\n-          </Box>\r\n+        </Stack>\r\n+    </Box>\r\n   )\r\n }\r\n \r\n export default WorkTime\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736854476539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n-    <Box height={{sm : '50%', md : '100%'}} width={{sm : '50%', md : '20%'}}>\r\n+    <Box height= width={{sm : '50%', md : '20%'}}>\r\n         <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736854488708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n-    <Box height= width={{sm : '50%', md : '20%'}}>\r\n+    <Box height='100%' width={}>\r\n         <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n"
+                },
+                {
+                    "date": 1736854545615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n-    <Box height='100%' width={}>\r\n-        <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n+    <Box height='100%' width='100%'>\r\n+        <St height='100%' width='100%' alignItems='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736854554580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Stack } from '@mui/material'\r\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <St height='100%' width='100%' alignItems='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736854638295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import { Box, Stack } from '@mui/material'\r\n+import { Box, Stack, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n const WorkTime = () => {\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-end' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736854643637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const WorkTime = () => {\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex-end' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent={} gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                }
+            ],
+            "date": 1736854409629,
+            "name": "Commit-0",
+            "content": "ra"
+        }
+    ]
+}

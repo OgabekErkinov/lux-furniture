@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/constants/constantas.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1736843744799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1736843744799,
+            "name": "Commit-0",
+            "content": "export const logoUrl = \"https://optim.tildacdn.one/tild3336-3135-4734-a363-316133383665/-/resize/368x/-/format/webp/photo.png\";\r\n"
+        }
+    ]
+}

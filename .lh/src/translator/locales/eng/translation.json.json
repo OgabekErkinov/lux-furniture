@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/translator/locales/eng/translation.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1736846291007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736846299348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \r\n+    \"logoDescriptio\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846309596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"logoDescriptio\"\r\n+    \"\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846319665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"\"\r\n+    \"logo\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846326191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"logo\"\r\n+    \"logoDescription\" : \"\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736846337179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\r\n-    \"logoDescription\" : \"\"\r\n+    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852626592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n {\r\n-    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\"\r\n+    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852640724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n {\r\n     \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n-    \r\n+    \"online\"\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736852649659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n {\r\n     \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n-    \"online\"\r\n+    \"onlineAsk\" : \r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1736846291007,
+            "name": "Commit-0",
+            "content": "{\r\n    \r\n}"
+        }
+    ]
+}
