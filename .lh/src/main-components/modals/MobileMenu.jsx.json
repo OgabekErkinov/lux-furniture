@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/main-components/modals/MobileMenu.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1736935284798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736935290569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const MobileMenu = () => {\r\n   return (\r\n-    \r\n+    <\r\n   )\r\n }\r\n \r\n export default MobileMenu\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736935302945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const MobileMenu = () => {\r\n   return (\r\n-    <Box width>\r\n+    <Box width={}>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                }
+            ],
+            "date": 1736935284798,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

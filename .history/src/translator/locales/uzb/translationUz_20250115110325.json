@@ -1,0 +1,14 @@
+{
+    "logoDescription" : "Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish",
+    "onlineAsk" : "Savol bering, biz onlaynmiz",
+    "navLinks" : {
+        "home" : "bos" ,
+        "catalog" :  "catalog",
+        "guarantees" : "guarantees" ,
+        "products" :  "products" , 
+        "about" : "about",
+        "delivery" :  "delivery" ,
+        "vacancy" : "vacancy" ,
+        "contacts" :  "contacts"
+    }
+}

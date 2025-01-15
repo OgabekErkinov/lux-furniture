@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 74,
+            "activePatchIndex": 77,
             "patches": [
                 {
                     "date": 1736843812244,
@@ -304,6 +304,18 @@
                 {
                     "date": 1736853401413,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n \r\n const Logo = () => {\r\n-    const {t} = useTranslation()\r\n+    const {t } = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const logoDescDisplay = xlgScreen ? 'block' : 'none'\r\n     const logoHeightSize = xlgScreen ? '5rem' : lgScreen ? '4rem' : '3rem'\r\n     const logoWidthSize = xlgScreen ? '15rem' : lgScreen ? '12rem' : '9rem'\r\n"
+                },
+                {
+                    "date": 1736934444395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n \r\n const Logo = () => {\r\n-    const {t } = useTranslation()\r\n+    const { t } = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const logoDescDisplay = xlgScreen ? 'block' : 'none'\r\n-    const logoHeightSize = xlgScreen ? '5rem' : lgScreen ? '4rem' : '3rem'\r\n+    const logoHeightSize = xlgScreen ? '100%' : lgScreen ? '4rem' : '3rem'\r\n     const logoWidthSize = xlgScreen ? '15rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> \r\n"
+                },
+                {
+                    "date": 1736934451490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n const Logo = () => {\r\n     const { t } = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const logoDescDisplay = xlgScreen ? 'block' : 'none'\r\n-    const logoHeightSize = xlgScreen ? '100%' : lgScreen ? '4rem' : '3rem'\r\n+    const logoHeightSize = xlgScreen ? '6rem' : lgScreen ? '4rem' : '3rem'\r\n     const logoWidthSize = xlgScreen ? '15rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> \r\n"
+                },
+                {
+                    "date": 1736934578942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n-                    {t(\"logoDescription\")}\r\n+            Production of premium-class woven furniture in Tashkent\r\n             </Typography>\r\n             </Stack>\r\n   )\r\n }\r\n"
                 }
             ],
             "date": 1736843812244,

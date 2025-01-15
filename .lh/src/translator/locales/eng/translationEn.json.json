@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/translator/locales/eng/translationEn.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1736915262170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736920948339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,14 @@\n {\r\n     \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n     \"onlineAsk\" : \"Ask a question, we are online.\",\r\n+    \"navLinks\" : {\r\n+        \"home\" : \"главная\" ,\r\n+        \"catalog\" :  \"каталог\",\r\n+        \"guarantees\" : \"гарантии\" ,\r\n+        \"products\" :  \"продукты\" , \r\n+        \"about\" : \"о компании\",\r\n+        \"delivery\" :  \"доставка\" ,\r\n+        \"vacancy\" : \"вакансии\" ,\r\n+        \"contacts\" :  \"контакты\"\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736920957489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n {\r\n     \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n     \"onlineAsk\" : \"Ask a question, we are online.\",\r\n     \"navLinks\" : {\r\n-        \"home\" : \"главная\" ,\r\n-        \"catalog\" :  \"каталог\",\r\n+        \"home\" : \"home\" ,\r\n+        \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"гарантии\" ,\r\n         \"products\" :  \"продукты\" , \r\n         \"about\" : \"о компании\",\r\n         \"delivery\" :  \"доставка\" ,\r\n"
+                },
+                {
+                    "date": 1736920963404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     \"onlineAsk\" : \"Ask a question, we are online.\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n-        \"guarantees\" : \"гарантии\" ,\r\n+        \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"продукты\" , \r\n         \"about\" : \"о компании\",\r\n         \"delivery\" :  \"доставка\" ,\r\n         \"vacancy\" : \"вакансии\" ,\r\n"
+                },
+                {
+                    "date": 1736920970540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n     \"navLinks\" : {\r\n         \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n-        \"products\" :  \"продукты\" , \r\n-        \"about\" : \"о компании\",\r\n+        \"products\" :  \"products\" , \r\n+        \"about\" : \"\",\r\n         \"delivery\" :  \"доставка\" ,\r\n         \"vacancy\" : \"вакансии\" ,\r\n         \"contacts\" :  \"контакты\"\r\n     }\r\n"
+                },
+                {
+                    "date": 1736920978051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n         \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n-        \"about\" : \"\",\r\n-        \"delivery\" :  \"доставка\" ,\r\n+        \"about\" : \"about\",\r\n+        \"delivery\" :  \"delivery\" ,\r\n         \"vacancy\" : \"вакансии\" ,\r\n         \"contacts\" :  \"контакты\"\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736920985568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n         \"about\" : \"about\",\r\n         \"delivery\" :  \"delivery\" ,\r\n-        \"vacancy\" : \"вакансии\" ,\r\n-        \"contacts\" :  \"контакты\"\r\n+        \"vacancy\" : \"vacancy\" ,\r\n+        \"contacts\" :  \"contacts\"\r\n     }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1736915262170,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n    \"onlineAsk\" : \"Ask a question, we are online.\",\r\n}"
+        }
+    ]
+}

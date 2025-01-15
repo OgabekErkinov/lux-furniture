@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/main-components/navbar/NavbarItem.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1736921100524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736922790609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const NavbarItem = () => {\r\n+  return (\r\n+    \r\n+  )\r\n+}\r\n+\r\n+export default NavbarItem\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736922806450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const NavbarItem = () => {\r\n   return (\r\n-    \r\n+    <Menu\r\n   )\r\n }\r\n \r\n export default NavbarItem\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736922812527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n+import { MenuItem } from '@mui/material'\r\n import React from 'react'\r\n \r\n const NavbarItem = () => {\r\n   return (\r\n-    <Menu\r\n+    <MenuItem>\r\n+    </MenuItem>\r\n   )\r\n }\r\n \r\n export default NavbarItem\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736922818498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { MenuItem } from '@mui/material'\r\n import React from 'react'\r\n \r\n-const NavbarItem = () => {\r\n+const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n     </MenuItem>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736922825220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n+       {item}\r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922830987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n-       {item}\r\n+       <Typogra\r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922837306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import { MenuItem } from '@mui/material'\r\n+import { MenuItem, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n-       <Typogra\r\n+       <Typography>{ite}</Typography>\r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922864429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n-       <Typography>{ite}</Typography>\r\n+       \r\n+       <Typography>{item}</Typography>\r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922871432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import { MenuItem, Typography } from '@mui/material'\r\n+import { Link, MenuItem, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n-       \r\n+       <Link></Link>\r\n        <Typography>{item}</Typography>\r\n     </MenuItem>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922878540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n \r\n const NavbarItem = ({item}) => {\r\n   return (\r\n     <MenuItem>\r\n-       <Link></Link>\r\n+       <Link>\r\n        <Typography>{item}</Typography>\r\n+       \r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922888259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import { Link, MenuItem, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n-const NavbarItem = ({item}) => {\r\n+const NavbarItem = ({item, url}) => {\r\n   return (\r\n     <MenuItem>\r\n        <Link>\r\n-       <Typography>{item}</Typography>\r\n-       \r\n+         <Typography>{item}</Typography>\r\n+       </Link>\r\n     </MenuItem>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736922895161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const NavbarItem = ({item, url}) => {\r\n   return (\r\n     <MenuItem>\r\n-       <Link href = >\r\n+       <Link href = {}>\r\n          <Typography>{item}</Typography>\r\n        </Link>\r\n     </MenuItem>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736924340511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const NavbarItem = ({item, url}) => {\r\n   return (\r\n     <MenuItem>\r\n-       <Link href = {url} sx={}>\r\n+       <Link href = {url} sx={{}}>\r\n          <Typography >{item}</Typography>\r\n        </Link>\r\n     </MenuItem>\r\n   )\r\n"
+                }
+            ],
+            "date": 1736921100524,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

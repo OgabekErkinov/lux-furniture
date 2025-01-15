@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1736854409629,
@@ -52,6 +52,98 @@
                 {
                     "date": 1736854643637,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const WorkTime = () => {\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex-end' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent={} gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736912667057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n-import React from 'react'\r\n \r\n+\r\n const WorkTime = () => {\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent={} gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736920279681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n \r\n \r\n const WorkTime = () => {\r\n+  \r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n"
+                },
+                {
+                    "date": 1736920288400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n+import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const WorkTime = () => {\r\n-  \r\n+  const {} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n"
+                },
+                {
+                    "date": 1736920296355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   const {} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={{xs : '10px', sm : '12px'}} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736920302186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   const {} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={smS} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736920309813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const WorkTime = () => {\r\n-  const {} = useScreenSizes()\r\n+  const {smScreen, mdS} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smS} >Звоните: 10:00 - 20:00</Typography>\r\n"
+                },
+                {
+                    "date": 1736920315666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const WorkTime = () => {\r\n-  const {smScreen, mdS} = useScreenSizes()\r\n+  const {smScreen, mdScreen, lgScreen, xl} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smS} >Звоните: 10:00 - 20:00</Typography>\r\n"
+                },
+                {
+                    "date": 1736920465811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,13 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const WorkTime = () => {\r\n-  const {smScreen, mdScreen, lgScreen, xl} = useScreenSizes()\r\n+  const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smS} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={smSc} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736920473307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smSc} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={smScreen ? '8px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736920478852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '8px'} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1736920505157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={{xs : '10px', sm : '14px'}}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '8px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736920512449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '8px' : '12px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922402274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const WorkTime = () => {\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736922411572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const WorkTime = () => {\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='end' justifyContent='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736922421743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const WorkTime = () => {\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex' justifyContent='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736922427860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const WorkTime = () => {\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n-        <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='4px'>\r\n+        <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1736922502025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : '12px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : '16px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922517523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : '16px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : md '16px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922526398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : md '16px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '12px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922532133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '12px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '12px' : '16px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736922547484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '12px' : '16px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '16px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736934544768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n             <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '16px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '22px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736934555081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '22px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontSize={smScreen ? '8px' : '18px'} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
                 }
             ],
             "date": 1736854409629,

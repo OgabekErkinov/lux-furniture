@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/translator/locales/uzb/translationUz.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1736920993374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736921004090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n     \"navLinks\" : {\r\n-        \"home\" : \"bosj\" ,\r\n+        \"home\" : \"bos\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n         \"about\" : \"about\",\r\n"
+                }
+            ],
+            "date": 1736920993374,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n    \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n    \"navLinks\" : {\r\n        \"home\" : \"home\" ,\r\n        \"catalog\" :  \"catalog\",\r\n        \"guarantees\" : \"guarantees\" ,\r\n        \"products\" :  \"products\" , \r\n        \"about\" : \"about\",\r\n        \"delivery\" :  \"delivery\" ,\r\n        \"vacancy\" : \"vacancy\" ,\r\n        \"contacts\" :  \"contacts\"\r\n    }\r\n}"
+        }
+    ]
+}

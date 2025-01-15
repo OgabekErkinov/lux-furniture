@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/translator/configTranslator.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1736915743148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1736915743148,
+            "name": "Commit-0",
+            "content": "import i18n from 'i18next';\r\nimport { initReactI18next } from 'react-i18next';\r\nimport translationEn from './locales/eng/translationEn.json';\r\nimport translationRu from './locales/rus/translationRu.json';\r\nimport translationUz from './locales/uzb/translationUz.json';\r\n\r\ni18n.use(initReactI18next).init({\r\n    resources: {\r\n        en: { translation: translationEn },\r\n        ru: { translation: translationRu },\r\n        uz: { translation: translationUz }\r\n    },\r\n    lng: 'uz', \r\n    fallbackLng: 'uz', \r\n    interpolation: {\r\n        escapeValue: false, \r\n    },\r\n    returnObjects: true, \r\n});\r\n\r\nexport default i18n;\r\n"
+        }
+    ]
+}

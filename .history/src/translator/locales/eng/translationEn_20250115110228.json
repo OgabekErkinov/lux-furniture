@@ -1,0 +1,14 @@
+{
+    "logoDescription" : "Production of premium-class woven furniture in Tashkent",
+    "onlineAsk" : "Ask a question, we are online.",
+    "navLinks" : {
+        "home" : "главная" ,
+        "catalog" :  "каталог",
+        "guarantees" : "гарантии" ,
+        "products" :  "продукты" , 
+        "about" : "о компании",
+        "delivery" :  "доставка" ,
+        "vacancy" : "вакансии" ,
+        "contacts" :  "контакты"
+    }
+}

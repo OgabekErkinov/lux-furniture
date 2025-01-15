@@ -1,0 +1,118 @@
+{
+    "sourceFile": "src/main-components/navbar/Navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1736922991103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736923117040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const Navbar = () => {\r\n   return (\r\n-    <div>Navbar</div>\r\n+    \r\n   )\r\n }\r\n \r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736923133379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n+import { MenuList } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Navbar = () => {\r\n   return (\r\n-    \r\n+    <MenuList\r\n   )\r\n }\r\n \r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736923138723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n import React from 'react'\r\n \r\n const Navbar = () => {\r\n   return (\r\n-    <MenuList\r\n+    <MenuList>\r\n+        {}\r\n+    </MenuList>\r\n   )\r\n }\r\n \r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736923508752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n import { MenuList } from '@mui/material'\r\n-import React from 'react'\r\n \r\n+\r\n const Navbar = () => {\r\n   return (\r\n     <MenuList>\r\n-        {}\r\n+        {\r\n+\r\n+        }\r\n     </MenuList>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1736923528772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,16 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n+    \"home\" : \"home\" ,\r\n+        \"catalog\" :  \"catalog\",\r\n+        \"guarantees\" : \"guarantees\" ,\r\n+        \"products\" :  \"products\" , \r\n+        \"about\" : \"about\",\r\n+        \"delivery\" :  \"delivery\" ,\r\n+        \"vacancy\" : \"vacancy\" ,\r\n+        \"contacts\"\r\n   return (\r\n     <MenuList>\r\n         {\r\n \r\n"
+                },
+                {
+                    "date": 1736923535097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n+    const navbAR\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923541902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbAR\r\n+    const navBar\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923548441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navBar\r\n+    const navbarItems\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923557785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems\r\n+    const navbarItems = ['home']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923776219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home']\r\n+    const navbarItems = ['home', '']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923786642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', '']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923793143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', 'catalog', 'guarantees']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees', 'products']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923799171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', 'catalog', 'guarantees', 'products']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923805979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923811680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923818900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { MenuList } from '@mui/material'\r\n \r\n \r\n const Navbar = () => {\r\n-    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy']\r\n+    const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n     \"home\" : \"home\" ,\r\n         \"catalog\" :  \"catalog\",\r\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n"
+                },
+                {
+                    "date": 1736923824376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,8 @@\n \r\n \r\n const Navbar = () => {\r\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n-    \"home\" : \"home\" ,\r\n-        \"catalog\" :  \"catalog\",\r\n-        \"guarantees\" : \"guarantees\" ,\r\n-        \"products\" :  \"products\" , \r\n-        \"about\" : \"about\",\r\n-        \"delivery\" :  \"delivery\" ,\r\n-        \"vacancy\" : \"vacancy\" ,\r\n-        \"contacts\"\r\n   return (\r\n     <MenuList>\r\n         {\r\n \r\n"
+                },
+                {
+                    "date": 1736923830477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n   return (\r\n     <MenuList>\r\n         {\r\n-\r\n+          navbarItems\r\n         }\r\n     </MenuList>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736923839734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n   return (\r\n     <MenuList>\r\n         {\r\n-          navbarItems\r\n+          navbarItems.map((item, idx))\r\n         }\r\n     </MenuList>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736923847831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,13 @@\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n   return (\r\n     <MenuList>\r\n         {\r\n-          navbarItems.map((item, idx))\r\n+          navbarItems.map((item, idx) =>  {\r\n+            return (\r\n+                \r\n+            )\r\n+          })\r\n         }\r\n     </MenuList>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1736923853311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { MenuList } from '@mui/material'\r\n+import NavbarItem from './NavbarItem'\r\n \r\n \r\n const Navbar = () => {\r\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n@@ -7,9 +8,9 @@\n     <MenuList>\r\n         {\r\n           navbarItems.map((item, idx) =>  {\r\n             return (\r\n-                \r\n+                <NavbarItem/>\r\n             )\r\n           })\r\n         }\r\n     </MenuList>\r\n"
+                },
+                {
+                    "date": 1736923858800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <MenuList>\r\n         {\r\n           navbarItems.map((item, idx) =>  {\r\n             return (\r\n-                <NavbarItem/>\r\n+                <NavbarItem ite/>\r\n             )\r\n           })\r\n         }\r\n     </MenuList>\r\n"
+                },
+                {
+                    "date": 1736923867825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <MenuList>\r\n         {\r\n           navbarItems.map((item, idx) =>  {\r\n             return (\r\n-                <NavbarItem ite/>\r\n+                <NavbarItem item={item} key={}/>\r\n             )\r\n           })\r\n         }\r\n     </MenuList>\r\n"
+                },
+                {
+                    "date": 1736924168446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const Navbar = () => {\r\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n   return (\r\n-    <MenuList >\r\n+    <MenuList d>\r\n         {\r\n           navbarItems.map((item, idx) =>  {\r\n             return (\r\n                 <NavbarItem item={item} key={idx}/>\r\n"
+                },
+                {
+                    "date": 1736924259547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const Navbar = () => {\r\n     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']\r\n   return (\r\n-    <MenuList sx={{display : 'flex'idth}}>\r\n+    <MenuList sx={{display : 'flex'}}>\r\n         {\r\n           navbarItems.map((item, idx) =>  {\r\n             return (\r\n                 <NavbarItem item={item} key={idx}/>\r\n"
+                }
+            ],
+            "date": 1736922991103,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Navbar = () => {\r\n  return (\r\n    <div>Navbar</div>\r\n  )\r\n}\r\n\r\nexport default Navbar"
+        }
+    ]
+}

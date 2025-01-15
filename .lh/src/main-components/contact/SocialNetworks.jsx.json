@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1736851864006,
@@ -80,6 +80,10 @@
                 {
                     "date": 1736852717933,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n-    const {t} = useTransla\r\n+    const {t} = useTranslation\r\n   return (\r\n     <Box height='5rem' width='18rem' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='center' justifyContent='center' gap='0.5rem'>\r\n           <Typography fontSize='20px' textAlign='center'>Задайте вопрос, мы онлайн</Typography>\r\n"
+                },
+                {
+                    "date": 1736913757006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { useTranslation } from 'react-i18next'\r\n import { FaTelegram, FaWhatsapp } from 'react-icons/fa'\r\n \r\n const SocialNetworks = () => {\r\n-  console.log\r\n+  console.log()\r\n     const {t} = useTranslation()\r\n   return (\r\n     <Box height='5rem' width='100%' display={{xs : 'none', sm : 'block'}}>\r\n     <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='center' gap='0.5rem'>\r\n"
                 }
             ],
             "date": 1736851864006,

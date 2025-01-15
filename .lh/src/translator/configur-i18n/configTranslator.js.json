@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1736850697865,
@@ -64,6 +64,50 @@
                 {
                     "date": 1736853338084,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n i18n.use(initReactI18next).init({\r\n-    resources : {\r\n+    recour : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n     },\r\n"
+                },
+                {
+                    "date": 1736912904258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(initReactI18next).init({\r\n-    recour : {\r\n+i18n.useuse(initReactI18next).init({\r\n+    recourses : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n     },\r\n"
+                },
+                {
+                    "date": 1736912915497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.useuse(initReactI18next).init({\r\n+i18n.use(La)use(initReactI18next).init({\r\n     recourses : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n"
+                },
+                {
+                    "date": 1736912931470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n+import \r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(La)use(initReactI18next).init({\r\n+i18n.use(Lan)use(initReactI18next).init({\r\n     recourses : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n"
+                },
+                {
+                    "date": 1736912938578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import \r\n+import LanguageDete\r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n"
+                },
+                {
+                    "date": 1736912949636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import LanguageDete\r\n+import LanguageDetector from ''\r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n"
+                },
+                {
+                    "date": 1736912956372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import LanguageDetector from ''\r\n+import LanguageDetector from 'i18'\r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n"
+                },
+                {
+                    "date": 1736912967499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import LanguageDetector from 'i18'\r\n+import LanguageDetector from 'i18next-browser'\r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n"
+                },
+                {
+                    "date": 1736912980919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n  from 'i18next'\r\n import { initReactI18next } from 'react-i18next'\r\n-import LanguageDetector from 'i18next-browser'\r\n+import LanguageDetector from 'i18next-browser-languagedetector'\r\n import translationEn from '../locales/eng/translationEn.json'\r\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n"
+                },
+                {
+                    "date": 1736912986719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(Lan)use(initReactI18next).init({\r\n+i18n.use(Language)use(initReactI18next).init({\r\n     recourses : {\r\n         en : {translation : translationEn},\r\n         ru : {translation : translationRu},\r\n         uz : {translation : translationUz}\r\n"
+                },
+                {
+                    "date": 1736913179214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,21 +5,22 @@\n import translationRu from '../locales/rus/translationRu.json'\r\n import translationUz from '../locales/uzb/translationUz.json'\r\n \r\n \r\n-i18n.use(LanguageDetector).use(initReactI18next).init({\r\n-    recourses : {\r\n-        en : {translation : translationEn},\r\n-        ru : {translation : translationRu},\r\n-        uz : {translation : translationUz}\r\n-    },\r\n+import Backend from 'i18next-http-backend';\r\n \r\n-    lng : 'en',\r\n-    fallbackLng : 'en',\r\n-    interpolation : {\r\n-        escapevalue : false\r\n+i18n\r\n+  .use(Backend) // Backend modulini ulaymiz\r\n+  .use(initReactI18next) // React i18next bilan ishlash\r\n+  .init({\r\n+    fallbackLng: 'en', // Default til\r\n+    debug: true, // Konsolda ma'lumot ko'rsatish\r\n+    backend: {\r\n+      // Tarjima fayllari manzili\r\n+      loadPath: '/locales/{{lng}}/{{ns}}.json' \r\n     },\r\n-    returnObjects : true\r\n+    interpolation: {\r\n+      escapeValue: false, // Xavfsiz HTML uchun\r\n+    },\r\n+  });\r\n \r\n-})\r\n-\r\n export default i18n\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1736913256799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,9 @@\n \r\n \r\n i18n\r\n   .use(Backend) \r\n-  .use(initReactI18next) // React i18next bilan ishlash\r\n-  .init({\r\n+  .use(initReactI18next)\r\n     fallbackLng: 'en', // Default til\r\n     debug: true, // Konsolda ma'lumot ko'rsatish\r\n     backend: {\r\n       // Tarjima fayllari manzili\r\n"
                 }
             ],
             "date": 1736850697865,
