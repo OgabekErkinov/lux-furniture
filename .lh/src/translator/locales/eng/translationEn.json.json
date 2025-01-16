@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1736915262170,
@@ -32,6 +32,26 @@
                 {
                     "date": 1736920985568,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n         \"guarantees\" : \"guarantees\" ,\r\n         \"products\" :  \"products\" , \r\n         \"about\" : \"about\",\r\n         \"delivery\" :  \"delivery\" ,\r\n-        \"vacancy\" : \"вакансии\" ,\r\n-        \"contacts\" :  \"контакты\"\r\n+        \"vacancy\" : \"vacancy\" ,\r\n+        \"contacts\" :  \"contacts\"\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737007211772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n         \"about\" : \"about\",\r\n         \"delivery\" :  \"delivery\" ,\r\n         \"vacancy\" : \"vacancy\" ,\r\n         \"contacts\" :  \"contacts\"\r\n-    }\r\n+    },\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737007218193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,16 @@\n         \"delivery\" :  \"delivery\" ,\r\n         \"vacancy\" : \"vacancy\" ,\r\n         \"contacts\" :  \"contacts\"\r\n     },\r\n+    \"home\" : {\r\n+        \"fromManufacturer\" : \"from the manufacturer\",\r\n+\"furnitureForCustomer\" : \"Wicker furniture for your business\",\r\n+\"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n+\"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n+\"buttonDesc\" : \"more than 200 types of furniture\",\r\n+\"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n+\"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n+\"payWhen\" : \"Payment upon viewing the furniture\"\r\n+\r\n+}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737007226317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n         \"contacts\" :  \"contacts\"\r\n     },\r\n     \"home\" : {\r\n         \"fromManufacturer\" : \"from the manufacturer\",\r\n-\"furnitureForCustomer\" : \"Wicker furniture for your business\",\r\n-\"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n-\"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n+        \"furnitureForCustomer\" : \"Wicker furniture for your business\",\r\n+        \"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n+        \"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n \"buttonDesc\" : \"more than 200 types of furniture\",\r\n \"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n \"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n \"payWhen\" : \"Payment upon viewing the furniture\"\r\n"
+                },
+                {
+                    "date": 1737007231530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n         \"fromManufacturer\" : \"from the manufacturer\",\r\n         \"furnitureForCustomer\" : \"Wicker furniture for your business\",\r\n         \"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n         \"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n-\"buttonDesc\" : \"more than 200 types of furniture\",\r\n-\"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n+        \"buttonDesc\" : \"more than 200 types of furniture\",\r\n+        \"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n \"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n \"payWhen\" : \"Payment upon viewing the furniture\"\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1737007240268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n         \"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n         \"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n         \"buttonDesc\" : \"more than 200 types of furniture\",\r\n         \"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n-\"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n-\"payWhen\" : \"Payment upon viewing the furniture\"\r\n-\r\n-}\r\n+        \"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n+       \"payWhen\" : \"Payment upon viewing the furniture\"\r\n+            }\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1736915262170,

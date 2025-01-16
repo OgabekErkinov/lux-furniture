@@ -1,0 +1,25 @@
+{
+    "logoDescription" : "Production of premium-class woven furniture in Tashkent",
+    "onlineAsk" : "Ask a question, we are online.",
+    "navLinks" : {
+        "home" : "home" ,
+        "catalog" :  "catalog",
+        "guarantees" : "guarantees" ,
+        "products" :  "products" , 
+        "about" : "about",
+        "delivery" :  "delivery" ,
+        "vacancy" : "vacancy" ,
+        "contacts" :  "contacts"
+    },
+    "home" : {
+        "fromManufacturer" : "from the manufacturer",
+        "furnitureForCustomer" : "Wicker furniture for your business",
+        "offer" : "We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. ",
+        "downloadCatalog" : "DOWNLOAD CATALOG",
+        "buttonDesc" : "more than 200 types of furniture",
+        "guarantyTime" : "Warranty from 3 years on all products",
+        "deliveryCost" : "Delivery from 30,000 sum to the door",
+       "payWhen" : "Payment upon viewing the furniture"
+
+}
+}

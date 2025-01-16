@@ -1,0 +1,142 @@
+{
+    "sourceFile": "src/main-components/home/Home.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1737006533041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737006539827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const Home = () => {\r\n+  return (\r\n+    \r\n+  )\r\n+}\r\n+\r\n+export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737006546758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    \r\n+    <Box>\r\n+        \r\n+    </Box>\r\n   )\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737006552770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <Box>\r\n-        \r\n+    <Box height>\r\n+\r\n     </Box>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1737006559629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <Box height>\r\n+    <Box height='auto' width>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006570054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <Box height='auto' width>\r\n+    <Box height='auto' width='100%' display='grid'>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006576627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid'>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns={}>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006596706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid' gridTemplateColumns={}>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006629555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Home = () => {\r\n+    const\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737006637571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import { Box } from '@mui/material'\r\n import React from 'react'\r\n+import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Home = () => {\r\n-    const\r\n+    const {} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737006651427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Home = () => {\r\n-    const {} = useScreenSizes()\r\n+    const {sm} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737006660321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Home = () => {\r\n-    const {sm} = useScreenSizes()\r\n+    const {smScreen, mdScreen, lgScreen, xlg} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737006668617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import React from 'react'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Home = () => {\r\n-    const {smScreen, mdScreen, lgScreen, xlg} = useScreenSizes()\r\n+    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid' gridTemplateColumns='1fr 1.2fr'>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns=>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006681645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid' gridTemplateColumns=>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlg}>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006690296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlg}>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr'}>\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737006697846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n \r\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr'}>\r\n+    <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n+        \r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737007298387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        \r\n+        <Box\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737007307834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box\r\n+        <Box width>\r\n \r\n+        </Box>\r\n+\r\n     </Box>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1737007316536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box width>\r\n+        <Box width='100%' height='100%'>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007325107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box width='100%' height='100%'>\r\n+        <Box width='100%' height='100%' display='grid'>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007334251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box width='100%' height='100%' display='grid'>\r\n+        <Box width='100%' height='100%' display='grid' gridTemplateColumns={}>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007355013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box width='100%' height='100%' display='grid' gridTemplateColumns={}>\r\n+        <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justify>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007360344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Home = () => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n-        <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justify>\r\n+        <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007372027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n+            <Typogra\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007382173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n-            <Typogra\r\n+            <\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007392315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,12 @@\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n-            <\r\n+            <Box width='100%'>\r\n \r\n+            </Box>\r\n+\r\n         </Box>\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737007399608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Typography } from '@mui/material'\r\n import React from 'react'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Home = () => {\r\n@@ -7,8 +7,9 @@\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n             <Box width='100%'>\r\n+                <Typography\r\n \r\n             </Box>\r\n \r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737007419110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n             <Box width='100%'>\r\n-                <Typography\r\n+                <Typography>от производителя</Typography>\r\n \r\n             </Box>\r\n \r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737007428300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n     <Box height='auto' width='100%' display='grid' gridTemplateColumns={xlgScreen ? '1fr 1fr' : '1fr'}>\r\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n             <Box width='100%'>\r\n                 <Typography>от производителя</Typography>\r\n-\r\n             </Box>\r\n \r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737007435238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,11 @@\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n             <Box width='100%'>\r\n                 <Typography>от производителя</Typography>\r\n             </Box>\r\n+            <Box>\r\n+                \r\n+            </Box>\r\n \r\n         </Box>\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737007440623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' justifyContent='flex-start'>\r\n             <Box width='100%'>\r\n                 <Typography>от производителя</Typography>\r\n             </Box>\r\n-            <Box width>\r\n+            <Box width={}>\r\n \r\n             </Box>\r\n \r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737007452590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <Box width='100%'>\r\n                 <Typography>от производителя</Typography>\r\n             </Box>\r\n             <Box width='100%'>\r\n-                <Typography></Typography>\r\n+                <Typography>Плетённая мебель для вашего бизнеса</Typography>\r\n \r\n             </Box>\r\n \r\n         </Box>\r\n"
+                }
+            ],
+            "date": 1737006533041,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}
