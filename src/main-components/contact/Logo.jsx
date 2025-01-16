@@ -9,7 +9,7 @@ const Logo = () => {
     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
     const logoDescDisplay = xlgScreen ? 'block' : 'none'
     const logoHeightSize = xlgScreen ? '6rem' : lgScreen ? '4rem' : '3rem'
-    const logoWidthSize = xlgScreen ? '15rem' : lgScreen ? '12rem' : '9rem'
+    const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'
   return (
     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>
             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> 

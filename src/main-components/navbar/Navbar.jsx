@@ -2,10 +2,10 @@ import { MenuList } from '@mui/material'
 import NavbarItem from './NavbarItem'
 
 
-const Navbar = ({isNavbar, direction}) => {
+const Navbar = ({isNavbar, direct}) => {
     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']
   return (
-    <MenuList sx={{display : isNavbar ? 'none' : 'flex', width : '75%', direction : direction, justifyContent : 'space-around', my : '0.5rem', mr : 'auto'}}>
+    <MenuList sx={{display : isNavbar ? 'flex' : 'none', width : '75%', height : 'auto', flexDirection : direct,  my : '0.5rem', mr : 'auto'}}>
         {
           navbarItems.map((item, idx) =>  {
             return (

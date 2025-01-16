@@ -27,7 +27,7 @@ const Languages = () => {
     }
     
   return (
-    <Box display='flex' justifyContent='center' gap='0.5rem' height='100%' alignItems='flex-end'>
+    <Box display='flex' justifyContent='center' gap='0.5rem' height='100%' alignItems={xlgScreen ? 'flex-end' : 'center'}>
             {
               languages.map((language, idx) => {
                 if(language.name !== currentLanguage){

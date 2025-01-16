@@ -3,12 +3,12 @@ import Contact from "./main-components/contact/Contact"
 import Navbar from "./main-components/navbar/Navbar"
 
 function App() {
-  const {lgScreen} = useScreenSizes()
+  const {xlgScreen} = useScreenSizes()
 
   return (
     <>
     <Contact/>
-    <Navbar isNavbar={lgScreen}/>
+    <Navbar isNavbar={xlgScreen}/>
     </>
 
     
