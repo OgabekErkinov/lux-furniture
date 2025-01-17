@@ -17,9 +17,9 @@ const Contact = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
   
   return (
-    <Box height={xlgScreen ? '12rem' : 'auto'} width='100%' color='black' mx='auto' py='16px'>
-      <Box height='100%' width='100%' mx='auto' px = '8px' display='grid' gridTemplateColumns={xlgScreen ? '1.5fr 2fr' : '1fr' } 
-           alignItems='center' gap='0.5rem' borderBottom='1px solid grey'>
+    <Box height={xlgScreen ? '12rem' : 'auto'} width='100%' color='black' py='16px'>
+      <Box height='100%' width='100%' px = '8px' display='grid' gridTemplateColumns={xlgScreen ? '1.5fr 2fr' : '1fr' } 
+           alignItems='center' borderBottom='1px solid grey'>
         <Box display='flex' justifyContent='space-between' alignItems='center' p='12px' width='100%'>
             <Logo/>
             <Button disableTouchRipple sx={{display : xlgScreen ? 'none' : 'block'}} onClick={() => setIsMobileMenu(prev => !prev)}>

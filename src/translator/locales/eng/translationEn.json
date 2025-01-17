@@ -20,5 +20,13 @@
         "guarantyTime" : "Warranty from 3 years on all products",
         "deliveryCost" : "Delivery from 30,000 sum to the door",
        "payWhen" : "Payment upon viewing the furniture"
-            }
+            },
+    "category" : {
+        "heading" : "We produce 4 main categories of furniture",
+        "helperHeading" : "more than 200 types of products in the entire range",
+        "kits" : "Kits",
+        "chairs" : "Hanging chairs",
+        "sofa" : "Sofas and armchairs",
+        "loungers" : "Sun loungers"
+    }
 }

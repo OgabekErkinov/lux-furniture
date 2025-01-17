@@ -7,7 +7,7 @@ const NavbarItem = ({item, url}) => {
   return (
     <MenuItem>
        <Link href = {url} sx={{textDecoration : 'none', cursor : 'pointer'}}>
-         <Typography fontSize={xlgScreen ? '32px' : '14px'} fontWeight='300' color='black' >{item}</Typography>
+         <Typography fontSize={xlgScreen ? 'auto' : '14px'}color='black' >{item}</Typography>
        </Link>
     </MenuItem>
   )
