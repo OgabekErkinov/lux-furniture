@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/main-components/catalog/Catalog.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1737088484395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737088490442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n   return (\r\n     <Box width='100%' height='10rem' display='grid' gridTemplateRows='1fr 3fr'>\r\n         \r\n     {/*.....heading section .............................................. */}\r\n-\r\n     <Box width='100%' height='100%' display='grid' gridTemplateRows='1fr 1fr' justifyContent='center'>\r\n     {/* .....heading........................................................ */}\r\n \r\n         <Typography variant=\"h4\" fontWeight='700' fontSize={smScreen ? '24px' : mdScreen ? '28px' : '36px'}>\r\n"
+                },
+                {
+                    "date": 1737088498251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n     <Box width='100%' height='10rem' display='grid' gridTemplateRows='1fr 3fr'>\r\n         \r\n     {/*.....heading section .............................................. */}\r\n     <Box width='100%' height='100%' display='grid' gridTemplateRows='1fr 1fr' justifyContent='center'>\r\n+\r\n     {/* .....heading........................................................ */}\r\n-\r\n         <Typography variant=\"h4\" fontWeight='700' fontSize={smScreen ? '24px' : mdScreen ? '28px' : '36px'}>\r\n              Каталог готовых изделий\r\n         </Typography>\r\n         <Typography fontSize='18px'>которые можно купить здесь и сейчас</Typography>\r\n"
+                },
+                {
+                    "date": 1737088506455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n              Каталог готовых изделий\r\n         </Typography>\r\n         <Typography fontSize='18px'>которые можно купить здесь и сейчас</Typography>\r\n \r\n-\r\n     </Box>\r\n \r\n     {/* ............change category ........................................ */}\r\n \r\n"
+                },
+                {
+                    "date": 1737088518856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n \r\n     </Box>\r\n \r\n     {/* ............change category ........................................ */}\r\n-\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='repeat(4, 1fr)'>\r\n         {\r\n             categoryItems.map((item, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737088528078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='repeat(4, 1fr)'>\r\n         {\r\n             categoryItems.map((item, idx) => {\r\n                 return (\r\n-                    <Box height='2rem' width='100%'>\r\n+                    <Box height='2rem' width='100%' key>\r\n                         <Button sx={{height : '100%', width : '100%'}}>\r\n                             <Typography color=\"black\">{item.name}</Typography>\r\n                         </Button>\r\n                     </Box>\r\n"
+                }
+            ],
+            "date": 1737088484395,
+            "name": "Commit-0",
+            "content": "import { Box, Button, Typography } from \"@mui/material\"\r\nimport useScreenSizes from \"../../hooks/ScreenSizes\"\r\nimport { categoryItems } from \"../../constants/constantas\"\r\n\r\nconst Catalog = () => {\r\n    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n  return (\r\n    <Box width='100%' height='10rem' display='grid' gridTemplateRows='1fr 3fr'>\r\n        \r\n    {/*.....heading section .............................................. */}\r\n\r\n    <Box width='100%' height='100%' display='grid' gridTemplateRows='1fr 1fr' justifyContent='center'>\r\n    {/* .....heading........................................................ */}\r\n\r\n        <Typography variant=\"h4\" fontWeight='700' fontSize={smScreen ? '24px' : mdScreen ? '28px' : '36px'}>\r\n             Каталог готовых изделий\r\n        </Typography>\r\n        <Typography fontSize='18px'>которые можно купить здесь и сейчас</Typography>\r\n\r\n\r\n    </Box>\r\n\r\n    {/* ............change category ........................................ */}\r\n\r\n    <Box width='100%' height='100%' display='grid' gridTemplateColumns='repeat(4, 1fr)'>\r\n        {\r\n            categoryItems.map((item, idx) => {\r\n                return (\r\n                    <Box height='2rem' width='100%'>\r\n                        <Button sx={{height : '100%', width : '100%'}}>\r\n                            <Typography color=\"black\">{item.name}</Typography>\r\n                        </Button>\r\n                    </Box>\r\n                )\r\n            })\r\n        }\r\n\r\n    </Box>\r\n\r\n    </Box>\r\n\r\n    \r\n  )\r\n}\r\n\r\nexport default Catalog\r\n"
+        }
+    ]
+}
