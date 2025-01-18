@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/translator/locales/en/translation.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1737173337583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737173347094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             },\r\n     \"category\" : {\r\n         \"heading\" : \"We produce 4 main categories of furniture\",\r\n         \"helperHeading\" : \"more than 200 types of products in the entire range\",\r\n-        \r\n+        category\r\n         \"kits\" : \"Kits\",\r\n         \"chairs\" : \"Hanging chairs\",\r\n         \"sofa\" : \"Sofas and armchairs\",\r\n         \"loungers\" : \"Sun loungers\"\r\n"
+                },
+                {
+                    "date": 1737173368223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,12 +20,12 @@\n         \"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n         \"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n        \"payWhen\" : \"Payment upon viewing the furniture\"\r\n             },\r\n-    \"category\" : {\r\n+    \"categorySection\" : {\r\n         \"heading\" : \"We produce 4 main categories of furniture\",\r\n         \"helperHeading\" : \"more than 200 types of products in the entire range\",\r\n-        category\r\n+        \"\"\r\n         \"kits\" : \"Kits\",\r\n         \"chairs\" : \"Hanging chairs\",\r\n         \"sofa\" : \"Sofas and armchairs\",\r\n         \"loungers\" : \"Sun loungers\"\r\n"
+                },
+                {
+                    "date": 1737173373867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             },\r\n     \"categorySection\" : {\r\n         \"heading\" : \"We produce 4 main categories of furniture\",\r\n         \"helperHeading\" : \"more than 200 types of products in the entire range\",\r\n-        \"\"\r\n+        \"categories\"\r\n         \"kits\" : \"Kits\",\r\n         \"chairs\" : \"Hanging chairs\",\r\n         \"sofa\" : \"Sofas and armchairs\",\r\n         \"loungers\" : \"Sun loungers\"\r\n"
+                },
+                {
+                    "date": 1737173384541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,11 @@\n             },\r\n     \"categorySection\" : {\r\n         \"heading\" : \"We produce 4 main categories of furniture\",\r\n         \"helperHeading\" : \"more than 200 types of products in the entire range\",\r\n-        \"categories\" : []\r\n+        \"categories\" : [\r\n+            \r\n+        ]\r\n         \"kits\" : \"Kits\",\r\n         \"chairs\" : \"Hanging chairs\",\r\n         \"sofa\" : \"Sofas and armchairs\",\r\n         \"loungers\" : \"Sun loungers\"\r\n"
+                },
+                {
+                    "date": 1737173516118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                 \"name\" : \"Hanging chairs\",\r\n                 \"count\" : \"7 products\"\r\n             },\r\n             {\r\n-                \"name\"\r\n+                \"name\" \r\n             }\r\n         ]\r\n         \"kits\" : \"Kits\",\r\n         \"chairs\" : \"Hanging chairs\",\r\n"
+                }
+            ],
+            "date": 1737173337583,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Production of premium-class woven furniture in Tashkent\",\r\n    \"onlineAsk\" : \"Ask a question, we are online.\",\r\n    \"navLinks\" : {\r\n        \"home\" : \"home\" ,\r\n        \"catalog\" :  \"catalog\",\r\n        \"guarantees\" : \"guarantees\" ,\r\n        \"products\" :  \"products\" , \r\n        \"about\" : \"about\",\r\n        \"delivery\" :  \"delivery\" ,\r\n        \"vacancy\" : \"vacancy\" ,\r\n        \"contacts\" :  \"contacts\"\r\n    },\r\n    \"home\" : {\r\n        \"fromManufacturer\" : \"from the manufacturer\",\r\n        \"furnitureForCustomer\" : \"Wicker furniture for your business\",\r\n        \"offer\" : \"We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. \",\r\n        \"downloadCatalog\" : \"DOWNLOAD CATALOG\",\r\n        \"buttonDesc\" : \"more than 200 types of furniture\",\r\n        \"guarantyTime\" : \"Warranty from 3 years on all products\",\r\n        \"deliveryCost\" : \"Delivery from 30,000 sum to the door\",\r\n       \"payWhen\" : \"Payment upon viewing the furniture\"\r\n            },\r\n    \"category\" : {\r\n        \"heading\" : \"We produce 4 main categories of furniture\",\r\n        \"helperHeading\" : \"more than 200 types of products in the entire range\",\r\n        \r\n        \"kits\" : \"Kits\",\r\n        \"chairs\" : \"Hanging chairs\",\r\n        \"sofa\" : \"Sofas and armchairs\",\r\n        \"loungers\" : \"Sun loungers\"\r\n    }\r\n}"
+        }
+    ]
+}

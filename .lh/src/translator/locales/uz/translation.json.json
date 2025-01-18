@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/translator/locales/uz/translation.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1737173652634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737173981852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n+    \"callUs\" : \"Звоните: 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737173992781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \"Звоните: 10:00 - 20:00\",\r\n+    \"callUs\" : \"Qo'ng'iroq qiling: 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174001629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \"Qo'ng'iroq qiling: 10:00 - 20:00\",\r\n+    \"callUs\" : \"Qo'ng'iroq q: 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174014331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \"Qo'ng'iroq q: 10:00 - 20:00\",\r\n+    \"callUs\" : \"Qo'ng'iroq qilish va: 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174021013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \"Qo'ng'iroq qilish va: 10:00 - 20:00\",\r\n+    \"callUs\" : \"Qo'ng'iroq : 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174139312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \"Qo'ng'iroq : 10:00 - 20:00\",\r\n+    \"callUs\" : \": 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174149269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n {\r\n     \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n     \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n-    \"callUs\" : \": 10:00 - 20:00\",\r\n+    \"callUs\" : \"Ish vaqti: 10:00 - 20:00\",\r\n     \"navLinks\" : {\r\n         \"home\" : \"bosh sahifa\" ,\r\n         \"catalog\" :  \"katalog\",\r\n         \"guarantees\" : \"kafolatlar\" ,\r\n"
+                },
+                {
+                    "date": 1737174818097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n     \"helperHeading\": \"barcha assortimentda 200 dan ortiq mahsulot turlari\",\r\n     \"categories\": [\r\n         {\r\n             \"name\": \"Komplektlar\",\r\n+            \"image\" : \"/category/complekt.png\",\r\n             \"count\": \"15 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Osiladigan kreslolar\",\r\n"
+                },
+                {
+                    "date": 1737174826514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n             \"count\": \"15 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Osiladigan kreslolar\",\r\n+            \"image\" : \"/category/osma.png\",\r\n             \"count\": \"7 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Divan va kreslolar\",\r\n"
+                },
+                {
+                    "date": 1737174834959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n             \"count\": \"7 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Divan va kreslolar\",\r\n+            \"image\" : \"/category/sofakreslo.png\",\r\n             \"count\": \"3 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Shezlonglar\",\r\n"
+                },
+                {
+                    "date": 1737174843181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n             \"count\": \"3 ta mahsulot\"\r\n         },\r\n         {\r\n             \"name\": \"Shezlonglar\",\r\n+            \"image\" : \"/category/lounger.png\",\r\n             \"count\": \"1 ta mahsulot\"\r\n         }\r\n     ]\r\n }\r\n"
+                },
+                {
+                    "date": 1737176492034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,7 +46,7 @@\n             \"image\" : \"/category/lounger.png\",\r\n             \"count\": \"1 ta mahsulot\"\r\n         }\r\n     ]\r\n-}\r\n+      }\r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737176500037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,7 +46,40 @@\n             \"image\" : \"/category/lounger.png\",\r\n             \"count\": \"1 ta mahsulot\"\r\n         }\r\n     ]\r\n-      }\r\n+      },\r\n+        \"catalogSection\": {\r\n+            \"heading\": \"Yakuniy mahsulotlar katalogi\",\r\n+            \"helperHeading\": \"ularni hozir va shu yerda sotib olish mumkin\",\r\n+            \"catalogies\": [\r\n+                {\r\n+                    \"name\": \"Kits\",\r\n+                    \"products\": [\r\n+                        {\r\n+                            \"name\": \"Stul Venedisiya\",\r\n+                            \"color\": \"Oq\",\r\n+                            \"image\": \"/category/whiteVenetsiya.png\"\r\n+                        },\r\n+                        {\r\n+                            \"name\": \"Stul ALLY VBP-206\",\r\n+                            \"color\": \"Yengil bej\",\r\n+                            \"image\": \"/category/vbp.png\"\r\n+                        },\r\n+                        {\r\n+                            \"name\": \"Stul Rio\",\r\n+                            \"color\": \"Velur ko'k\",\r\n+                            \"image\": \"/category/rio.png\"\r\n+                        },\r\n+                        {\r\n+                            \"name\": \"Stul Viktoriya\",\r\n+                            \"color\": \"Sariq\",\r\n+                            \"image\": \"/category/viktoriya.png\"\r\n+                        }\r\n+                    ]\r\n+                }\r\n+            ]\r\n+        }\r\n+    }\r\n+    \r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737176507419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n             \"count\": \"1 ta mahsulot\"\r\n         }\r\n     ]\r\n       },\r\n-        \"catalogSection\": {\r\n+    \"catalogSection\": {\r\n             \"heading\": \"Yakuniy mahsulotlar katalogi\",\r\n             \"helperHeading\": \"ularni hozir va shu yerda sotib olish mumkin\",\r\n             \"catalogies\": [\r\n                 {\r\n@@ -78,8 +78,7 @@\n                     ]\r\n                 }\r\n             ]\r\n         }\r\n-    }\r\n     \r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737176730698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,11 @@\n                             \"color\": \"Sariq\",\r\n                             \"image\": \"/category/viktoriya.png\"\r\n                         }\r\n                     ]\r\n+                },\r\n+                {\r\n+                    \"name\" : \"\"\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176740395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n                         }\r\n                     ]\r\n                 },\r\n                 {\r\n-                    \"name\" : \"\"\r\n+                    \"name\" : \"Osiladigan kreslolar\"\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176745968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,10 @@\n                         }\r\n                     ]\r\n                 },\r\n                 {\r\n-                    \"name\" : \"Osiladigan kreslolar\"\r\n+                    \"name\" : \"Osiladigan kreslolar\",\r\n+                    \"products\": []\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176753899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,8 +79,11 @@\n                 },\r\n                 {\r\n                     \"name\" : \"Osiladigan kreslolar\",\r\n                     \"products\": []\r\n+                },\r\n+                {\r\n+                    \"name\" : \"\"\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176759979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,10 @@\n                     \"name\" : \"Osiladigan kreslolar\",\r\n                     \"products\": []\r\n                 },\r\n                 {\r\n-                    \"name\" : \"\"\r\n+                    \"name\" : \"Divan va kreslolar\",\r\n+                    \"products\" : \r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176768738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,12 @@\n                     \"products\": []\r\n                 },\r\n                 {\r\n                     \"name\" : \"Divan va kreslolar\",\r\n-                    \"products\" : \r\n+                    \"products\" : []\r\n+                },\r\n+                {\r\n+                    \"name\" : \"\"\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                },
+                {
+                    "date": 1737176774451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,10 @@\n                     \"name\" : \"Divan va kreslolar\",\r\n                     \"products\" : []\r\n                 },\r\n                 {\r\n-                    \"name\" : \"\"\r\n+                    \"name\" : \"Shezlonglar\",\r\n+                    \"\"\r\n                 }\r\n             ]\r\n         }\r\n     \r\n"
+                }
+            ],
+            "date": 1737173652634,
+            "name": "Commit-0",
+            "content": "{\r\n    \"logoDescription\" : \"Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish\",\r\n    \"onlineAsk\" : \"Savol bering, biz onlaynmiz\",\r\n    \"navLinks\" : {\r\n        \"home\" : \"bosh sahifa\" ,\r\n        \"catalog\" :  \"katalog\",\r\n        \"guarantees\" : \"kafolatlar\" ,\r\n        \"products\" :  \"mahsulotlar\" , \r\n        \"about\" : \"kompaniya haqida\",\r\n        \"delivery\" :  \"yetkazib berish\" ,\r\n        \"vacancy\" : \"vakansiyalar\" ,\r\n        \"contacts\" :  \"bog'lanish\"\r\n    },\r\n    \"home\": {\r\n         \"fromManufacturer\" : \"ishlab chiqaruvchidan\",\r\n         \"furnitureForCustomer\" : \"Biznesingiz uchun to'qilgan mebel\",\r\n         \"offer\": \"Biz biznes uchun to'qilgan mebellarning maxsus to'plamini taqdim etamiz - kafe va restoranlar uchun oqlangan stullar va stollardan tortib, dam olish va dam olish joylari uchun qulay burchaklargacha.\",\r\n         \"downloadCatalog\" : \"KATALOGNI YUKLASH\",\r\n         \"buttonDesc\": \"200 dan ortiq turdagi mebellar\",\r\n         \"guarantyTime\": \"barcha mahsulotlar uchun 3 yil kafolat\",\r\n         \"deliveryCost\": \"30 000 so'mdan eshikgacha yetkazib berish\",\r\n        \"payWhen\" : \"Mebelni ko'rishda to/'lov\"\r\n             },\r\n    \"categorySection\": {\r\n    \"heading\": \"Biz 4 ta asosiy mebel kategoriyasini ishlab chiqaramiz\",\r\n    \"helperHeading\": \"barcha assortimentda 200 dan ortiq mahsulot turlari\",\r\n    \"categories\": [\r\n        {\r\n            \"name\": \"Komplektlar\",\r\n            \"count\": \"15 ta mahsulot\"\r\n        },\r\n        {\r\n            \"name\": \"Osiladigan kreslolar\",\r\n            \"count\": \"7 ta mahsulot\"\r\n        },\r\n        {\r\n            \"name\": \"Divan va kreslolar\",\r\n            \"count\": \"3 ta mahsulot\"\r\n        },\r\n        {\r\n            \"name\": \"Shezlonglar\",\r\n            \"count\": \"1 ta mahsulot\"\r\n        }\r\n    ]\r\n}\r\n\r\n}"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 33,
             "patches": [
                 {
                     "date": 1736923885637,
@@ -120,6 +120,26 @@
                 {
                     "date": 1737112000712,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n function App() {\r\n   const {xlgScreen} = useScreenSizes()\r\n \r\n   return (\r\n-    <Stack height='auto' width='100%' alignItems='center' spacing={2}>\r\n+    <Stack height='auto' width='100%' alignItems='center'>\r\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n"
+                },
+                {
+                    "date": 1737174165535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n-      {/* <Catalog/> */}\r\n+      <Catalog/>\r\n     </Stack>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1737174171105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Stack } from \"@mui/material\"\r\n+import { Stack } from \"@mui/material\"\r\n import useScreenSizes from \"./hooks/ScreenSizes\"\r\n import Contact from \"./main-components/contact/Contact\"\r\n import Navbar from \"./main-components/navbar/Navbar\"\r\n import Home from \"./main-components/home/Home\"\r\n"
+                },
+                {
+                    "date": 1737174428534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n-      <Catalog/>\r\n+      {/* <Catalog/> */}\r\n     </Stack>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1737174505725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n function App() {\r\n   const {xlgScreen} = useScreenSizes()\r\n \r\n   return (\r\n-    <Stack height='auto' width='100%' alignItems='center'>\r\n+    <Stack height='auto' width='96%' alignItems='center'>\r\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n"
+                },
+                {
+                    "date": 1737175947900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n-      {/* <Catalog/> */}\r\n+      <Catalog/>\r\n     </Stack>\r\n   )\r\n }\r\n \r\n"
                 }
             ],
             "date": 1736923885637,

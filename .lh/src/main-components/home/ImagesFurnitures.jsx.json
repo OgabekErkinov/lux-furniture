@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main-components/home/ImagesFurnitures.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1737183495692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737183503396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,27 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const ImagesFurnitures = () => {\r\n+  return (\r\n+    <Box height='100%' width='98%' display='grid' gridTemplateColumns={smScreen || mdScreen ? '1fr' : '2fr 1fr'} gap='5%' \r\n+                 justifyContent='center'>\r\n+\r\n+                <Box component='img' src={homeImages.img1} height='100%' width='100%' borderRadius='0.5rem'\r\n+                     data-aos = 'zoom-in'/>\r\n+                <Box height='100%' width='100%' display='grid' gridTemplateRows={smScreen || mdScreen ? '1fr' : '1fr 3fr'} gap='5%'>\r\n+                   <Box height='100%' width='100%'>\r\n+                      {smScreen || mdScreen && <Box display='grid' gridTemplateColumns='1fr'>\r\n+                        \r\n+                        </Box>}\r\n+                      <Box component='img' src={homeImages.img2} height='100%' width='70%' borderRadius='0.5rem' ml='auto'\r\n+                           data-aos = 'fade-left'/>\r\n+                      </Box>\r\n+                    \r\n+                      <Box component='img' src={homeImages.img3} height='100%' width='100%' borderRadius='0.5rem'\r\n+                          data-aos = 'fade-up'/>\r\n+\r\n+                </Box>\r\n+           </Box>\r\n+  )\r\n+}\r\n+\r\n+export default ImagesFurnitures\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1737183495692,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

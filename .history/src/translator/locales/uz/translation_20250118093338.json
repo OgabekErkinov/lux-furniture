@@ -1,0 +1,49 @@
+{
+    "logoDescription" : "Toshkentda premium toifadagi to‘qilgan mebellar ishlab chiqarish",
+    "onlineAsk" : "Savol bering, biz onlaynmiz",
+    "callUs" : "Ish vaqti: 10:00 - 20:00",
+    "navLinks" : {
+        "home" : "bosh sahifa" ,
+        "catalog" :  "katalog",
+        "guarantees" : "kafolatlar" ,
+        "products" :  "mahsulotlar" , 
+        "about" : "kompaniya haqida",
+        "delivery" :  "yetkazib berish" ,
+        "vacancy" : "vakansiyalar" ,
+        "contacts" :  "bog'lanish"
+    },
+    "home": {
+         "fromManufacturer" : "ishlab chiqaruvchidan",
+         "furnitureForCustomer" : "Biznesingiz uchun to'qilgan mebel",
+         "offer": "Biz biznes uchun to'qilgan mebellarning maxsus to'plamini taqdim etamiz - kafe va restoranlar uchun oqlangan stullar va stollardan tortib, dam olish va dam olish joylari uchun qulay burchaklargacha.",
+         "downloadCatalog" : "KATALOGNI YUKLASH",
+         "buttonDesc": "200 dan ortiq turdagi mebellar",
+         "guarantyTime": "barcha mahsulotlar uchun 3 yil kafolat",
+         "deliveryCost": "30 000 so'mdan eshikgacha yetkazib berish",
+        "payWhen" : "Mebelni ko'rishda to/'lov"
+             },
+    "categorySection": {
+    "heading": "Biz 4 ta asosiy mebel kategoriyasini ishlab chiqaramiz",
+    "helperHeading": "barcha assortimentda 200 dan ortiq mahsulot turlari",
+    "categories": [
+        {
+            "name": "Komplektlar",
+            "image" : "/category/complekt.png",
+            "count": "15 ta mahsulot"
+        },
+        {
+            "name": "Osiladigan kreslolar",
+            "count": "7 ta mahsulot"
+        },
+        {
+            "name": "Divan va kreslolar",
+            "count": "3 ta mahsulot"
+        },
+        {
+            "name": "Shezlonglar",
+            "count": "1 ta mahsulot"
+        }
+    ]
+}
+
+}

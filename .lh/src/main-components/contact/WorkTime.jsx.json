@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1736854409629,
@@ -144,6 +144,26 @@
                 {
                     "date": 1736934555081,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '8px' : '12px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '22px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontSize={smScreen ? '8px' : '18px'} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737174032483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,14 +2,15 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const WorkTime = () => {\r\n+  const {}\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '8px' : '18px'} >Звоните: 10:00 - 20:00</Typography>\r\n-            <Typography fontWeight='600' fontSize={smScreen ? '6px' : mdScreen  ? '10px' : '24px'}>+998 71 500 00 00</Typography>\r\n+            <Typography fontSize={smScreen ? '12px' : '18px'} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontWeight='600' fontSize={smScreen ? '8px' : mdScreen  ? '10px' : lgScreen ? '18px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737174039987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n+import { useTranslation } from 'react-i18next'\r\n \r\n \r\n const WorkTime = () => {\r\n-  const {}\r\n+  const {} = useTranslation()\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n"
+                },
+                {
+                    "date": 1737174046323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '12px' : '18px'} >Звоните: 10:00 - 20:00</Typography>\r\n+            <Typography fontSize={smScreen ? '12px' : '18px'} >{}</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '8px' : mdScreen  ? '10px' : lgScreen ? '18px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737174052672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '12px' : '18px'} >{}</Typography>\r\n+            <Typography fontSize={smScreen ? '12px' : '18px'} >{t('callUS')}</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '8px' : mdScreen  ? '10px' : lgScreen ? '18px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737174074001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n import { useTranslation } from 'react-i18next'\r\n \r\n \r\n const WorkTime = () => {\r\n-  const {} = useTranslation()\r\n+  const {t} = useTranslation()\r\n   const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         <Stack height='100%' width='100%' alignItems='flex-start' justifyContent='center' gap='4px'>\r\n-            <Typography fontSize={smScreen ? '12px' : '18px'} >{t('callUS')}</Typography>\r\n+            <Typography fontSize={smScreen ? '12px' : '18px'} >{t('callUs')}</Typography>\r\n             <Typography fontWeight='600' fontSize={smScreen ? '8px' : mdScreen  ? '10px' : lgScreen ? '18px' : '24px'}>+998 71 500 00 00</Typography>\r\n         </Stack>\r\n     </Box>\r\n   )\r\n"
                 }
             ],
             "date": 1736854409629,

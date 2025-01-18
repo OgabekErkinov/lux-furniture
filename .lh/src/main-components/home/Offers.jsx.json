@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/main-components/home/Offers.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1737177937785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737177954813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,26 @@\n import React from 'react'\r\n \r\n const Offers = () => {\r\n   return (\r\n-    <div>Offers</div>\r\n+    <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n+          <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n+             <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down'>\r\n+                 <Box component='img' src='/checkmark.svg' height={smScreen ? '16px' : '24px'} width={smScreen ? '16px' : '24px'}/>\r\n+                 <Typography fontSize={smScreen ? '6px': '12px'}>Warranty from 3 years on all products</Typography>\r\n+             </Box>\r\n+             <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down' data-aos-delay = '200'>\r\n+               <Box component='img' src='/checkmark.svg' height={smScreen ? '16px' : '24px'} width={smScreen ? '16px' : '24px'}/>\r\n+               <Typography fontSize={smScreen ? '6px': '12px'}>Delivery from 30,000 sum to the door</Typography>\r\n+             </Box>\r\n+             <Box display='flex' gap='5px' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down' data-aos-delay = '400'>\r\n+               <Box component='img' src='/checkmark.svg' height={smScreen ? '16px' : '24px'} width={smScreen ? '16px' : '24px'}/>\r\n+               <Typography fontSize={smScreen ? '6px': '12px'}>Payment upon viewing the furniture</Typography>\r\n+             </Box>\r\n+\r\n+          </Box>\r\n+\r\n+        </Box>\r\n   )\r\n }\r\n \r\n export default Offers\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737177960349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Offers = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1737177967807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Offers = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1737177975140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Box, Typography } from '@mui/material'\r\n-import React from 'react'\r\n \r\n+\r\n const Offers = () => {\r\n   return (\r\n     <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n           <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n"
+                },
+                {
+                    "date": 1737177986623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import { Box, Typography } from '@mui/material'\r\n+import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const Offers = () => {\r\n+    const {} = useScreenSizes()\r\n   return (\r\n     <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n           <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n              <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down'>\r\n"
+                },
+                {
+                    "date": 1737177996351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const Offers = () => {\r\n-    const {} = useScreenSizes()\r\n+    const {smScreen, mdScre} = useScreenSizes()\r\n   return (\r\n     <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n           <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n              <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down'>\r\n"
+                },
+                {
+                    "date": 1737178253463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const Offers = () => {\r\n-    const {smScreen, mdScre} = useScreenSizes()\r\n+    const {smScreen, mdScreen, lgScreen},  = useScreenSizes()\r\n   return (\r\n     <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n           <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n              <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down'>\r\n"
+                },
+                {
+                    "date": 1737178259319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n \r\n const Offers = () => {\r\n-    const {smScreen, mdScreen, lgScreen},  = useScreenSizes()\r\n+    const {smScreen, mdScreen, lgScreen, xlg} = useScreenSizes()\r\n   return (\r\n     <Box width='100%' height={xlgScreen ? '5rem' : '3rem'} display='grid' gridTemplateColumns= { xlgScreen ? '2fr 1fr' : '1fr'}>\r\n           <Box display='grid' gridTemplateColumns='repeat(3, 1fr)'>\r\n              <Box display='flex' gap='0.5rem' alignItems='center' justifyContent='center' width='50%' data-aos = 'fade-down'>\r\n"
+                }
+            ],
+            "date": 1737177937785,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Offers = () => {\r\n  return (\r\n    <div>Offers</div>\r\n  )\r\n}\r\n\r\nexport default Offers"
+        }
+    ]
+}
