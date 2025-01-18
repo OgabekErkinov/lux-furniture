@@ -10,7 +10,7 @@ const SocialNetworks = () => {
   return (
     <Box height={xlgScreen ? '5rem' : 'auto'} width='100%' display='flex' alignItems='center'>
         <Stack height='100%' width='100%' direction={smScreen ? 'column' : !xlgScreen ?  'row' : 'column'} alignItems='center' justifyContent='center' gap='0.5rem'>
-           <Typography fontSize={smScreen ? '12px' : mdScreen ? '14px' : '16px'} textAlign={smScreen ? 'center' : mdScreen ? 'start' : 'center'}>Ask a question, we are online.</Typography>
+           <Typography fontSize={smScreen ? '12px' : mdScreen ? '14px' : '16px'} textAlign={smScreen ? 'center' : mdScreen ? 'start' : 'center'}>{t('onlineAsk')}</Typography>
            <Stack direction='row' gap={smScreen ? '4px' : '12px'} justifyContent='center'>
               <FaWhatsapp color="green" size={!smScreen ? '48px' : '20px'}/>
               <FaTelegram color="#20aabd" size={!smScreen ? '48px' : '20px'}/> 

@@ -5,7 +5,7 @@ const Category = () => {
     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
     const images = ['/category/complekt.png','/category/osma.png','/category/sofakreslo.png','/category/lounger.png']
   return (
-    <Box width='80%' height='25rem' px='12px' color='black'>
+    <Box width='100%' height='25rem' px='12px' color='black'>
       <Box height='100%' width='100%' display='flex' flexDirection='column' justifyContent='center' gap='1rem'>
 
         {/* .................categories heading............................................... */}
@@ -20,11 +20,11 @@ const Category = () => {
         {/* ........categories with images ................................................... */}
 
         <Box height = '40%' width = '100%' textAlign='center'>
-           <Box width='90%' height='100%' mx='auto' display='grid' gridTemplateColumns='1fr 1fr 1fr 1fr' gap='1rem'>
+           <Box width='90%' height='100%' mx='auto' display='grid' gridTemplateColumns={smScreen || mdScreen ? 'repeat(2,1fr)' : 'repeat(4,1fr)'} gap='1rem'>
            {
                 images.map((image, idx) => {
                     return ( 
-                        <Box component='img' src={image} height='80%' width='100%' borderRadius='10px' key={idx} /> 
+                        <Box component='img' src={image} height='70%' width='100%' borderRadius='10px' key={idx} /> 
                     )
                 })
             }

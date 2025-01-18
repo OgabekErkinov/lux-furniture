@@ -1,13 +1,12 @@
-import { Box, Button, Portal, Stack, Typography } from "@mui/material"
+import { Box, Button, Portal } from "@mui/material"
 
-import { FaTelegram, FaWhatsapp } from "react-icons/fa"
 import Logo from "./Logo"
 import Languages from "./Languages"
 import SocialNetworks from "./SocialNetworks"
 import WorkTime from "./WorkTime"
 import useScreenSizes from "../../hooks/ScreenSizes"
-import { Menu, MenuBookOutlined, MenuOpenOutlined } from "@mui/icons-material"
-import { useEffect, useState } from "react"
+import { Menu } from "@mui/icons-material"
+import {  useState } from "react"
 import MobileMenu from "../modals/MobileMenu"
 
 

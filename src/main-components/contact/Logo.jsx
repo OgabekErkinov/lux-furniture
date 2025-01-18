@@ -14,7 +14,7 @@ const Logo = () => {
     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>
             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> 
             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>
-            Production of premium-class woven furniture in Tashkent
+               {t('logoDescription')}
             </Typography>
             </Stack>
   )
