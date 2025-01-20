@@ -14,7 +14,9 @@
     },
     "home": {
          "fromManufacturer" : "ishlab chiqaruvchidan",
-         "furnitureForCustomer" : "Biznesingiz uchun to'qilgan mebel",
+         "furnitureForCustomer" : 
+                       { "first" : "Biznesingiz",
+                          "second" : " uchun to'qilgan mebel"},
          "offer": "Biz biznes uchun to'qilgan mebellarning maxsus to'plamini taqdim etamiz - kafe va restoranlar uchun oqlangan stullar va stollardan tortib, dam olish va dam olish joylari uchun qulay burchaklargacha.",
          "downloadCatalog" : "KATALOGNI YUKLASH",
          "buttonDesc": "200 dan ortiq turdagi mebellar",
@@ -51,6 +53,7 @@
     "catalogSection": {
             "heading": "Yakuniy mahsulotlar katalogi",
             "helperHeading": "ularni hozir va shu yerda sotib olish mumkin",
+            "anyProduct": "Bu katalogda hozircha mahsulotlar mavjud emas..!",
             "catalogies": [
                 {
                     "name": "Kits",
@@ -63,7 +66,7 @@
                         {
                             "name": "Stul ALLY VBP-206",
                             "color": "Yengil bej",
-                            "image": "/category/vbp.png"
+                            "image": "/category/vbp208.png"
                         },
                         {
                             "name": "Stul Rio",
@@ -90,7 +93,86 @@
                     "products" : []
                 }
             ]
+        },
+    "aboutSection": {
+    "paragraph": {
+        "title": "Biz haqimizda",
+        "paragraph": "Bizning OOO “Firdavs Mebel” kompaniyamiz 2008-yildan buyon mebel bozorida muvaffaqiyatli faoliyat yuritmoqda. Shu yillar mobaynida biz bebahoy amaliy tajriba to‘pladik. Barcha texnologik va ishlab chiqarish jarayonlari mayda-chuydalarigacha ishlab chiqildi, har bir harakat mukammal darajaga yetkazildi. Biz “СНINAR” brendi ostida sun’iy rotangdan tayyorlangan MEBEL mahsulotlarini keng assortimentda taklif etamiz va kolleksiya doimiy ravishda yangilanib boradi."
+    },
+    "components": [
+        {
+            "type": "xodimlar",
+            "result": "60+",
+            "image" : "about/about1.png"
+        },
+        {
+            "type": "eksport qilinadigan davlatlar",
+            "result": "7",
+            "image" : "about/about2.png"
+        },
+        {
+            "type": "tajriba yillari",
+            "result": "16",
+            "image" : ""
+        },
+        {
+            "type": "mamnun mijozlar",
+            "result": "60 000+",
+            "image" : ""
+        },
+        {
+            "type": "mahsulot turlari",
+            "result": "200+",
+            "image" : ""
         }
+    ],
+    "images" : ["/about/about3.png", "/about/about4.png"]
+     },
+     "furnituresSection": {
+    "heading": "2008-yildan buyon biz 100 000 dan ortiq mebel yasadik",
+    "helperText": "Turli murakkablik va konfiguratsiyalarda",
+    "components": [
+        {
+            "title": "To‘qilgan mebel ko‘pincha bog‘lar, terrasalar va balkonlarda ishlatiladi",
+            "image": "./delivery/balcon.png"
+        },
+        {
+            "title": "To‘qilgan divan va kreslolar mehmonxonaga yengillik va nafislik qo‘shishi mumkin",
+            "image": "./delivery/guests.png"
+        },
+        {
+            "title": "Oshxona va ovqatlanish xonasi uchun mebel",
+            "image": "/delivery/kitchen.png"
+        },
+        {
+            "title": "To‘qilgan mebel yotoqxona uchun romantika va tabiiylik hissini qo‘shishi mumkin.",
+            "image": "/delivery/dining.png"
+        },
+        {
+            "title": "Restoran va kafe uchun mebel to‘plamlari",
+            "image": "/delivery/kafe.png"
+        },
+        {
+            "title": "To‘qilgan tebranuvchi kreslo bog‘ yoki uyning istalgan burchagida dam olish uchun ideal joy bo‘lishi mumkin.",
+            "image": "/delivery/garden.png"
+        }
+    ]
+},
+      "collection" : {
+            "heading" : "Chinardan yangi yozgi kolleksiya uyingiz va muassasangiz uchun",
+            "components" : [
+              "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
+        ]
+    },
+    "downloadSection": {
+    "title": "200+ loyiha foto katalogida",
+    "helperText": "Hozirda yuklab olish",
+    "name": "Ismingiz",
+    "download": "YUKLAB OLISH"
+}
+
+
+
     
 
 }

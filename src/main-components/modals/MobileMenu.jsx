@@ -13,9 +13,10 @@ const MobileMenu = ({setIsMobileMenu}) => {
         }     
     },[xlgScreen])
   return (
-    <Box width='300px' height='100vh' position='absolute' zIndex={2} right={0} top={0} bgcolor={'rgb(190, 212, 144)'}>
-        <Stack width='90%' height='100%'>
-            <Box display='flex' justifyContent='space-between' width='100%'>
+    <Box width='300px' height='100vh' position='fixed' zIndex={2} right={0} top={0} 
+         bgcolor={'rgb(190, 212, 144)'}>
+        <Stack width='90%' height='98%'>
+            <Box display='flex' justifyContent='space-between' width='100%' my='1rem'>
                 <Box>
                 </Box>
                 <Button onClick = {() => setIsMobileMenu(false)}>
@@ -24,7 +25,7 @@ const MobileMenu = ({setIsMobileMenu}) => {
                 
             </Box>
             <Box component='img' src={logoUrl} height='3rem' width='10rem' mx='auto' my='1rem'/>
-            <Navbar isNavbar='false' direction='column'/>
+            <Navbar isNavbar='true' direct='column'/>
         </Stack>
 
     </Box>

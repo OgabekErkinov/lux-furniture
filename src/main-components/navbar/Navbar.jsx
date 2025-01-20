@@ -1,11 +1,13 @@
-import { MenuList } from '@mui/material'
+import { Box, MenuList } from '@mui/material'
 import NavbarItem from './NavbarItem'
 
 
 const Navbar = ({isNavbar, direct}) => {
     const navbarItems = ['home', 'catalog', 'guarantees', 'products', 'about', 'delivery', 'vacancy', 'contacts']
   return (
-    <MenuList sx={{display : isNavbar ? 'flex' : 'none', width : '98%', height : 'auto', justifyContent : 'space-evenly', flexDirection : direct,  my : '0.5rem'}}>
+    <Box height='100%' width='100%' display={isNavbar ? 'block' : 'none'}>
+      <MenuList sx={{width : '100%', height : 'auto', my : '0.5rem',
+                     display : 'grid', gridTemplateColumns : direct ? '1fr' : 'repeat(8, 1fr)'}}>
         {
           navbarItems.map((item, idx) =>  {
             return (
@@ -14,6 +16,7 @@ const Navbar = ({isNavbar, direct}) => {
           })
         }
     </MenuList>
+    </Box>
   )
 }
 

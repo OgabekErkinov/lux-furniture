@@ -14,7 +14,9 @@
     },
     "home" : {
         "fromManufacturer" : "from the manufacturer",
-        "furnitureForCustomer" : "Wicker furniture for your business",
+        "furnitureForCustomer" : 
+                           { "first" : "Wicker",
+                             "second" : " furniture for your business"},
         "offer" : "We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. ",
         "downloadCatalog" : "DOWNLOAD CATALOG",
         "buttonDesc" : "more than 200 types of furniture",
@@ -52,6 +54,7 @@
     "catalogSection": {
             "heading": "Catalog of Ready-Made Products",
             "helperHeading": "which can be bought here and now",
+            "anyProduct" : "we haven't products on this catalogue yet..!",
             "catalogies": [
                 {
                     "name": "Kits",
@@ -64,7 +67,7 @@
                         {
                             "name": "Chair ALLY VBP-206",
                             "color": "Light Beige",
-                            "image": "/category/vbp.png"
+                            "image": "/category/vbp208.png"
                         },
                         {
                             "name": "Chair Rio",
@@ -91,6 +94,82 @@
                     "products" : []
                 }
             ]
+        },
+    "aboutSection": {
+    "paragraph": {
+        "title": "About Us",
+        "paragraph": "Our company, LLC “Firdavs Mebel,” has been successfully operating in the furniture market since 2008. Over these years, we have accumulated invaluable practical experience. Every technological and production process has been refined to the smallest detail, and every movement has been perfected. We offer FURNITURE under the brand “СНINAR,” made from synthetic rattan with a wide range of products, and the collection is constantly being updated."
+    },
+    "components": [
+        {
+            "type": "employees",
+            "result": "60+",
+            "image" : "/about/about1.png"
+        },
+        {
+            "type": "countries for export",
+            "result": "7",
+            "image" : "/about/about2.png"
+        },
+        {
+            "type": "years of experience",
+            "result": "16",
+            "image" : ""
+        },
+        {
+            "type": "satisfied clients",
+            "result": "60,000+",
+            "image" : ""
+        },
+        {
+            "type": "product types",
+            "result": "200+",
+            "image" : ""
         }
+    ]
     
+    },
+    "furnituresSection": {
+    "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
+    "helperText": "Of various complexities and configurations",
+    "components": [
+        {
+            "title": "Woven furniture is often used in gardens, on terraces, and balconies",
+            "image": "./delivery/balcon.png"
+        },
+        {
+            "title": "Woven sofas and armchairs can add lightness and elegance to a living room",
+            "image": "./delivery/guests.png"
+        },
+        {
+            "title": "Furniture for kitchens and dining rooms",
+            "image": "/delivery/kitchen.png"
+        },
+        {
+            "title": "Woven furniture can add a touch of romance and naturalness to the bedroom.",
+            "image": "/delivery/dining.png"
+        },
+        {
+            "title": "Furniture sets for restaurants and cafes",
+            "image": "/delivery/kafe.png"
+        },
+        {
+            "title": "A woven rocking chair can be the perfect spot to relax in any corner of the home or garden.",
+            "image": "/delivery/garden.png"
+        }
+    ]
+     },
+     "collection" : {
+        "heading" : "New summer collection from Chinar for your home and establishment",
+        "components" : [
+            "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
+        ]
+    },
+    "downloadSection": {
+    "title": "200+ projects in the photo catalog",
+    "helperText": "Download right now",
+    "name": "Your name",
+    "download": "DOWNLOAD CATALOG"
+}
+   
 }

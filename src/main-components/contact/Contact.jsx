@@ -1,5 +1,4 @@
 import { Box, Button, Portal } from "@mui/material"
-
 import Logo from "./Logo"
 import Languages from "./Languages"
 import SocialNetworks from "./SocialNetworks"
@@ -16,16 +15,20 @@ const Contact = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
   
   return (
-    <Box height={xlgScreen ? '12rem' : 'auto'} width='98%' color='black' py='16px'>
-      <Box height='100%' width='100%' px = '8px' display='grid' gridTemplateColumns={xlgScreen ? '1.5fr 2fr' : '1fr' } 
-           alignItems='center' borderBottom='1px solid grey'>
-        <Box display='flex' justifyContent='space-between' alignItems='center' p='12px' width='100%'>
+    <Box height={xlgScreen ? '10rem' : 'auto'} width='100%'  position='fixed' top='-20px' zIndex='2'>
+       <Box height='100%' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem' >
+         <Box height='100%' width='100%' display='grid' alignItems='center' boxShadow = '0px 1px 2px rgba(0, 0, 0, 0.2)'
+           gridTemplateColumns={xlgScreen ? '1.5fr 2fr' : '1fr' } gridTemplateRows={xlgScreen ? '1fr' : '1fr 1fr'}>
+
+{/* ............Logo and mobile menu button, button is none when xlgScreens.................................. */}
+        <Box display='flex' justifyContent='space-between' alignItems='center' p='12px' width='100%' height='100%'>
             <Logo/>
-            <Button disableTouchRipple sx={{display : xlgScreen ? 'none' : 'block'}} onClick={() => setIsMobileMenu(prev => !prev)}>
+            <Button disableTouchRipple sx={{display : xlgScreen ? 'none' : 'block'}} 
+                    onClick={() => setIsMobileMenu(prev => !prev)}>
                <Menu sx={{height : '48px', width : '48px'}}/>
             </Button>
         </Box>
-        <Box display='grid' gridTemplateColumns='1fr 1fr 1fr' alignItems='center' width='100%' gap='8px' pb='16px' >
+        <Box  width='100%' display='grid' gridTemplateColumns='1fr 1fr 1fr' alignItems='center' pb='16px' >
             {!xlgScreen && <SocialNetworks/>}
             <Languages/>    
             {xlgScreen && <SocialNetworks/>}
@@ -36,8 +39,10 @@ const Contact = () => {
                                 <MobileMenu setIsMobileMenu = {setIsMobileMenu}/>     
                           </Portal>
         }  
-      </Box>
+         </Box>
+       </Box>
     </Box>
+    
     
   )
 }
