@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/main-components/about/About.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1737356207515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737356228559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 10rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n          gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n-         gridTemplateRows={xlgScreen ? 'repeat(2, auto)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n+         gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n         {\r\n"
+                },
+                {
+                    "date": 1737356620645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \r\n \r\n   return (\r\n     <Box height='auto' width='96%'>\r\n-      <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 10rem'>\r\n+      <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n          gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n          gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n"
+                },
+                {
+                    "date": 1737356919731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   return (\r\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n-         gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n+                gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n          gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n"
+                },
+                {
+                    "date": 1737356931450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n   return (\r\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n-                gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n-         gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n+                gridTemplateColumns={xlgScreen ? 'repeat(3, auto)' : smScreen ? '1fr' : '1fr 1fr'}\r\n+                gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n         {\r\n"
+                },
+                {
+                    "date": 1737356939477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   return (\r\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n-                gridTemplateColumns={xlgScreen ? 'repeat(3, auto)' : smScreen ? '1fr' : '1fr 1fr'}\r\n+                gridTemplateColumns={xlgScreen ? 'repeat(3, auto)' : smScreen ? 'auto' : 'auto 1fr'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n"
+                },
+                {
+                    "date": 1737356975516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   return (\r\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n-                gridTemplateColumns={xlgScreen ? 'repeat(3, auto)' : smScreen ? 'auto' : 'auto 1fr'}\r\n+                gridTemplateColumns={xlgScreen ? 'repeat(3, 1rem)' : smScreen ? 'auto' : 'auto auto'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n"
+                },
+                {
+                    "date": 1737356982731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   return (\r\n     <Box height='auto' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n-                gridTemplateColumns={xlgScreen ? 'repeat(3, 1rem)' : smScreen ? 'auto' : 'auto auto'}\r\n+                gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? 'auto' : 'auto auto'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n \r\n         <Heading about={about}/>\r\n         \r\n"
+                },
+                {
+                    "date": 1737357069159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     const components = t('aboutSection.components', {returnObjects : true})\r\n \r\n \r\n   return (\r\n-    <Box height='auto' width='96%'>\r\n+    <Box height='50rem' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? 'auto' : 'auto auto'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n"
+                },
+                {
+                    "date": 1737357108591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     const components = t('aboutSection.components', {returnObjects : true})\r\n \r\n \r\n   return (\r\n-    <Box height='50rem' width='96%'>\r\n+    <Box height='50rem' width='96%' display='block'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? 'auto' : 'auto auto'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n"
+                },
+                {
+                    "date": 1737357114426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     const components = t('aboutSection.components', {returnObjects : true})\r\n \r\n \r\n   return (\r\n-    <Box height='50rem' width='96%' display='block'>\r\n+    <Box height='50rem' width='96%'>\r\n       <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 8rem'>\r\n            <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? 'auto' : 'auto auto'}\r\n                 gridTemplateRows={xlgScreen ? 'repeat(2, 20rem)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n"
+                }
+            ],
+            "date": 1737356207515,
+            "name": "Commit-0",
+            "content": "import { Box, Stack } from '@mui/material'\r\nimport { useTranslation } from 'react-i18next'\r\nimport  useScreenSizes  from '../../hooks/ScreenSizes'\r\nimport Heading from './Heading'\r\nimport Component from './Component'\r\nimport Images from './Images'\r\n\r\n\r\n\r\nconst About = () => {\r\n    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n    const {t} = useTranslation()\r\n    const about = t('aboutSection.paragraph', {returnObjects : true})\r\n    const components = t('aboutSection.components', {returnObjects : true})\r\n\r\n\r\n  return (\r\n    <Box height='auto' width='96%'>\r\n      <Box height='100%' width='100%' display='grid' gridTemplateRows='auto 10rem'>\r\n           <Box width='100%' height='100%' display='grid' justifyContent='center'  gap='1rem'\r\n         gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}\r\n         gridTemplateRows={xlgScreen ? 'repeat(2, auto)' : smScreen ? 'repeat(6, 10rem)' : '1fr 1fr 1fr'}>\r\n\r\n        <Heading about={about}/>\r\n        \r\n        {\r\n        components.map((component, idx) => {\r\n                return (\r\n                   <Component component={component} idx={idx} key={idx}/>\r\n                )\r\n            })\r\n        }\r\n\r\n           </Box>\r\n           <Images/>\r\n      </Box>\r\n\r\n    </Box>\r\n    \r\n  )\r\n}\r\n\r\nexport default About\r\n"
+        }
+    ]
+}

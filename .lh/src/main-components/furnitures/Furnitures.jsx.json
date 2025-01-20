@@ -1,0 +1,150 @@
+{
+    "sourceFile": "src/main-components/furnitures/Furnitures.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1737353428466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737353483457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \r\n   return (\r\n     <Box width=\"90%\" my=\"6rem\">\r\n       <Stack gap=\"2rem\">\r\n-        {/*........... Heading and Helper Text............................... */}\r\n+        <Heading\r\n         \r\n \r\n         {/*.................components......................................... */}\r\n         <Box\r\n"
+                },
+                {
+                    "date": 1737353493364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import { Box, Stack, Typography } from '@mui/material';\r\n import React from 'react';\r\n import { useTranslation } from 'react-i18next';\r\n+import Heading from './Heading';\r\n \r\n const Furnitures = () => {\r\n   const { t } = useTranslation();\r\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n@@ -9,9 +10,9 @@\n \r\n   return (\r\n     <Box width=\"90%\" my=\"6rem\">\r\n       <Stack gap=\"2rem\">\r\n-        <Heading\r\n+        <Heading furnitures={fur}/>\r\n         \r\n \r\n         {/*.................components......................................... */}\r\n         <Box\r\n"
+                },
+                {
+                    "date": 1737353506792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,10 @@\n \r\n   return (\r\n     <Box width=\"90%\" my=\"6rem\">\r\n       <Stack gap=\"2rem\">\r\n-        <Heading furnitures={fur}/>\r\n+        <Heading furnitures={furnitures}/>\r\n         \r\n-\r\n         {/*.................components......................................... */}\r\n         <Box\r\n           display=\"grid\"\r\n           gridTemplateColumns=\"repeat(3, auto)\"\r\n"
+                },
+                {
+                    "date": 1737353513373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n       <Stack gap=\"2rem\">\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n-        <Box\r\n-          display=\"grid\"\r\n+\r\n+        <Box display=\"grid\"\r\n           gridTemplateColumns=\"repeat(3, auto)\"\r\n           gap=\"1rem\">\r\n           {components.map((component, idx) => (\r\n             <Box\r\n"
+                },
+                {
+                    "date": 1737353518587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,11 @@\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n \r\n-        <Box display=\"grid\"\r\n+        <Box display=\"grid\" gap=\"1rem\"\r\n           gridTemplateColumns=\"repeat(3, auto)\"\r\n-          gap=\"1rem\">\r\n+          >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n               bgcolor=\"#94C11F\"\r\n"
+                },
+                {
+                    "date": 1737353524301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-          gridTemplateColumns=\"repeat(3, auto)\"\r\n+             gridTemplateColumns=\"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353541644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import { useTranslation } from 'react-i18next';\r\n import Heading from './Heading';\r\n \r\n const Furnitures = () => {\r\n+  const {smSc}\r\n   const { t } = useTranslation();\r\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n"
+                },
+                {
+                    "date": 1737353551239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n import { Box, Stack, Typography } from '@mui/material';\r\n import React from 'react';\r\n import { useTranslation } from 'react-i18next';\r\n import Heading from './Heading';\r\n+import useScreenSizes from '../../hooks/ScreenSizes';\r\n \r\n const Furnitures = () => {\r\n-  const {smSc}\r\n+  const {smScreen} =  useScreenSizes()\r\n   const { t } = useTranslation();\r\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n"
+                },
+                {
+                    "date": 1737353562480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import Heading from './Heading';\r\n import useScreenSizes from '../../hooks/ScreenSizes';\r\n \r\n const Furnitures = () => {\r\n-  const {smScreen} =  useScreenSizes()\r\n+  const {smScreen, mdScreen, } =  useScreenSizes()\r\n   const { t } = useTranslation();\r\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n"
+                },
+                {
+                    "date": 1737353567591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import Heading from './Heading';\r\n import useScreenSizes from '../../hooks/ScreenSizes';\r\n \r\n const Furnitures = () => {\r\n-  const {smScreen, mdScreen, } =  useScreenSizes()\r\n+  const {smScreen, mdScreen, lgScreen} =  useScreenSizes()\r\n   const { t } = useTranslation();\r\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n"
+                },
+                {
+                    "date": 1737353577735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns=\"repeat(3, auto)\"\r\n+             gridTemplateColumns={\"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353583119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={\"repeat(3, auto)\"\r\n+             gridTemplateColumns={smScreen ? '\"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353593378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen ? '\"repeat(3, auto)\"\r\n+             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353598576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat(3, auto)\"\r\n+             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat\"\"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353603848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat\"\"repeat(3, auto)\"\r\n+             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat()\" : \"repeat(3, auto)\"\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353612921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat()\" : \"repeat(3, auto)\"\r\n+             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat(2,  1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353648668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? \"repeat(2,  1fr)\" : \"repeat(3, auto)\"}\r\n+             gridTemplateColumns={smScreen? '1fr' : mdScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353653753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen? '1fr' : mdScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n+             gridTemplateColumns={smScreen||mdScreen? '1fr' : mdScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353660361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen||mdScreen? '1fr' : mdScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n+             gridTemplateColumns={smScreen||mdScreen ? '1fr' : lg ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n             <Box\r\n               key={idx}\r\n"
+                },
+                {
+                    "date": 1737353721044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,32 +17,12 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen||mdScreen ? '1fr' : lg ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n+             gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n-            <Box\r\n-              key={idx}\r\n-              bgcolor=\"#94C11F\"\r\n-              borderRadius=\"10px\"\r\n-              height=\"auto\"\r\n-              display=\"flex\"\r\n-              flexDirection=\"column\"\r\n-              justifyContent=\"space-between\">\r\n-              <Typography variant=\"h6\" fontWeight=\"500\" px='5px'>\r\n-                {component.title}\r\n-              </Typography>\r\n-              <Box\r\n-                component=\"img\"\r\n-                src={component.image}\r\n-                alt={component.title}\r\n-                height=\"200px\"\r\n-                width='100%'\r\n-                borderRadius=\"10px\"\r\n-                style={{ objectFit: 'cover' }}\r\n-              />\r\n-            </Box>\r\n+            \r\n           ))}\r\n         </Box>\r\n       </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737353865552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => (\r\n             \r\n+            \r\n           ))}\r\n         </Box>\r\n       </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737353876017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,12 +19,9 @@\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n-          {components.map((component, idx) => (\r\n-            \r\n-            \r\n-          ))}\r\n+          {components.map((component, idx) => )}\r\n         </Box>\r\n       </Stack>\r\n     </Box>\r\n   );\r\n"
+                },
+                {
+                    "date": 1737353881716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n-          {components.map((component, idx) => )}\r\n+          {components.map((component, idx) => {\r\n+            return ()\r\n+          })}\r\n         </Box>\r\n       </Stack>\r\n     </Box>\r\n   );\r\n"
+                },
+                {
+                    "date": 1737353887853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,11 @@\n         <Box display=\"grid\" gap=\"1rem\"\r\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => {\r\n-            return ()\r\n+            return (\r\n+              <Furnitu\r\n+            )\r\n           })}\r\n         </Box>\r\n       </Stack>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737353897143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import React from 'react';\r\n import { useTranslation } from 'react-i18next';\r\n import Heading from './Heading';\r\n import useScreenSizes from '../../hooks/ScreenSizes';\r\n+import Furniture from './Furniture';\r\n \r\n const Furnitures = () => {\r\n   const {smScreen, mdScreen, lgScreen} =  useScreenSizes()\r\n   const { t } = useTranslation();\r\n@@ -21,9 +22,9 @@\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n           >\r\n           {components.map((component, idx) => {\r\n             return (\r\n-              <Furnitu\r\n+              <Furniture furniture={component}/>\r\n             )\r\n           })}\r\n         </Box>\r\n       </Stack>\r\n"
+                },
+                {
+                    "date": 1737353906283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,12 @@\n         \r\n         {/*.................components......................................... */}\r\n \r\n         <Box display=\"grid\" gap=\"1rem\"\r\n-             gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}\r\n-          >\r\n+             gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}>\r\n           {components.map((component, idx) => {\r\n             return (\r\n-              <Furniture furniture={component}/>\r\n+              <Furniture furniture={component} key={idx}/>\r\n             )\r\n           })}\r\n         </Box>\r\n       </Stack>\r\n"
+                },
+                {
+                    "date": 1737354545010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n   return (\r\n-    <Box width=\"90%\" my=\"6rem\">\r\n+    <Box width=\"90%\" my=\"2rem\">\r\n       <Stack gap=\"2rem\">\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n"
+                },
+                {
+                    "date": 1737354560796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   const components = furnitures.components || []; \r\n \r\n   return (\r\n     <Box width=\"90%\" my=\"2rem\">\r\n-      <Stack gap=\"2rem\">\r\n+      <Stack gap=\"0.5rem\">\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n \r\n"
+                },
+                {
+                    "date": 1737354576506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   const components = furnitures.components || []; \r\n \r\n   return (\r\n     <Box width=\"90%\" my=\"2rem\">\r\n-      <Stack gap=\"0.5rem\">\r\n+      <Stack >\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n \r\n"
+                },
+                {
+                    "date": 1737354596986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Stack, Typography } from '@mui/material';\r\n+import { Box, Stack } from '@mui/material';\r\n import React from 'react';\r\n import { useTranslation } from 'react-i18next';\r\n import Heading from './Heading';\r\n import useScreenSizes from '../../hooks/ScreenSizes';\r\n"
+                },
+                {
+                    "date": 1737354668689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n   return (\r\n-    <Box width=\"90%\" my=\"2rem\">\r\n+    <Box width=\"90%\" my=\"3rem\">\r\n       <Stack >\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n"
+                },
+                {
+                    "date": 1737354677949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   const furnitures = t('furnituresSection', { returnObjects: true });\r\n   const components = furnitures.components || []; \r\n \r\n   return (\r\n-    <Box width=\"90%\" height={} my=\"3rem\">\r\n+    <Box width=\"90%\" height= my=\"3rem\">\r\n       <Stack >\r\n         <Heading furnitures={furnitures}/>\r\n         \r\n         {/*.................components......................................... */}\r\n"
+                },
+                {
+                    "date": 1737355480352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n         <Box display=\"grid\" gap=\"1rem\" width='100%' height='auto'\r\n              gridTemplateColumns={smScreen||mdScreen ? '1fr' : lgScreen ? \"repeat(2, 1fr)\" : \"repeat(3, auto)\"}>\r\n              {components.map((component, idx) => {\r\n-            return (\r\n+             return (\r\n               <Furniture furniture={component} key={idx}/>\r\n             )\r\n           })}\r\n         </Box>\r\n"
+                }
+            ],
+            "date": 1737353428466,
+            "name": "Commit-0",
+            "content": "import { Box, Stack, Typography } from '@mui/material';\r\nimport React from 'react';\r\nimport { useTranslation } from 'react-i18next';\r\n\r\nconst Furnitures = () => {\r\n  const { t } = useTranslation();\r\n  const furnitures = t('furnituresSection', { returnObjects: true });\r\n  const components = furnitures.components || []; \r\n\r\n  return (\r\n    <Box width=\"90%\" my=\"6rem\">\r\n      <Stack gap=\"2rem\">\r\n        {/*........... Heading and Helper Text............................... */}\r\n        \r\n\r\n        {/*.................components......................................... */}\r\n        <Box\r\n          display=\"grid\"\r\n          gridTemplateColumns=\"repeat(3, auto)\"\r\n          gap=\"1rem\">\r\n          {components.map((component, idx) => (\r\n            <Box\r\n              key={idx}\r\n              bgcolor=\"#94C11F\"\r\n              borderRadius=\"10px\"\r\n              height=\"auto\"\r\n              display=\"flex\"\r\n              flexDirection=\"column\"\r\n              justifyContent=\"space-between\">\r\n              <Typography variant=\"h6\" fontWeight=\"500\" px='5px'>\r\n                {component.title}\r\n              </Typography>\r\n              <Box\r\n                component=\"img\"\r\n                src={component.image}\r\n                alt={component.title}\r\n                height=\"200px\"\r\n                width='100%'\r\n                borderRadius=\"10px\"\r\n                style={{ objectFit: 'cover' }}\r\n              />\r\n            </Box>\r\n          ))}\r\n        </Box>\r\n      </Stack>\r\n    </Box>\r\n  );\r\n};\r\n\r\nexport default Furnitures;\r\n"
+        }
+    ]
+}

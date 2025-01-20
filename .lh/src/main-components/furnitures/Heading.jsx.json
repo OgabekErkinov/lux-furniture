@@ -1,0 +1,118 @@
+{
+    "sourceFile": "src/main-components/furnitures/Heading.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1737353408154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737353413388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+const Heading = () => {\r\n+  return (\r\n+    <div>Heading</div>\r\n+  )\r\n+}\r\n+\r\n+export default Heading\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737353432645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,14 @@\n import React from 'react'\r\n \r\n const Heading = () => {\r\n   return (\r\n-    <div>Heading</div>\r\n+    <Box mb=\"1rem\">\r\n+          <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n+            {furnitures.heading}\r\n+          </Typography>\r\n+          <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n+        </Box>\r\n   )\r\n }\r\n \r\n export default Heading\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737353438107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import { Box } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Heading = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1737353444878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Heading = () => {\r\n   return (\r\n     <Box mb=\"1rem\">\r\n-          <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n+        <Typogra variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n           </Typography>\r\n           <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737353450587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n-import { Box } from '@mui/material'\r\n+import { Box, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n const Heading = () => {\r\n   return (\r\n     <Box mb=\"1rem\">\r\n-        <Typogra variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n-          </Typography>\r\n+        </Typography>\r\n           <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n         </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737353456174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <Box mb=\"1rem\">\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n-          <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n-        </Box>\r\n+        <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n+    </Box>\r\n   )\r\n }\r\n \r\n export default Heading\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737353464648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Box, Typography } from '@mui/material'\r\n import React from 'react'\r\n \r\n-const Heading = () => {\r\n+const Heading = ({}) => {\r\n   return (\r\n     <Box mb=\"1rem\">\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n"
+                },
+                {
+                    "date": 1737353471923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n import { Box, Typography } from '@mui/material'\r\n-import React from 'react'\r\n \r\n-const Heading = ({}) => {\r\n+const Heading = ({furnitures}) => {\r\n   return (\r\n     <Box mb=\"1rem\">\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n"
+                },
+                {
+                    "date": 1737353959632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Typography } from '@mui/material'\r\n \r\n const Heading = ({furnitures}) => {\r\n   return (\r\n-    <Box mb=\"1rem\">\r\n+    <Box mb=\"1rem\" width='100%'>\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n"
+                },
+                {
+                    "date": 1737353971590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const Heading = ({furnitures}) => {\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width='50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={'50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737353982343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import { Box, Typography } from '@mui/material'\r\n+import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Heading = ({furnitures}) => {\r\n+    const {} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={'50%'>\r\n             {furnitures.heading}\r\n"
+                },
+                {
+                    "date": 1737353995706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Typography } from '@mui/material'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Heading = ({furnitures}) => {\r\n-    const {} = useScreenSizes()\r\n+    const {smScreen, md} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={'50%'>\r\n             {furnitures.heading}\r\n"
+                },
+                {
+                    "date": 1737354001660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import { Box, Typography } from '@mui/material'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Heading = ({furnitures}) => {\r\n-    const {smScreen, md} = useScreenSizes()\r\n+    const {smScreen, mdScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={'50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={sm'50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354008023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={sm'50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||m'50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354013329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||m'50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354019123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%''50%'>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354024461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%''50%'>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354049706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Box, Typography } from '@mui/material'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n const Heading = ({furnitures}) => {\r\n-    const {smScreen, mdScreen} = useScreenSizes()\r\n+    const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n         <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : '50%'}>\r\n             {furnitures.heading}\r\n"
+                },
+                {
+                    "date": 1737354055366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : '50%'}>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : lgScreen '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354061601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : lgScreen '50%'}>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354151678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' '50%'}>\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' \r\n+                    width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737354158696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' \r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={}\r\n                     width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n"
+                },
+                {
+                    "date": 1737354164754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={}\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={smScreen ? ''}\r\n                     width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n"
+                },
+                {
+                    "date": 1737354171328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={smScreen ? '18px' : }\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={smScreen ? '18px' : m}\r\n                     width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n"
+                },
+                {
+                    "date": 1737354180507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Heading = ({furnitures}) => {\r\n     const {smScreen, mdScreen, lgScreen} = useScreenSizes()\r\n   return (\r\n     <Box mb=\"1rem\" width='100%'>\r\n-        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={smScreen ? '18px' : mdScreen ? '22px' : ''}\r\n+        <Typography variant=\"h4\" fontWeight=\"700\" color='#000000' fontSize={smScreen ? '18px' : mdScreen ? '22px' : '2'}\r\n                     width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>\r\n             {furnitures.heading}\r\n         </Typography>\r\n         <Typography color=\"textSecondary\" my='1rem'>{furnitures.helperText}</Typography>\r\n"
+                }
+            ],
+            "date": 1737353408154,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

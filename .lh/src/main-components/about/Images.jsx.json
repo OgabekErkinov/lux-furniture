@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/main-components/about/Images.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1737356639113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737356647807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='90%' display='grid' gap='0.5rem' my='1rem'\r\n+    <Box height='100%' width='90%' mx display='grid' gap='0.5rem' my='1rem'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356663090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='90%' mx display='grid' gap='0.5rem' my='1rem'\r\n+    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356674081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem'\r\n+    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem' jc\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356683332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem' jc\r\n+    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem' justifyContent='spac'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356693019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem' justifyContent='spac'\r\n+    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356708892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='80%' mx='auto' display='grid' gap='0.5rem' my='1rem'\r\n+    <Box height='100%' width='80%' mx='auto' display='grid' my='1rem'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356728244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n-                         height = '22rem' width = '100%' key={idx} borderRadius='12px'/>\r\n+                         height = '22rem' width = '90%' key={idx} borderRadius='12px'/>\r\n                 )\r\n             })\r\n          }\r\n \r\n"
+                },
+                {
+                    "date": 1737356747709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='80%' mx='auto' display='grid' my='1rem'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n+    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 5rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356754192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 5rem)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 10rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356760175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 10rem)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 30rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356766556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 30rem)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 35rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356772043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 35rem)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 40rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356786088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem'\r\n+    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' jus\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 40rem)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356802944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' jus\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 40rem)'}>\r\n+    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='center'\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 45%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356811887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='center'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 45%)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 48%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356825104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='center'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 48%)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 50%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356835454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n-                         height = '22rem' width = '90%' key={idx} borderRadius='12px'/>\r\n+                         height = '22rem' width = '100%' key={idx} borderRadius='12px'/>\r\n                 )\r\n             })\r\n          }\r\n \r\n"
+                },
+                {
+                    "date": 1737356842177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='center'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 50%)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 45%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356851776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='center'\r\n+    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='space-between'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 45%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                },
+                {
+                    "date": 1737356859323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     })\r\n \r\n   return (\r\n     <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='space-between'\r\n-         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 45%)'}>\r\n+         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 48%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n"
+                },
+                {
+                    "date": 1737356871911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         return () => Aos.refreshHard()\r\n     })\r\n \r\n   return (\r\n-    <Box height='100%' width='100%' mx='auto' display='grid' my='1rem' justifyContent='space-between'\r\n+    <Box height='100%' width='96%' mx='auto' display='grid' my='1rem' justifyContent='space-between'\r\n          gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 48%)'}>\r\n          {\r\n             images.map((image, idx) => {\r\n                 return (\r\n"
+                }
+            ],
+            "date": 1737356639113,
+            "name": "Commit-0",
+            "content": "import { Box } from '@mui/material'\r\nimport React, { useEffect } from 'react'\r\nimport useScreenSizes from '../../hooks/ScreenSizes'\r\nimport Aos from 'aos'\r\n\r\nconst Images = () => {\r\n    const {smScreen, mdScreen} = useScreenSizes()\r\n    const images = [\"/about/about3.png\", \"/about/about4.png\"]\r\n\r\n    useEffect(() => {\r\n        Aos.init({\r\n            duration : 1000\r\n        })\r\n\r\n        return () => Aos.refreshHard()\r\n    })\r\n\r\n  return (\r\n    <Box height='100%' width='90%' display='grid' gap='0.5rem' my='1rem'\r\n         gridTemplateColumns={(smScreen||mdScreen) ? '1fr' : 'repeat(2, 1fr)'}>\r\n         {\r\n            images.map((image, idx) => {\r\n                return (\r\n                    <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} \r\n                         height = '22rem' width = '100%' key={idx} borderRadius='12px'/>\r\n                )\r\n            })\r\n         }\r\n\r\n    </Box>\r\n  )\r\n}\r\n\r\nexport default Images\r\n"
+        }
+    ]
+}

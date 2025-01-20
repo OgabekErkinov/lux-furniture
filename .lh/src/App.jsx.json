@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 33,
+            "activePatchIndex": 40,
             "patches": [
                 {
                     "date": 1736923885637,
@@ -140,6 +140,34 @@
                 {
                     "date": 1737175947900,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       <Contact/>\r\n       <Navbar isNavbar={xlgScreen}/>\r\n       <Home/>\r\n       <Category/>\r\n-      {/* <Catalog/> */}\r\n+      <Catalog/>\r\n     </Stack>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1737352152033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +1,46 @@\n-import { Stack } from \"@mui/material\"\r\n+import { Box, createTheme, Stack, ThemeProvider } from \"@mui/material\"\r\n import useScreenSizes from \"./hooks/ScreenSizes\"\r\n+\r\n+import '@fontsource/playfair-display/400-italic.css';\r\n+import '@fontsource/playfair-display/900.css';\r\n import Contact from \"./main-components/contact/Contact\"\r\n import Navbar from \"./main-components/navbar/Navbar\"\r\n import Home from \"./main-components/home/Home\"\r\n import Category from \"./main-components/category/Category\"\r\n import Catalog from \"./main-components/catalog/Catalog\"\r\n+import About from \"./main-components/about/About\"\r\n+import Furnitures from \"./main-components/furnitures/Furnitures\"\r\n+import Collection from \"./main-components/collection/Collection\"\r\n+import DownloadSection from \"./main-components/downloadSection/DownloadSection\"\r\n+import Offers from \"./main-components/home/Offers\";\r\n \r\n \r\n function App() {\r\n-  const {xlgScreen} = useScreenSizes()\r\n+  const theme = createTheme({\r\n+    typography : {\r\n+      fontFamily : \"Playfair Display, serif\"\r\n+    }\r\n+  })\r\n+  const {lgScreen, xlgScreen} = useScreenSizes()\r\n \r\n   return (\r\n-    <Stack height='auto' width='96%' alignItems='center'>\r\n-      <Contact/>\r\n-      <Navbar isNavbar={xlgScreen}/>\r\n-      <Home/>\r\n-      <Category/>\r\n-      <Catalog/>\r\n-    </Stack>\r\n+     <ThemeProvider theme={theme}>\r\n+        <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n+            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n+            {/* <Contact/> */}\r\n+            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n+            {/* <Home/> */}\r\n+            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n+            {/* <Category/> */}\r\n+            {/* <Catalog/> */}\r\n+            {/* <About/> */}\r\n+            <Furnitures/>\r\n+            {/* <Collection/> */}\r\n+            {/* <DownloadSection/> */}\r\n+       </Stack>\r\n+    </ThemeProvider>\r\n+    \r\n   )\r\n }\r\n \r\n export default App\r\n"
+                },
+                {
+                    "date": 1737352159388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Box, createTheme, Stack, ThemeProvider } from \"@mui/material\"\r\n import useScreenSizes from \"./hooks/ScreenSizes\"\r\n-\r\n+import '@fontsource/playfair-display';\r\n import '@fontsource/playfair-display/400-italic.css';\r\n import '@fontsource/playfair-display/900.css';\r\n import Contact from \"./main-components/contact/Contact\"\r\n import Navbar from \"./main-components/navbar/Navbar\"\r\n"
+                },
+                {
+                    "date": 1737354611618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n+            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             {/* <Contact/> */}\r\n             {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n"
+                },
+                {
+                    "date": 1737354616810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            {/* <Contact/> */}\r\n-            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n+            <Contact/>\r\n+            <Navbar isNavbar={xlgScreen}/>\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             {/* <Catalog/> */}\r\n"
+                },
+                {
+                    "date": 1737354622652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n-            {/* <Home/> */}\r\n-            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n+            <Home/>\r\n+            {(xlgScreen||lgScreen) && <Offers/>}\r\n             {/* <Category/> */}\r\n             {/* <Catalog/> */}\r\n             {/* <About/> */}\r\n             <Furnitures/>\r\n"
+                },
+                {
+                    "date": 1737354629226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,11 +30,11 @@\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n-            {/* <Category/> */}\r\n-            {/* <Catalog/> */}\r\n-            {/* <About/> */}\r\n+            <Category/>\r\n+            <Catalog/>\r\n+            <About/>\r\n             <Furnitures/>\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n"
+                },
+                {
+                    "date": 1737354637063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n-            {/* <Collection/> */}\r\n+            <Collection/>\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n     </ThemeProvider>\r\n     \r\n"
                 }
             ],
             "date": 1736923885637,
