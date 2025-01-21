@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 40,
+            "activePatchIndex": 62,
             "patches": [
                 {
                     "date": 1736923885637,
@@ -168,6 +168,94 @@
                 {
                     "date": 1737354637063,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n-            {/* <Collection/> */}\r\n+            <Collection/>\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n     </ThemeProvider>\r\n     \r\n"
+                },
+                {
+                    "date": 1737363814229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,18 +25,18 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n+            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n-            <Collection/>\r\n+            {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n     </ThemeProvider>\r\n     \r\n"
+                },
+                {
+                    "date": 1737363820021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n-            <Contact/>\r\n-            <Navbar isNavbar={xlgScreen}/>\r\n+            {/* <Contact/> */}\r\n+            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n             <Category/>\r\n             <Catalog/>\r\n"
+                },
+                {
+                    "date": 1737363825398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n             {/* <Contact/> */}\r\n             {/* <Navbar isNavbar={xlgScreen}/> */}\r\n-            <Home/>\r\n-            {(xlgScreen||lgScreen) && <Offers/>}\r\n+            {/* <Home/> */}\r\n+            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n"
+                },
+                {
+                    "date": 1737363831138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n             {/* <Contact/> */}\r\n             {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n-            <Category/>\r\n-            <Catalog/>\r\n+            {/* <Category/> */}\r\n+            {/* <Catalog/> */}\r\n             <About/>\r\n             <Furnitures/>\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n"
+                },
+                {
+                    "date": 1737363894747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,15 +25,15 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n-            {/* <Contact/> */}\r\n-            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n-            {/* <Home/> */}\r\n-            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n-            {/* <Category/> */}\r\n-            {/* <Catalog/> */}\r\n+            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n+            <Contact/>\r\n+            <Navbar isNavbar={xlgScreen}/>\r\n+            <Home/>\r\n+            {(xlgScreen||lgScreen) && <Offers/>}\r\n+            <Category/>\r\n+            <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n"
+                },
+                {
+                    "date": 1737363948097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n+            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n"
+                },
+                {
+                    "date": 1737363954596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,12 +26,12 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n-            <Contact/>\r\n-            <Navbar isNavbar={xlgScreen}/>\r\n-            <Home/>\r\n-            {(xlgScreen||lgScreen) && <Offers/>}\r\n+            {/* <Contact/> */}\r\n+            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n+            {/* <Home/> */}\r\n+            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n"
+                },
+                {
+                    "date": 1737439043758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,15 +25,15 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n+            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             {/* <Contact/> */}\r\n             {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n-            <Category/>\r\n-            <Catalog/>\r\n+            {/* <Category/> */}\r\n+            {/* <Catalog/> */}\r\n             <About/>\r\n             <Furnitures/>\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n"
+                },
+                {
+                    "date": 1737439049175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            {/* <Contact/> */}\r\n-            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n+            <Contact/>\r\n+            <Navbar isNavbar={xlgScreen}/>\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             {/* <Catalog/> */}\r\n"
+                },
+                {
+                    "date": 1737439054366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n-            {/* <Home/> */}\r\n-            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n+            <Home/>\r\n+            {(xlgScreen||lgScreen) && <Offers/>}\r\n             {/* <Category/> */}\r\n             {/* <Catalog/> */}\r\n             <About/>\r\n             <Furnitures/>\r\n"
+                },
+                {
+                    "date": 1737439059668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n-            {/* <Category/> */}\r\n-            {/* <Catalog/> */}\r\n+            <Category/>\r\n+            <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n"
+                },
+                {
+                    "date": 1737439065227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n             <Furnitures/>\r\n-            {/* <Collection/> */}\r\n-            {/* <DownloadSection/> */}\r\n+            <Collection/>\r\n+            <DownloadSection/>\r\n        </Stack>\r\n     </ThemeProvider>\r\n     \r\n   )\r\n"
+                },
+                {
+                    "date": 1737439110348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,11 +33,11 @@\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n-            <Furnitures/>\r\n-            <Collection/>\r\n-            <DownloadSection/>\r\n+            {/* <Furnitures/> */}\r\n+            {/* <Collection/> */}\r\n+            {/* <DownloadSection/> */}\r\n        </Stack>\r\n     </ThemeProvider>\r\n     \r\n   )\r\n"
+                },
+                {
+                    "date": 1737439122007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,11 +30,11 @@\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n-            <Category/>\r\n+            {/* <Category/> */}\r\n             <Catalog/>\r\n-            <About/>\r\n+            {/* <About/> */}\r\n             {/* <Furnitures/> */}\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n"
+                },
+                {
+                    "date": 1737439127228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n-            <Home/>\r\n-            {(xlgScreen||lgScreen) && <Offers/>}\r\n+            {/* <Home/> */}\r\n+            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             <Catalog/>\r\n             {/* <About/> */}\r\n             {/* <Furnitures/> */}\r\n"
+                },
+                {
+                    "date": 1737439134295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            <Contact/>\r\n-            <Navbar isNavbar={xlgScreen}/>\r\n+            {/* <Contact/> */}\r\n+            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             <Catalog/>\r\n"
+                },
+                {
+                    "date": 1737439163571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,11 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            {/* <Contact/> */}\r\n-            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n-            {/* <Home/> */}\r\n+            <Contact/>\r\n+            <Navbar isNavbar={xlgScreen}/>\r\n+            <Home/>\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             <Catalog/>\r\n             {/* <About/> */}\r\n"
+                },
+                {
+                    "date": 1737439174898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,12 +25,12 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            <Contact/>\r\n-            <Navbar isNavbar={xlgScreen}/>\r\n-            <Home/>\r\n+            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n+            {/* <Contact/> */}\r\n+            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n+            {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             <Catalog/>\r\n             {/* <About/> */}\r\n"
+                },
+                {
+                    "date": 1737440792901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box> */}\r\n+            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             {/* <Contact/> */}\r\n             {/* <Navbar isNavbar={xlgScreen}/> */}\r\n             {/* <Home/> */}\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n"
+                },
+                {
+                    "date": 1737440800182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,11 @@\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n-            {/* <Contact/> */}\r\n-            {/* <Navbar isNavbar={xlgScreen}/> */}\r\n-            {/* <Home/> */}\r\n+            <Contact/>\r\n+            <Navbar isNavbar={xlgScreen}/>\r\n+            <Home/>\r\n             {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n             {/* <Category/> */}\r\n             <Catalog/>\r\n             {/* <About/> */}\r\n"
+                },
+                {
+                    "date": 1737440807291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,12 @@\n             <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n-            {/* {(xlgScreen||lgScreen) && <Offers/>} */}\r\n-            {/* <Category/> */}\r\n+            {(xlgScreen||lgScreen) && <Offers/>}\r\n+            <Category/>\r\n             <Catalog/>\r\n-            {/* <About/> */}\r\n+            <About/>\r\n             {/* <Furnitures/> */}\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n"
+                },
+                {
+                    "date": 1737441353983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,17 +25,17 @@\n \r\n   return (\r\n      <ThemeProvider theme={theme}>\r\n         <Stack height='auto' width='100%' alignItems='center' px='1rem' spacing={2} gap='2rem'>\r\n-            <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n+            {/* <Box height={xlgScreen ? '10rem' : '40vh'} width='100%'></Box>\r\n             <Contact/>\r\n             <Navbar isNavbar={xlgScreen}/>\r\n             <Home/>\r\n             {(xlgScreen||lgScreen) && <Offers/>}\r\n             <Category/>\r\n             <Catalog/>\r\n             <About/>\r\n-            {/* <Furnitures/> */}\r\n+            <Furnitures/> */}\r\n             {/* <Collection/> */}\r\n             {/* <DownloadSection/> */}\r\n        </Stack>\r\n     </ThemeProvider>\r\n"
                 }
             ],
             "date": 1736923885637,

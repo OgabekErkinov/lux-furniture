@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 auto;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  max-width: 1860px;
+  min-width: 300px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}

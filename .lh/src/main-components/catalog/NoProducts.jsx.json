@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main-components/catalog/NoProducts.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1737440625595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737440633536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const NoProducts = () => {\r\n     const {t} = useTranslation()\r\n   return (\r\n-    <Box height='10rem' width='100%' border='1px solid grey' display='flex'alignItems='center'>\r\n+    <Box height='15rem' width='100%' border='1px solid grey' display='flex'alignItems='center'>\r\n         <Typography width='100%' textAlign='center' color='#000000'>\r\n             {t('catalogSection.anyProduct')}\r\n         </Typography>\r\n     </Box>\r\n"
+                }
+            ],
+            "date": 1737440625595,
+            "name": "Commit-0",
+            "content": "import { Box, Typography } from '@mui/material'\r\nimport React from 'react'\r\nimport { useTranslation } from 'react-i18next'\r\n\r\nconst NoProducts = () => {\r\n    const {t} = useTranslation()\r\n  return (\r\n    <Box height='10rem' width='100%' border='1px solid grey' display='flex'alignItems='center'>\r\n        <Typography width='100%' textAlign='center' color='#000000'>\r\n            {t('catalogSection.anyProduct')}\r\n        </Typography>\r\n    </Box>\r\n  )\r\n}\r\n\r\nexport default NoProducts\r\n"
+        }
+    ]
+}

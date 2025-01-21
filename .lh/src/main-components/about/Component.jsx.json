@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/main-components/about/Component.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1737437514885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1737437514885,
+            "name": "Commit-0",
+            "content": "import { Box, Stack, Typography } from '@mui/material'\r\nimport Aos from 'aos'\r\nimport React, { useEffect } from 'react'\r\n\r\nconst Component = ({component, idx}) => {\r\n\r\n        useEffect(()=>{\r\n            Aos.init({\r\n                duration : 1000\r\n            })\r\n    \r\n            return () => Aos.refreshHard()\r\n        })\r\n\r\n     return (\r\n       <Box data-aos = 'fade-up' data-aos-delay = {idx*100}\r\n            width='100%' height='20rem'  bgcolor='#DFECBC' overflow='hidden'\r\n            color = {!component.image? '#000000' : '#FFFFFF'} borderRadius='8px' key={idx}\r\n            sx={{\r\n            backgroundImage : `url(${component.image})`,\r\n            backgroundSize : 'cover' }}>\r\n\r\n           {/* ..................................................................... */}\r\n           <Stack height = '100%' justifyContent='center' alignItems='center' p='1rem' \r\n                  bgcolor='rgba(37, 37, 37, 0.23)' >\r\n                  <Box height='70%' width='100%' pl='1rem' display='flex' justifyContent='flex-start' alignItems='flex-start'>\r\n                      <Typography  fontSize='52px'>{component.result}</Typography>\r\n                  </Box>\r\n                  <Box width='100%' height='20%'>\r\n                     <Typography fontSize='22px'>{component.type}</Typography>\r\n                  </Box>\r\n           </Stack>\r\n           {/* ....................................................................... */}\r\n\r\n        </Box>\r\n  )\r\n}\r\n\r\nexport default Component\r\n"
+        }
+    ]
+}

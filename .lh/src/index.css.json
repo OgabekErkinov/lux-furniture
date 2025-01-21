@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1736934374200,
@@ -16,6 +16,14 @@
                 {
                     "date": 1736934395035,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 1940px;\r\n+  max-width: 1900px;\r\n   height: 100%;\r\n   margin: 0 auto;\r\n   padding: 0 8px;\r\n   scroll-behavior: smooth;\r\n"
+                },
+                {
+                    "date": 1737363862783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n :root {\r\n-  font-family: Arial, Helvetica, sans-serif;\r\n+  font-family: 'Playfair Display', serif;\r\n   line-height: 1.5;\r\n   font-weight: 400;\r\n+  margin: 0 auto;\r\n \r\n   color-scheme: light dark;\r\n   color: rgba(255, 255, 255, 0.87);\r\n   background-color: #FFFFFF;\r\n@@ -19,10 +20,11 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 1900px;\r\n+  max-width: 1px;\r\n+  min-width: 300px;\r\n   height: 100%;\r\n+  width: 100%;\r\n   margin: 0 auto;\r\n-  padding: 0 8px;\r\n   scroll-behavior: smooth;\r\n }\r\n"
+                },
+                {
+                    "date": 1737363879145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 1px;\r\n+  max-width: 1800px;\r\n   min-width: 300px;\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0 auto;\r\n"
                 }
             ],
             "date": 1736934374200,
