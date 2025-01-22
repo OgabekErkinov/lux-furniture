@@ -1,0 +1,166 @@
+{
+    "sourceFile": "src/main-components/givingQuestion/GiveQuestion.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 37,
+            "patches": [
+                {
+                    "date": 1737517557225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737517572104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,16 @@\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n-        <Stack height='auto' width='%' alignItems='flex-start' gap='1rem'>\r\n+        <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n             <Box height='auto' width='100%'>\r\n                 <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n                 </Typography>\r\n             </Box>\r\n+            \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n                <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n                     {t('givingQuestion.buttonText')}\r\n"
+                },
+                {
+                    "date": 1737517578116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,15 +9,16 @@\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n+          \r\n             <Box height='auto' width='100%'>\r\n                 <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n                 </Typography>\r\n             </Box>\r\n-            \r\n+\r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n                <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n                     {t('givingQuestion.buttonText')}\r\n"
+                },
+                {
+                    "date": 1737517587687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n-          \r\n+          {/* ............................................................ */}\r\n             <Box height='auto' width='100%'>\r\n                 <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n"
+                },
+                {
+                    "date": 1737517593865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n-          {/* ............................................................ */}\r\n+      {/* ............................................................... */}\r\n             <Box height='auto' width='100%'>\r\n                 <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n"
+                },
+                {
+                    "date": 1737517602921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,15 +9,16 @@\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n-      {/* ............................................................... */}\r\n+      {/* ................................................................... */}\r\n             <Box height='auto' width='100%'>\r\n                 <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n                 </Typography>\r\n             </Box>\r\n+      \r\n \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n                <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n"
+                },
+                {
+                    "date": 1737517610184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                             fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                     {t('givingQuestion.giveQuestion')}\r\n                 </Typography>\r\n             </Box>\r\n-      \r\n+      {/* .................................................................... */}\r\n \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n                <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n"
+                },
+                {
+                    "date": 1737522825778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React, { useState } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n-const GiveQuestion = () => {\r\n+const GiveQuestion = ({}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n"
+                },
+                {
+                    "date": 1737522831674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React, { useState } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n-const GiveQuestion = ({}) => {\r\n+const GiveQuestion = ({root}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n@@ -28,8 +28,11 @@\n             </Box>\r\n             \r\n \r\n         </Stack>\r\n+        {\r\n+          \r\n+        }\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737522838019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n             \r\n \r\n         </Stack>\r\n         {\r\n-          \r\n+          isModa\r\n         }\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737522844992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n             \r\n \r\n         </Stack>\r\n         {\r\n-          isModa\r\n+          isModal && <Porta\r\n         }\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737522850712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Button, Stack, Typography } from '@mui/material'\r\n+import { Box, Button, Portal, Stack, Typography } from '@mui/material'\r\n import React, { useState } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n \r\n@@ -29,9 +29,11 @@\n             \r\n \r\n         </Stack>\r\n         {\r\n-          isModal && <Porta\r\n+          isModal && <Portal>\r\n+            \r\n+          </Portal>\r\n         }\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737522857921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n             \r\n \r\n         </Stack>\r\n         {\r\n-          isModal && <Portal>\r\n-            \r\n-          </Portal>\r\n+          isModal && <Portal co>\r\n+\r\n+                     </Portal>\r\n         }\r\n \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737522863210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n             \r\n \r\n         </Stack>\r\n         {\r\n-          isModal && <Portal co>\r\n+          isModal && <Portal container={root}>\r\n \r\n                      </Portal>\r\n         }\r\n \r\n"
+                },
+                {
+                    "date": 1737522868760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \r\n         </Stack>\r\n         {\r\n           isModal && <Portal container={root}>\r\n-\r\n+                           <\r\n                      </Portal>\r\n         }\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737522875540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import { Box, Button, Portal, Stack, Typography } from '@mui/material'\r\n import React, { useState } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n+import GiveQuestionModal from '../modals/GiveQuestionModal'\r\n \r\n const GiveQuestion = ({root}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n@@ -30,9 +31,9 @@\n \r\n         </Stack>\r\n         {\r\n           isModal && <Portal container={root}>\r\n-                           <\r\n+                           <GiveQuestionModal/>>\r\n                      </Portal>\r\n         }\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737522881640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n \r\n         </Stack>\r\n         {\r\n           isModal && <Portal container={root}>\r\n-                           <GiveQuestionModal/>>\r\n+                           <GiveQuestionModal clo/>\r\n                      </Portal>\r\n         }\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737522886901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n \r\n         </Stack>\r\n         {\r\n           isModal && <Portal container={root}>\r\n-                           <GiveQuestionModal clo/>\r\n+                           <GiveQuestionModal closeModal={setIsModal}/>\r\n                      </Portal>\r\n         }\r\n \r\n     </Box>\r\n"
+                },
+                {
+                    "date": 1737523555879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import GiveQuestionModal from '../modals/GiveQuestionModal'\r\n \r\n-const GiveQuestion = ({root}) => {\r\n+const GiveQuestion = ({toggle}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n"
+                },
+                {
+                    "date": 1737523582487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import GiveQuestionModal from '../modals/GiveQuestionModal'\r\n \r\n-const GiveQuestion = ({toggle}) => {\r\n+const GiveQuestion = ({toggleModal}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const [isModal, setIsModal] = useState(false)\r\n   return (\r\n@@ -20,9 +20,9 @@\n             </Box>\r\n       {/* .................................................................... */}\r\n \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n-               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n+               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModa}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n                     {t('givingQuestion.buttonText')}\r\n                   </Typography>\r\n                </Button>\r\n"
+                },
+                {
+                    "date": 1737523653717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n             </Box>\r\n       {/* .................................................................... */}\r\n \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n-               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModa}>\r\n+               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModal()}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n                     {t('givingQuestion.buttonText')}\r\n                   </Typography>\r\n                </Button>\r\n"
+                },
+                {
+                    "date": 1737523675036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,13 +29,8 @@\n             </Box>\r\n             \r\n \r\n         </Stack>\r\n-        {\r\n-          isModal && <Portal container={root}>\r\n-                           <GiveQuestionModal closeModal={setIsModal}/>\r\n-                     </Portal>\r\n-        }\r\n \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737523680200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n \r\n const GiveQuestion = ({toggleModal}) => {\r\n     const {t} = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n-    const [isModal, setIsModal] = useState(false)\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n       {/* ................................................................... */}\r\n"
+                },
+                {
+                    "date": 1737523711847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import GiveQuestionModal from '../modals/GiveQuestionModal'\r\n \r\n const GiveQuestion = ({toggleModal}) => {\r\n     const {t} = useTranslation()\r\n-    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n+    const { mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n     <Box height='auto' width='100%'>\r\n         <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n       {/* ................................................................... */}\r\n@@ -19,9 +19,9 @@\n             </Box>\r\n       {/* .................................................................... */}\r\n \r\n             <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n-               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModal()}>\r\n+               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModal}>\r\n                   <Typography fontSize='18px' color='#ffffff'>\r\n                     {t('givingQuestion.buttonText')}\r\n                   </Typography>\r\n                </Button>\r\n"
+                },
+                {
+                    "date": 1737524078197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,37 +1,39 @@\n-import { Box, Button, Portal, Stack, Typography } from '@mui/material'\r\n-import React, { useState } from 'react'\r\n-import { useTranslation } from 'react-i18next'\r\n-import useScreenSizes from '../../hooks/ScreenSizes'\r\n-import GiveQuestionModal from '../modals/GiveQuestionModal'\r\n+import { Box, Button, Stack, Typography } from '@mui/material';\r\n+import React from 'react';\r\n+import { useTranslation } from 'react-i18next';\r\n+import useScreenSizes from '../../hooks/ScreenSizes';\r\n \r\n-const GiveQuestion = ({toggleModal}) => {\r\n-    const {t} = useTranslation()\r\n-    const { mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n+const GiveQuestion = ({ toggleModal }) => {\r\n+  const { t } = useTranslation();\r\n+  const { mdScreen, lgScreen, xlgScreen } = useScreenSizes();\r\n+\r\n   return (\r\n-    <Box height='auto' width='100%'>\r\n-        <Stack height='auto' width='auto' alignItems='flex-start' gap='1rem'>\r\n-      {/* ................................................................... */}\r\n-            <Box height='auto' width='100%'>\r\n-                <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n-                            fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n-                    {t('givingQuestion.giveQuestion')}\r\n-                </Typography>\r\n-            </Box>\r\n-      {/* .................................................................... */}\r\n+    <Box height=\"auto\" width=\"100%\">\r\n+      <Stack height=\"auto\" width=\"auto\" alignItems=\"flex-start\" gap=\"1rem\">\r\n+        {/* Title */}\r\n+        <Box height=\"auto\" width=\"100%\">\r\n+          <Typography\r\n+            fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n+            fontWeight=\"600\"\r\n+            color=\"#000000\"\r\n+            width=\"100%\"\r\n+            textAlign=\"left\"\r\n+          >\r\n+            {t('givingQuestion.giveQuestion')}\r\n+          </Typography>\r\n+        </Box>\r\n \r\n-            <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n-               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> toggleModal}>\r\n-                  <Typography fontSize='18px' color='#ffffff'>\r\n-                    {t('givingQuestion.buttonText')}\r\n-                  </Typography>\r\n-               </Button>\r\n-            </Box>\r\n-            \r\n-\r\n-        </Stack>\r\n-\r\n+        {/* Button to open modal */}\r\n+        <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggleModal}>\r\n+            <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n+              {t('givingQuestion.buttonText')}\r\n+            </Typography>\r\n+          </Button>\r\n+        </Box>\r\n+      </Stack>\r\n     </Box>\r\n-  )\r\n-}\r\n+  );\r\n+};\r\n \r\n-export default GiveQuestion\r\n+export default GiveQuestion;\r\n"
+                },
+                {
+                    "date": 1737524234429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n             {t('givingQuestion.giveQuestion')}\r\n           </Typography>\r\n         </Box>\r\n \r\n-        {/* Button to open modal */}\r\n+        \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n           <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggleModal}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n"
+                },
+                {
+                    "date": 1737524264381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,9 @@\n     <Box height=\"auto\" width=\"100%\">\r\n       <Stack height=\"auto\" width=\"auto\" alignItems=\"flex-start\" gap=\"1rem\">\r\n         {/* Title */}\r\n         <Box height=\"auto\" width=\"100%\">\r\n-          <Typography\r\n-            fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n+          <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n             fontWeight=\"600\"\r\n             color=\"#000000\"\r\n             width=\"100%\"\r\n             textAlign=\"left\"\r\n"
+                },
+                {
+                    "date": 1737524269639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,9 @@\n       <Stack height=\"auto\" width=\"auto\" alignItems=\"flex-start\" gap=\"1rem\">\r\n         {/* Title */}\r\n         <Box height=\"auto\" width=\"100%\">\r\n           <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n-            fontWeight=\"600\"\r\n-            color=\"#000000\"\r\n+                      fontWeight=\"600\" color=\"#000000\"\r\n             width=\"100%\"\r\n             textAlign=\"left\"\r\n           >\r\n             {t('givingQuestion.giveQuestion')}\r\n"
+                },
+                {
+                    "date": 1737524275640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,9 @@\n       <Stack height=\"auto\" width=\"auto\" alignItems=\"flex-start\" gap=\"1rem\">\r\n         {/* Title */}\r\n         <Box height=\"auto\" width=\"100%\">\r\n           <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n-                      fontWeight=\"600\" color=\"#000000\"\r\n-            width=\"100%\"\r\n-            textAlign=\"left\"\r\n+                      fontWeight=\"600\" color=\"#000000\"  width=\"100%\" textAlign=\"left\"\r\n           >\r\n             {t('givingQuestion.giveQuestion')}\r\n           </Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737524524237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,17 +12,16 @@\n       <Stack height=\"auto\" width=\"auto\" alignItems=\"flex-start\" gap=\"1rem\">\r\n         {/* Title */}\r\n         <Box height=\"auto\" width=\"100%\">\r\n           <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n-                      fontWeight=\"600\" color=\"#000000\"  width=\"100%\" textAlign=\"left\"\r\n-          >\r\n+                      fontWeight=\"600\" color=\"#000000\"  width=\"100%\" textAlign=\"left\">\r\n             {t('givingQuestion.giveQuestion')}\r\n           </Typography>\r\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggleModal}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>toggleModal}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524530296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>toggleModal}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>toggleModal(false)}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524825509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>toggleModal(false)}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log('click')}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524835317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React from 'react';\r\n import { useTranslation } from 'react-i18next';\r\n import useScreenSizes from '../../hooks/ScreenSizes';\r\n \r\n-const GiveQuestion = ({ toggleModal }) => {\r\n+const GiveQuestion = ({ toggleModal, modal }) => {\r\n   const { t } = useTranslation();\r\n   const { mdScreen, lgScreen, xlgScreen } = useScreenSizes();\r\n \r\n   return (\r\n"
+                },
+                {
+                    "date": 1737524866521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log('click')}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log('')}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524894304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log('')}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={)}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524901341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={)}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggl}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737524910872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggl}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggleModal(true)}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                },
+                {
+                    "date": 1737525063963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         </Box>\r\n \r\n         \r\n         <Box height=\"60px\" width=\"240px\" bgcolor=\"#94C11F\" borderRadius=\"2px\">\r\n-          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log(modal)}>\r\n+          <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={()=>console.log()}>\r\n             <Typography fontSize=\"18px\" color=\"#ffffff\">\r\n               {t('givingQuestion.buttonText')}\r\n             </Typography>\r\n           </Button>\r\n"
+                }
+            ],
+            "date": 1737517557225,
+            "name": "Commit-0",
+            "content": "import { Box, Button, Stack, Typography } from '@mui/material'\r\nimport React, { useState } from 'react'\r\nimport { useTranslation } from 'react-i18next'\r\nimport useScreenSizes from '../../hooks/ScreenSizes'\r\n\r\nconst GiveQuestion = () => {\r\n    const {t} = useTranslation()\r\n    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n    const [isModal, setIsModal] = useState(false)\r\n  return (\r\n    <Box height='auto' width='100%'>\r\n        <Stack height='auto' width='%' alignItems='flex-start' gap='1rem'>\r\n            <Box height='auto' width='100%'>\r\n                <Typography fontSize={xlgScreen ? '40px' : lgScreen ? '36px' : mdScreen ? '28px' : '24px'}\r\n                            fontWeight='600' color='#000000' width='100%' textAlign='left'>\r\n                    {t('givingQuestion.giveQuestion')}\r\n                </Typography>\r\n            </Box>\r\n            <Box height='60px' width='240px' bgcolor='#94C11F' borderRadius='2px'>\r\n               <Button sx={{height : '100%', width : '100%', p : 'auto'}} onClick={()=> setIsModal(!isModal)}>\r\n                  <Typography fontSize='18px' color='#ffffff'>\r\n                    {t('givingQuestion.buttonText')}\r\n                  </Typography>\r\n               </Button>\r\n            </Box>\r\n            \r\n\r\n        </Stack>\r\n\r\n    </Box>\r\n  )\r\n}\r\n\r\nexport default GiveQuestion\r\n"
+        }
+    ]
+}

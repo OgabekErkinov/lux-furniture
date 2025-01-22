@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/main-components/home/LeftSection.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1737525879079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737525898329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,16 +14,16 @@\n           Aos.init({\r\n             duration : 1000\r\n           })\r\n         }, [])\r\n-        \r\n+\r\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n \r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n-            <Typography>{t('home.fromManufacturer')}</Typography>\r\n+            <Typography >{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n         <Box width='100%' display='flex' flexWrap='wrap'>\r\n             <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n"
+                },
+                {
+                    "date": 1737525905432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         justifyContent='flex-start' alignItems='center'>\r\n \r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n-            <Typography >{t('home.fromManufacturer')}</Typography>\r\n+            <Typography fontSize='18px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n         <Box width='100%' display='flex' flexWrap='wrap'>\r\n             <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n"
+                },
+                {
+                    "date": 1737525911512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         justifyContent='flex-start' alignItems='center'>\r\n \r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n-            <Typography fontSize='18px'>{t('home.fromManufacturer')}</Typography>\r\n+            <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n         <Box width='100%' display='flex' flexWrap='wrap'>\r\n             <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n"
+                },
+                {
+                    "date": 1737525978959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,30 +19,9 @@\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n \r\n-        <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n-            <Box width='10%' bgcolor='black' height='1px'></Box>\r\n-            <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n-        </Box>\r\n-\r\n-        <Box width='100%' display='flex' flexWrap='wrap'>\r\n-            <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n-                     <span style = {{color:'green',fontWeight :'500', fontSize :'48px'}}>\r\n-                        {t('home.furnitureForCustomer.first')}\r\n-                    </span>\r\n-                       {t('home.furnitureForCustomer.second')}    \r\n-            </Typography>\r\n-        </Box>\r\n-\r\n-        <Box width='100%'>\r\n-              <Typography fontSize='22px' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n-                {t('home.offer')}\r\n-              </Typography>\r\n-        </Box>\r\n-\r\n-        {/* ....download button ...................................................................... */}\r\n-        <DownloadButton/>\r\n+        \r\n            \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737525984685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n-\r\n         \r\n+        \r\n            \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737525990854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Typography } from '@mui/material'\r\n+import { Box, Stack, Typography } from '@mui/material'\r\n import React, { useEffect } from 'react'\r\n import { useTranslation } from 'react-i18next'\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import DownloadButton from './DownloadButton'\r\n@@ -19,9 +19,11 @@\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n         \r\n-        \r\n+        <Stack>\r\n+          \r\n+        </Stack>\r\n            \r\n     </Box>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737525999989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,31 @@\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n         \r\n-        <Stack>\r\n-          \r\n+        <Stack height='100%'>\r\n+        <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n+            <Box width='10%' bgcolor='black' height='1px'></Box>\r\n+            <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n+        </Box>\r\n+\r\n+        <Box width='100%' display='flex' flexWrap='wrap'>\r\n+            <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n+                     <span style = {{color:'green',fontWeight :'500', fontSize :'48px'}}>\r\n+                        {t('home.furnitureForCustomer.first')}\r\n+                    </span>\r\n+                       {t('home.furnitureForCustomer.second')}    \r\n+            </Typography>\r\n+        </Box>\r\n+\r\n+        <Box width='100%'>\r\n+              <Typography fontSize='22px' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+                {t('home.offer')}\r\n+              </Typography>\r\n+        </Box>\r\n+\r\n+        {/* ....download button ...................................................................... */}\r\n+        <DownloadButton/>\r\n         </Stack>\r\n            \r\n     </Box>\r\n   )\r\n"
+                },
+                {
+                    "date": 1737526005949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   return (\r\n     <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n         \r\n-        <Stack height='100%'>\r\n+        <Stack height='100%' width='100%'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526013463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n           })\r\n         }, [])\r\n \r\n   return (\r\n-    <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n+    <Box width='100%' height='100%' gap='1rem'\r\n         justifyContent='flex-start' alignItems='center'>\r\n         \r\n         <Stack height='100%' width='100%'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n"
+                },
+                {
+                    "date": 1737526026169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,12 +16,11 @@\n           })\r\n         }, [])\r\n \r\n   return (\r\n-    <Box width='100%' height='100%' gap='1rem'\r\n-        justifyContent='flex-start' alignItems='center'>\r\n+    <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%'>\r\n+        <Stack height='100%' width='100%'n >\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526034261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%'n >\r\n+        <Stack height='100%' width='100%' justifyContent='center'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526044356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%' justifyContent='center'>\r\n+        <Stack height='100%' width='100%' justifyContent='space-evenly'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526059668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%' justifyContent='space-evenly'>\r\n+        <Stack height='100%' width='100%' justifyContent=>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526068111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%' justifyContent=>\r\n+        <Stack height='100%' width='100%' justifyContent='center' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737526083871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n         <Box width='100%' display='flex' flexWrap='wrap'>\r\n-            <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n+            <Typography fontWeight='500' fontSize='48px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n                      <span style = {{color:'green',fontWeight :'500', fontSize :'48px'}}>\r\n                         {t('home.furnitureForCustomer.first')}\r\n                     </span>\r\n                        {t('home.furnitureForCustomer.second')}    \r\n"
+                },
+                {
+                    "date": 1737526518612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='100%' width='100%' justifyContent='center' gap='1rem'>\r\n+        <Stack height='36rem' width='100%' justifyContent='center' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737528056907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             </Typography>\r\n         </Box>\r\n \r\n         <Box width='100%'>\r\n-              <Typography fontSize='22px' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+              <Typography fontSize='22px'  data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                 {t('home.offer')}\r\n               </Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737528063400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             </Typography>\r\n         </Box>\r\n \r\n         <Box width='100%'>\r\n-              <Typography fontSize='22px'  data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+              <Typography fontSize='22px' lineHeight='1rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                 {t('home.offer')}\r\n               </Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737528072384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             </Typography>\r\n         </Box>\r\n \r\n         <Box width='100%'>\r\n-              <Typography fontSize='22px' lineHeight='1rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+              <Typography fontSize='22px' lineHeight='2rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                 {t('home.offer')}\r\n               </Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737528079678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             </Typography>\r\n         </Box>\r\n \r\n         <Box width='100%'>\r\n-              <Typography fontSize='22px' lineHeight='2rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+              <Typography fontSize='22px' lineHeight='3rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                 {t('home.offer')}\r\n               </Typography>\r\n         </Box>\r\n \r\n"
+                }
+            ],
+            "date": 1737525879079,
+            "name": "Commit-0",
+            "content": "import { Box, Typography } from '@mui/material'\r\nimport React, { useEffect } from 'react'\r\nimport { useTranslation } from 'react-i18next'\r\nimport useScreenSizes from '../../hooks/ScreenSizes'\r\nimport DownloadButton from './DownloadButton'\r\nimport Aos from 'aos'\r\nimport 'aos/dist/aos.css';\r\n\r\nconst LeftSection = () => {\r\n    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n    const {t} = useTranslation()\r\n\r\n     useEffect(() => {\r\n          Aos.init({\r\n            duration : 1000\r\n          })\r\n        }, [])\r\n        \r\n  return (\r\n    <Box width='100%' height='100%' display='grid' gridTemplateColumns='1fr' gap='1rem'\r\n        justifyContent='flex-start' alignItems='center'>\r\n\r\n        <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n            <Box width='10%' bgcolor='black' height='1px'></Box>\r\n            <Typography>{t('home.fromManufacturer')}</Typography>\r\n        </Box>\r\n\r\n        <Box width='100%' display='flex' flexWrap='wrap'>\r\n            <Typography fontWeight='500' fontSize='40px' data-aos = 'fade-right' data-aos-delay=\"200\">\r\n                     <span style = {{color:'green',fontWeight :'500', fontSize :'48px'}}>\r\n                        {t('home.furnitureForCustomer.first')}\r\n                    </span>\r\n                       {t('home.furnitureForCustomer.second')}    \r\n            </Typography>\r\n        </Box>\r\n\r\n        <Box width='100%'>\r\n              <Typography fontSize='22px' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                {t('home.offer')}\r\n              </Typography>\r\n        </Box>\r\n\r\n        {/* ....download button ...................................................................... */}\r\n        <DownloadButton/>\r\n           \r\n    </Box>\r\n  )\r\n}\r\n\r\nexport default LeftSection\r\n"
+        }
+    ]
+}

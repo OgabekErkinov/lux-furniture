@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 77,
+            "activePatchIndex": 86,
             "patches": [
                 {
                     "date": 1736843812244,
@@ -316,6 +316,42 @@
                 {
                     "date": 1736934578942,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n             <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n-                    {t(\"logoDescription\")}\r\n+            Production of premium-class woven furniture in Tashkent\r\n             </Typography>\r\n             </Stack>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1737525741132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,23 +1,26 @@\n import { Box, Stack, Typography } from '@mui/material'\r\n import { logoUrl } from \"../../constants/constantas\"\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import { useTranslation } from 'react-i18next'\r\n+import LazyLoading from '../../helper-components/loading/LazyLoading'\r\n \r\n \r\n const Logo = () => {\r\n     const { t } = useTranslation()\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const logoDescDisplay = xlgScreen ? 'block' : 'none'\r\n     const logoHeightSize = xlgScreen ? '6rem' : lgScreen ? '4rem' : '3rem'\r\n-    const logoWidthSize = xlgScreen ? '15rem' : lgScreen ? '12rem' : '9rem'\r\n+    const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n-            <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> \r\n+           {\r\n+            logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n+           } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n-            Production of premium-class woven furniture in Tashkent\r\n+               {t('logoDescription')}\r\n             </Typography>\r\n-            </Stack>\r\n+    </Stack>\r\n   )\r\n }\r\n \r\n export default Logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737525761761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n+            \r\n             logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n            } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n                {t('logoDescription')}\r\n"
+                },
+                {
+                    "date": 1737525766934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n-            \r\n+            <Link\r\n             logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n            } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n                {t('logoDescription')}\r\n"
+                },
+                {
+                    "date": 1737525775789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Stack, Typography } from '@mui/material'\r\n+import { Box, Link, Stack, Typography } from '@mui/material'\r\n import { logoUrl } from \"../../constants/constantas\"\r\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import { useTranslation } from 'react-i18next'\r\n import LazyLoading from '../../helper-components/loading/LazyLoading'\r\n@@ -13,10 +13,11 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n-            <Link\r\n-            logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n+            <Link>\r\n+            </Link>\r\n+            \r\n            } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n                {t('logoDescription')}\r\n             </Typography>\r\n"
+                },
+                {
+                    "date": 1737525782846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,10 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n-            <Link>\r\n+            <Link href>\r\n+               logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n             </Link>\r\n             \r\n            } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n"
+                },
+                {
+                    "date": 1737525794139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n-            <Link href>\r\n+            <Link href = '/' height='auto'>\r\n                logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n             </Link>\r\n             \r\n            } \r\n"
+                },
+                {
+                    "date": 1737525803142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n-            <Link href = '/' height='auto'>\r\n+            <Link href = '/' height='auto' width='auto'>\r\n                logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n             </Link>\r\n             \r\n            } \r\n"
+                },
+                {
+                    "date": 1737525817446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n            {\r\n             <Link href = '/' height='auto' width='auto'>\r\n+              {}\r\n                logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n             </Link>\r\n             \r\n            } \r\n"
+                },
+                {
+                    "date": 1737525827184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,15 +12,15 @@\n     const logoHeightSize = xlgScreen ? '6rem' : lgScreen ? '4rem' : '3rem'\r\n     const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '9rem'\r\n   return (\r\n     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>\r\n-           {\r\n+           \r\n             <Link href = '/' height='auto' width='auto'>\r\n-              {}\r\n+              {\r\n                logoUrl ? <Box component='img' src={logoUrl} height={logoHeightSize} width={logoWidthSize}/> : <LazyLoading/>\r\n+              }\r\n             </Link>\r\n             \r\n-           } \r\n             <Typography height='auto' width='7rem' display={logoDescDisplay} fontSize='12px'>\r\n                {t('logoDescription')}\r\n             </Typography>\r\n     </Stack>\r\n"
                 }
             ],
             "date": 1736843812244,

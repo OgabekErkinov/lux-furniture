@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/main-components/quality/QualitySection.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1737528754574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737528768256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const {t} = useTranslation()\r\n     const offers = t('qualitySection.offers', {returnObjects : true})\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' id = ''>\r\n+    <Box height='auto' width='100%' id = 'guaranties'>\r\n         <Stack height='auto' width='100%'>\r\n             <Heading/>\r\n             <Box height='auto' width='100%' display='grid' gap='0.2rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(6, 1fr)' : lgScreen ? 'repeat(3, 1fr)' : mdScreen ? 'repeat(2, 1fr)' : '1fr'}>\r\n"
+                },
+                {
+                    "date": 1737528774626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const {t} = useTranslation()\r\n     const offers = t('qualitySection.offers', {returnObjects : true})\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' id = 'guaranties'>\r\n+    <Box height='auto' width='100%' id = 'guarantiees'>\r\n         <Stack height='auto' width='100%'>\r\n             <Heading/>\r\n             <Box height='auto' width='100%' display='grid' gap='0.2rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(6, 1fr)' : lgScreen ? 'repeat(3, 1fr)' : mdScreen ? 'repeat(2, 1fr)' : '1fr'}>\r\n"
+                },
+                {
+                    "date": 1737528809996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const {t} = useTranslation()\r\n     const offers = t('qualitySection.offers', {returnObjects : true})\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n   return (\r\n-    <Box height='auto' width='100%' id = 'guarantiees'>\r\n+    <Box height='auto' width='100%' id = 'guarantees'>\r\n         <Stack height='auto' width='100%'>\r\n             <Heading/>\r\n             <Box height='auto' width='100%' display='grid' gap='0.2rem'\r\n                 gridTemplateColumns={xlgScreen ? 'repeat(6, 1fr)' : lgScreen ? 'repeat(3, 1fr)' : mdScreen ? 'repeat(2, 1fr)' : '1fr'}>\r\n"
+                }
+            ],
+            "date": 1737528754574,
+            "name": "Commit-0",
+            "content": "import { Box, Stack } from '@mui/material'\r\nimport React from 'react'\r\nimport Heading from './Heading'\r\nimport { useTranslation } from 'react-i18next'\r\nimport Component from './Component'\r\nimport useScreenSizes from '../../hooks/ScreenSizes'\r\n\r\nconst QualitySection = () => {\r\n    const {t} = useTranslation()\r\n    const offers = t('qualitySection.offers', {returnObjects : true})\r\n    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n  return (\r\n    <Box height='auto' width='100%' id = ''>\r\n        <Stack height='auto' width='100%'>\r\n            <Heading/>\r\n            <Box height='auto' width='100%' display='grid' gap='0.2rem'\r\n                gridTemplateColumns={xlgScreen ? 'repeat(6, 1fr)' : lgScreen ? 'repeat(3, 1fr)' : mdScreen ? 'repeat(2, 1fr)' : '1fr'}>\r\n            {\r\n              offers.map((item, idx) => {\r\n                return (\r\n                    <Component title={item?.title} image={item?.image} key={idx}/>\r\n                )\r\n              })\r\n            }\r\n            </Box>\r\n\r\n        </Stack>\r\n\r\n    </Box>\r\n  )\r\n}\r\n\r\nexport default QualitySection\r\n"
+        }
+    ]
+}

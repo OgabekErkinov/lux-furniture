@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 22,
+            "activePatchIndex": 23,
             "patches": [
                 {
                     "date": 1737439238694,
@@ -96,6 +96,10 @@
                 {
                     "date": 1737440277218,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,24 +6,23 @@\n \r\n const Products = ({products}) => {\r\n     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n     const {t} = useTranslation()\r\n-    const productsT = t(`catalogSection.catalogies.${products}`)\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         {\r\n-            productsT.length > 0 ? \r\n+            products.length > 0 ? \r\n             <Box height='100%' width='100%' display='grid' gap='0.5rem'\r\n-                 gridTemplateColumns={smScreen ? '1fr' : mdScreen ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'}>\r\n+             gridTemplateColumns={smScreen ? '1fr' : mdScreen ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'}>\r\n             {\r\n-               Array.isArray(productsT) && productsT.map((product, idx) => {\r\n+               Array.isArray(products) && products.map((product, idx) => {\r\n                     return (\r\n                         <Box height='18rem' width='100%' bgcolor='#FAFAFA' color='#000000' borderRadius='12px' py='5%'\r\n                              display='flex' flexDirection='column' justifyContent='space-between' key={idx}>\r\n                             <Box component='img' src={product.image} height='60%' width = '50%' mx='auto'/>\r\n                             <Stack height='30%' width='98%' mx='auto' justifyContent='flex-end'>\r\n                                 <Typography fontSize='14px' >{product.name}</Typography>\r\n-                                <Typography fontSize='10px' color='grey'>{produc.color}</Typography>\r\n+                                <Typography fontSize='10px' color='grey'>{product.color}</Typography>\r\n                             </Stack>\r\n                         </Box>\r\n                     )\r\n                 })\r\n"
+                },
+                {
+                    "date": 1737529471323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import useScreenSizes from '../../hooks/ScreenSizes'\r\n import { useTranslation } from 'react-i18next'\r\n \r\n const Products = ({products}) => {\r\n-    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()\r\n+    const {smScreen, mdScreen} = useScreenSizes()\r\n     const {t} = useTranslation()\r\n   return (\r\n     <Box height='100%' width='100%'>\r\n         {\r\n"
                 }
             ],
             "date": 1737439238694,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1736934374200,
@@ -24,6 +24,22 @@
                 {
                     "date": 1737363879145,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 1px;\r\n+  max-width: 1800px;\r\n   min-width: 300px;\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1737525232212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 1800px;\r\n+  max-width: 17px;\r\n   min-width: 300px;\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1737526956323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n body {\r\n-  max-width: 17px;\r\n+  max-width: 1440px;\r\n   min-width: 300px;\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1737528701574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,4 +27,5 @@\n   width: 100%;\r\n   margin: 0 auto;\r\n   scroll-behavior: smooth;\r\n }\r\n+h\r\n"
+                },
+                {
+                    "date": 1737528710579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,15 @@\n   margin: 0;\r\n   padding: 0;\r\n   text-decoration: none;\r\n }\r\n-body {\r\n+body, html {\r\n   max-width: 1440px;\r\n   min-width: 300px;\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0 auto;\r\n   scroll-behavior: smooth;\r\n }\r\n-h\r\n+html{\r\n+\r\n+}\r\n"
                 }
             ],
             "date": 1736934374200,

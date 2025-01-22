@@ -1,0 +1,267 @@
+{
+    "logoDescription" : "Toshkentda premium toifadagi to'qilgan mebellar ishlab chiqarish",
+    "onlineAsk" : "Savol bering, biz onlaynmiz",
+    "callUs" : "Ish vaqti: 10:00 - 20:00",
+    "navLinks" : {
+        "home" : "bosh sahifa" ,
+        "catalog" :  "katalog",
+        "guarantees" : "kafolatlar" ,
+        "products" :  "mahsulotlar" , 
+        "about" : "kompaniya haqida",
+        "delivery" :  "yetkazib berish" ,
+        "vacancy" : "vakansiyalar" ,
+        "contacts" :  "bog'lanish"
+    },
+    "home": {
+         "fromManufacturer" : "ishlab chiqaruvchidan",
+         "furnitureForCustomer" : 
+                       { "first" : "Biznesingiz",
+                          "second" : " uchun to'qilgan mebel"},
+         "offer": "Biz biznes uchun to'qilgan mebellarning maxsus to'plamini taqdim etamiz - kafe va restoranlar uchun oqlangan stullar va stollardan tortib, dam olish va dam olish joylari uchun qulay burchaklargacha.",
+         "downloadCatalog" : "KATALOGNI YUKLASH",
+         "buttonDesc": "200 dan ortiq turdagi mebellar",
+         "guarantyTime": "barcha mahsulotlar uchun 3 yil kafolat",
+         "deliveryCost": "30 000 so'mdan eshikgacha yetkazib berish",
+        "payWhen" : "Mebelni ko'rishda to/'lov"
+     },
+    "categorySection": {
+    "heading": "Biz 4 ta asosiy mebel kategoriyasini ishlab chiqaramiz",
+    "helperHeading": "barcha assortimentda 200 dan ortiq mahsulot turlari",
+    "categories": [
+        {
+            "name": "Komplektlar",
+            "image" : "/category/complekt.png",
+            "count": "15 ta mahsulot"
+        },
+        {
+            "name": "Osiladigan kreslolar",
+            "image" : "/category/osma.png",
+            "count": "7 ta mahsulot"
+        },
+        {
+            "name": "Divan va kreslolar",
+            "image" : "/category/sofakreslo.png",
+            "count": "3 ta mahsulot"
+        },
+        {
+            "name": "Shezlonglar",
+            "image" : "/category/lounger.png",
+            "count": "1 ta mahsulot"
+        }
+    ]
+     },
+    "catalogSection": {
+            "heading": "Yakuniy mahsulotlar katalogi",
+            "helperHeading": "ularni hozir va shu yerda sotib olish mumkin",
+            "anyProduct": "Bu katalogda hozircha mahsulotlar mavjud emas..!",
+            "catalogies": [
+                {
+                    "name": "Kits",
+                    "products": [
+                        {
+                            "name": "Stul Venedisiya",
+                            "color": "Oq",
+                            "image": "/category/whiteVenetsiya.png"
+                        },
+                        {
+                            "name": "Stul ALLY VBP-206",
+                            "color": "Yengil bej",
+                            "image": "/category/vbp208.png"
+                        },
+                        {
+                            "name": "Stul Rio",
+                            "color": "Velur ko'k",
+                            "image": "/category/rio.png"
+                        },
+                        {
+                            "name": "Stul Viktoriya",
+                            "color": "Sariq",
+                            "image": "/category/viktoriya.png"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Osiladigan kreslolar",
+                    "products": []
+                },
+                {
+                    "name" : "Divan va kreslolar",
+                    "products" : []
+                },
+                {
+                    "name" : "Shezlonglar",
+                    "products" : []
+                }
+            ]
+     },
+    "aboutSection": {
+    "paragraph": {
+        "title": "Biz haqimizda",
+        "paragraph": "Bizning OOO “Firdavs Mebel” kompaniyamiz 2008-yildan buyon mebel bozorida muvaffaqiyatli faoliyat yuritmoqda. Shu yillar mobaynida biz bebahoy amaliy tajriba to'pladik. Barcha texnologik va ishlab chiqarish jarayonlari mayda-chuydalarigacha ishlab chiqildi, har bir harakat mukammal darajaga yetkazildi. Biz “СНINAR” brendi ostida suniy rotangdan tayyorlangan MEBEL mahsulotlarini keng assortimentda taklif etamiz va kolleksiya doimiy ravishda yangilanib boradi."
+    },
+    "components": [
+        {
+            "type": "xodimlar",
+            "result": "60+",
+            "image" : "about/about1.png"
+        },
+        {
+            "type": "eksport qilinadigan davlatlar",
+            "result": "7",
+            "image" : "about/about2.png"
+        },
+        {
+            "type": "tajriba yillari",
+            "result": "16",
+            "image" : ""
+        },
+        {
+            "type": "mamnun mijozlar",
+            "result": "60 000+",
+            "image" : ""
+        },
+        {
+            "type": "mahsulot turlari",
+            "result": "200+",
+            "image" : ""
+        }
+    ],
+    "images" : ["/about/about3.png", "/about/about4.png"]
+     },
+     "furnituresSection": {
+    "heading": "2008-yildan buyon biz 100 000 dan ortiq mebel yasadik",
+    "helperText": "Turli murakkablik va konfiguratsiyalarda",
+    "components": [
+        {
+            "title": "To'qilgan mebel ko'pincha bog'lar, terrasalar va balkonlarda ishlatiladi",
+            "image": "./delivery/balcon.png"
+        },
+        {
+            "title": "To'qilgan divan va kreslolar mehmonxonaga yengillik va nafislik qo'shishi mumkin",
+            "image": "./delivery/guests.png"
+        },
+        {
+            "title": "Oshxona va ovqatlanish xonasi uchun mebel",
+            "image": "/delivery/kitchen.png"
+        },
+        {
+            "title": "To'qilgan mebel yotoqxona uchun romantika va tabiiylik hissini qo'shishi mumkin.",
+            "image": "/delivery/dining.png"
+        },
+        {
+            "title": "Restoran va kafe uchun mebel to'plamlari",
+            "image": "/delivery/kafe.png"
+        },
+        {
+            "title": "To'qilgan tebranuvchi kreslo bog' yoki uyning istalgan burchagida dam olish uchun ideal joy bo'lishi mumkin.",
+            "image": "/delivery/garden.png"
+        }
+    ]
+     },
+     "collection" : {
+            "heading" : "Chinardan yangi yozgi kolleksiya uyingiz va muassasangiz uchun",
+            "components" : [
+              "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
+        ]
+    },
+    "downloadSection": {
+    "title": "200+ loyiha tasvir katalogida",
+    "helperText": "Hozirda yuklab olish",
+    "name": "Ismingiz",
+    "download": "YUKLAB OLISH"
+     },
+     "partnerSection" : {
+        "heading" : "16 yil ichida 50 dan ortiq hamkorlar"
+     },
+    "qualitySection": {
+            "heading": "Biz ishlab chiqarish sifatini diqqat bilan nazorat qilamiz, mebelimizning 10 yildan ortiq muddat davomida bardoshliligini ta'minlaymiz.",
+            "helperText": "Ishlab chiqarish 7 bosqichdan iborat.",
+            "offers": [
+                {
+                    "title": "Materiallarni tanlash va tayyorlash",
+                    "image": "/quality/quality1.png"
+                },
+                {
+                    "title": "Karkas yaratish",
+                    "image": "/quality/quality2.png"
+                },
+                {
+                    "title": "Qayta ishlash va bo'yash",
+                    "image": "/quality/quality3.png"
+                },
+                {
+                    "title": "To'qish",
+                    "image": "/quality/quality4.png"
+                },
+                {
+                    "title": "Yig'ish",
+                    "image": "/quality/quality5.png"
+                },
+                {
+                    "title": "Sifat nazorati",
+                    "image": "/quality/quality6.png"
+                }
+            ]
+     },
+    "deliverySection": {
+                "heading": "BUTUN DUNYO BO'YLAB YETKAZIB BERISH, UYINGIZDA KO'RIB CHIQISHDAN KEYIN TO'LOV",
+                "elements": [
+                    {
+                        "title": "Yetkazib berish shartlari",
+                        "mainText": "Toshkent bo'ylab yetkazib berish 30 000 so'mdan boshlanadi. Mebelni O'zbekistonning boshqa shaharlariga ham jo'natamiz, yetkazib berish shartlari individual tarzda kelishiladi. Mijozga yetkazib berishni bizning xodimlar amalga oshiradi, ular mebelni ko'tarish va yig'ishda ham yordam beradi."
+                    },
+                    {
+                        "title": "To'lov usullari",
+                        "mainText": "Har qanday to'lov shakli qabul qilinadi — naqd, naqdsiz yoki bank o'tkazmasi orqali. Siz tovarning 100% narxini oldindan to'lashingiz yoki umumiy summaning 10% miqdorini depozit sifatida to'lashingiz, qolgan qismini mebelni ko'rib chiqish va yetkazib berilgandan keyin to'lashingiz mumkin."
+                    }
+                ]
+     },
+    "questionsSection": {
+                    "heading": "BIZGA KO'P BERILADIGAN SAVOLLAR",
+                    "questions": [
+                        {
+                            "question": "Yetkazib berish shartlari qanday?",
+                            "answer": "Toshkent bo'ylab yetkazib berish 30 000 so'mdan boshlanadi. Mebelni O'zbekistonning boshqa shaharlariga ham jo'natamiz, yetkazib berish shartlari individual tarzda kelishiladi. Mijozga yetkazib berishni bizning xodimlar amalga oshiradi, ular mebelni ko'tarish va yig'ishda ham yordam beradi."
+                        },
+                        {
+                            "question": "To'lov usullari qanday?",
+                            "answer": "Har qanday to'lov shakli qabul qilinadi — naqd, naqdsiz yoki bank o'tkazmasi orqali. Siz tovarning 100% narxini oldindan to'lashingiz yoki umumiy summaning 10% miqdorini depozit sifatida to'lashingiz, qolgan qismini mebelni ko'rib chiqish va yetkazib berilgandan keyin to'lashingiz mumkin."
+                        },
+                        {
+                            "question": "Buyurtma bergandan keyin qancha kunda tayyor bo'ladi?",
+                            "answer": "1 kundan 10 kungacha."
+                        },
+                        {
+                            "question": "Kafolat muddati qancha?",
+                            "answer": "Mahsulotlarimiz 10 yillik kafolatga ega."
+                        },
+                        {
+                            "question": "Interyeringizga mos holda buyurtma bera olasizmi?",
+                            "answer": "Ha, buning uchun saytda ariza qoldiring yoki biz bilan bog'laning."
+                        }
+                    ]
+     },
+    "givingQuestion": {
+    "giveQuestion": "Savollaringiz bormi?",
+    "buttonText": "SAVOL BERISH",
+    "modal": {
+        "title": "Savolingizni yuboring",
+        "titleHelper": "Savolingizni va ma'lumotlaringizni qoldiring, mutaxassislarimiz bog'lanishadi..!",
+        "name": "Ismingiz",
+        "yourQuestion": "Savolingiz",
+        "sendQuestion": "Savolni yuborish",
+        "sendDesc": "Ma'lumotlaringiz uchinchi shaxslarga taqdim etilmaydi",
+        "errorFill" : "Maydonlarni to'ldirishingiz kerak"
+    }
+}
+
+            
+        
+    
+
+
+
+
+    
+
+}

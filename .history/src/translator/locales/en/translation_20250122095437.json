@@ -1,0 +1,262 @@
+{
+    "logoDescription" : "Production of premium-class woven furniture in Tashkent",
+    "onlineAsk" : "Ask a question, we are online.",
+    "callUs" : "Call: 10:00 AM - 8:00 PM",
+    "navLinks" : {
+        "home" : "home" ,
+        "catalog" :  "catalog",
+        "guarantees" : "guarantees" ,
+        "products" :  "products" , 
+        "about" : "about",
+        "delivery" :  "delivery" ,
+        "vacancy" : "vacancy" ,
+        "contacts" :  "contacts"
+    },
+    "home" : {
+        "fromManufacturer" : "from the manufacturer",
+        "furnitureForCustomer" : 
+                           { "first" : "Wicker",
+                             "second" : " furniture for your business"},
+        "offer" : "We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. ",
+        "downloadCatalog" : "DOWNLOAD CATALOG",
+        "buttonDesc" : "more than 200 types of furniture",
+        "guarantyTime" : "Warranty from 3 years on all products",
+        "deliveryCost" : "Delivery from 30,000 sum to the door",
+       "payWhen" : "Payment upon viewing the furniture"
+    },
+    "categorySection" : {
+        "heading" : "We produce 4 main categories of furniture",
+        "helperHeading" : "more than 200 types of products in the entire range",
+        "categories" : [
+            {
+                 "name" : "Kits",
+                 "image" : "/category/complekt.png",
+                 "count" : "15 products"
+            },
+            {
+                "name" : "Hanging chairs",
+                "image" : "/category/osma.png",
+                "count" : "7 products"
+
+            },
+            {
+                "name" : "Sofas and armchairs",
+                "image" : "/category/sofakreslo.png",
+                "count" : "3 products"
+            },
+            {
+                "name" : "Sun loungers",
+                "image" : "/category/lounger.png",
+                "count" : "1 products"
+            }
+        ]
+    },
+    "catalogSection": {
+            "heading": "Catalog of Ready-Made Products",
+            "helperHeading": "which can be bought here and now",
+            "anyProduct" : "we haven't products on this catalogue yet..!",
+            "catalogies": [
+                {
+                    "name": "Kits",
+                    "products": [
+                        {
+                            "name": "Chair Venice",
+                            "color": "White",
+                            "image": "/category/whiteVenetsiya.png"
+                        },
+                        {
+                            "name": "Chair ALLY VBP-206",
+                            "color": "Light Beige",
+                            "image": "/category/vbp208.png"
+                        },
+                        {
+                            "name": "Chair Rio",
+                            "color": "Velvet Blue",
+                            "image": "/category/rio.png"
+                        },
+                        {
+                            "name": "Chair Victoria",
+                            "color": "Yellow",
+                            "image": "/category/viktoriya.png"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Hanging chairs",
+                    "products" : []
+                },
+                {
+                    "name" :"Sofas and armchairs",
+                    "products" : []
+                },
+                {
+                    "name" :"Sun loungers",
+                    "products" : []
+                }
+            ]
+    },
+    "aboutSection": {
+    "paragraph": {
+        "title": "About Us",
+        "paragraph": "Our company, LLC “Firdavs Mebel,” has been successfully operating in the furniture market since 2008. Over these years, we have accumulated invaluable practical experience. Every technological and production process has been refined to the smallest detail, and every movement has been perfected. We offer FURNITURE under the brand “СНINAR,” made from synthetic rattan with a wide range of products, and the collection is constantly being updated."
+    },
+    "components": [
+        {
+            "type": "employees",
+            "result": "60+",
+            "image" : "/about/about1.png"
+        },
+        {
+            "type": "countries for export",
+            "result": "7",
+            "image" : "/about/about2.png"
+        },
+        {
+            "type": "years of experience",
+            "result": "16",
+            "image" : ""
+        },
+        {
+            "type": "satisfied clients",
+            "result": "60,000+",
+            "image" : ""
+        },
+        {
+            "type": "product types",
+            "result": "200+",
+            "image" : ""
+        }
+    ]
+    
+    },
+    "furnituresSection": {
+    "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
+    "helperText": "Of various complexities and configurations",
+    "components": [
+        {
+            "title": "Woven furniture is often used in gardens, on terraces, and balconies",
+            "image": "./delivery/balcon.png"
+        },
+        {
+            "title": "Woven sofas and armchairs can add lightness and elegance to a living room",
+            "image": "./delivery/guests.png"
+        },
+        {
+            "title": "Furniture for kitchens and dining rooms",
+            "image": "/delivery/kitchen.png"
+        },
+        {
+            "title": "Woven furniture can add a touch of romance and naturalness to the bedroom.",
+            "image": "/delivery/dining.png"
+        },
+        {
+            "title": "Furniture sets for restaurants and cafes",
+            "image": "/delivery/kafe.png"
+        },
+        {
+            "title": "A woven rocking chair can be the perfect spot to relax in any corner of the home or garden.",
+            "image": "/delivery/garden.png"
+        }
+    ]
+     },
+    "collection" : {
+        "heading" : "New summer collection from Chinar for your home and establishment",
+        "components" : [
+            "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
+        ]
+    },
+    "downloadSection": {
+    "title": "200+ projects in the photo catalog",
+    "helperText": "Download right now",
+    "name": "Your name",
+    "download": "DOWNLOAD CATALOG"
+     },
+    "partnerSection" : {
+        "heading" : "Over 50 partners in 16 years"
+    },
+    "qualitySection": {
+            "heading": "We carefully control the production quality, ensuring the durability of our furniture for over 10 years.",
+            "helperText": "The production consists of 7 stages.",
+            "offers": [
+                {
+                    "title": "Selection and preparation of materials",
+                    "image": "/quality/quality1.png"
+                },
+                {
+                    "title": "Frame creation",
+                    "image": "/quality/quality2.png"
+                },
+                {
+                    "title": "Processing and painting",
+                    "image": "/quality/quality3.png"
+                },
+                {
+                    "title": "Weaving",
+                    "image": "/quality/quality4.png"
+                },
+                {
+                    "title": "Assembly",
+                    "image": "/quality/quality5.png"
+                },
+                {
+                    "title": "Quality control",
+                    "image": "/quality/quality6.png"
+                }
+            ]
+    },
+    "deliverySection": {
+                "heading": "WORLDWIDE DELIVERY, PAYMENT AFTER INSPECTION AT YOUR HOME",
+                "elements": [
+                    {
+                        "title": "Delivery Conditions",
+                        "mainText": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                    },
+                    {
+                        "title": "Payment Methods",
+                        "mainText": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                    }
+                ]
+    },
+    "questionsSection": {
+                    "heading": "QUESTIONS WE ARE FREQUENTLY ASKED",
+                    "questions": [
+                        {
+                            "question": "What are the delivery conditions?",
+                            "answer": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                        },
+                        {
+                            "question": "What payment methods are available?",
+                            "answer": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                        },
+                        {
+                            "question": "How many days will it take to be ready after ordering?",
+                            "answer": "From 1 to 10 days."
+                        },
+                        {
+                            "question": "How long is the warranty period?",
+                            "answer": "Our products have a warranty of 10 years."
+                        },
+                        {
+                            "question": "Can you customize according to the interior?",
+                            "answer": "Yes, please leave a request on the website or contact us."
+                        }
+                    ]
+    },
+    "givingQuestion": {
+    "giveQuestion": "Any questions?",
+    "buttonText": "ASK A QUESTION",
+    "modal": {
+        "title": "Submit your question",
+        "titleHelper": "Leave your question and contact information, and our specialists will get in touch with you",
+        "name": "Your name",
+        "yourQuestion": "Your question",
+        "sendQuestion": "Send question",
+        "sendDesc": "Your data will not be shared with third parties",
+        "errorFill": "You need to fill in the fields",
+        "alertSuccess": "The message was sent successfully..!"
+
+
+    }
+}
+
+}
