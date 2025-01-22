@@ -2,6 +2,8 @@ import { Box, Button, Input, Stack, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import useScreenSizes from '../../hooks/ScreenSizes'
 import { useTranslation } from 'react-i18next'
+import { uploadImages } from '../../constants/constantas'
+import JSZip from 'jszip'
 
 const DownloadSection = () => {
     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
@@ -10,26 +12,40 @@ const DownloadSection = () => {
     const [number, setNumber] = useState('+998')
     const [isNumber, setIsNumber] = useState(false)
 
-    const handleChangeNumber = (string) => {
-      const sanitized = string.replace(/\D/g, '').split('').slice(0,14).join('');
-      console.log(typeof sanitized)
-    
-   
-    if (sanitized.startsWith('998')) {
-        setNumber(`+${sanitized}`);
-    } else {
-        setNumber(`+998${sanitized.slice(0, 9)}`); 
-    }
-        
-    }
+    const handleDownload = async () => {
+      const zip = new JSZip()
+
+       const imagePromises = uploadImages.map(async (url, index) => {
+       const response = await fetch(url);
+       const blob = await response.blob();
+       zip.file(`image${index + 1}.png`, blob);
+     });
+
+     await Promise.all(imagePromises);
+     const zipBlob = await zip.generateAsync({ type: 'blob' });
+     saveAs(zipBlob, 'images.zip');
+ }
+
+ const handleChangeNumber = (string) => {
+  const sanitized = string.replace(/\D/g, '').slice(0, 12); 
+  if (sanitized.startsWith('998')) {
+    setNumber(`+${sanitized}`);
+  } else {
+    setNumber(`+998${sanitized.slice(0, 9)}`);
+  }
+};
 
     const handleClick = () => {
-      (number.split('').slice(4,8).join('') === '+998' || number.length !== 14) ?  setIsNumber(false) : setIsNumber(true)
-      console.log(isNumber, number, number.length)
-      console.log(typeof number)
-      console.log(number.split('').slice(4,8))
+      const isValidNumber = number.startsWith('+998') && number.length === 13;
+      setIsNumber(isValidNumber);
+    
+      if (isValidNumber) {
+        handleDownload();
+      } else {
+        console.log('Invalid number:', number);
+      }
+    };
 
-    }
   return (
     <Box width='98%' height={xlgScreen ? '286px' : lgScreen ? '300px' : 'auto'} bgcolor='#FAFAFA'>
         <Box height='100%' width='100%' displayPrint='flex' position='relative'>

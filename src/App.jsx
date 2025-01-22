@@ -13,6 +13,12 @@ import Furnitures from "./main-components/furnitures/Furnitures"
 import Collection from "./main-components/collection/Collection"
 import DownloadSection from "./main-components/downloadSection/DownloadSection"
 import Offers from "./main-components/home/Offers";
+import PartnerSection from './main-components/partners/PartnerSection'
+import QualitySection from "./main-components/quality/QualitySection";
+import DeliverySection from "./main-components/delivery/DeliverySection";
+import QuestionsSections from "./main-components/questions/QuestionsSections";
+import GiveQuestion from "./main-components/givingQuestion/GiveQuestion";
+import GiveQuestionModal from "./main-components/modals/GiveQuestionModal";
 
 
 function App() {
@@ -36,7 +42,13 @@ function App() {
             <About/>
             <Furnitures/> */}
             {/* <Collection/> */}
-            <DownloadSection/>
+            {/* <DownloadSection/> */}
+            {/* <PartnerSection/> */}
+            {/* <QualitySection/> */}
+            {/* <DeliverySection/> */}
+            {/* <QuestionsSections/> */}
+            {/* <GiveQuestion/> */}
+            <GiveQuestionModal/>
        </Stack>
     </ThemeProvider>
     

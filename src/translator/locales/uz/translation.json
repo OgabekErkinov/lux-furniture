@@ -23,7 +23,7 @@
          "guarantyTime": "barcha mahsulotlar uchun 3 yil kafolat",
          "deliveryCost": "30 000 so'mdan eshikgacha yetkazib berish",
         "payWhen" : "Mebelni ko'rishda to/'lov"
-             },
+     },
     "categorySection": {
     "heading": "Biz 4 ta asosiy mebel kategoriyasini ishlab chiqaramiz",
     "helperHeading": "barcha assortimentda 200 dan ortiq mahsulot turlari",
@@ -49,7 +49,7 @@
             "count": "1 ta mahsulot"
         }
     ]
-      },
+     },
     "catalogSection": {
             "heading": "Yakuniy mahsulotlar katalogi",
             "helperHeading": "ularni hozir va shu yerda sotib olish mumkin",
@@ -93,7 +93,7 @@
                     "products" : []
                 }
             ]
-        },
+     },
     "aboutSection": {
     "paragraph": {
         "title": "Biz haqimizda",
@@ -157,8 +157,8 @@
             "image": "/delivery/garden.png"
         }
     ]
-},
-      "collection" : {
+     },
+     "collection" : {
             "heading" : "Chinardan yangi yozgi kolleksiya uyingiz va muassasangiz uchun",
             "components" : [
               "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
@@ -169,7 +169,95 @@
     "helperText": "Hozirda yuklab olish",
     "name": "Ismingiz",
     "download": "YUKLAB OLISH"
+     },
+     "partnerSection" : {
+        "heading" : "16 yil ichida 50 dan ortiq hamkorlar"
+     },
+    "qualitySection": {
+            "heading": "Biz ishlab chiqarish sifatini diqqat bilan nazorat qilamiz, mebelimizning 10 yildan ortiq muddat davomida bardoshliligini ta'minlaymiz.",
+            "helperText": "Ishlab chiqarish 7 bosqichdan iborat.",
+            "offers": [
+                {
+                    "title": "Materiallarni tanlash va tayyorlash",
+                    "image": "/quality/quality1.png"
+                },
+                {
+                    "title": "Karkas yaratish",
+                    "image": "/quality/quality2.png"
+                },
+                {
+                    "title": "Qayta ishlash va bo'yash",
+                    "image": "/quality/quality3.png"
+                },
+                {
+                    "title": "To‘qish",
+                    "image": "/quality/quality4.png"
+                },
+                {
+                    "title": "Yig‘ish",
+                    "image": "/quality/quality5.png"
+                },
+                {
+                    "title": "Sifat nazorati",
+                    "image": "/quality/quality6.png"
+                }
+            ]
+     },
+    "deliverySection": {
+                "heading": "BUTUN DUNYO BO‘YLAB YETKAZIB BERISH, UYINGIZDA KO‘RIB CHIQISHDAN KEYIN TO‘LOV",
+                "elements": [
+                    {
+                        "title": "Yetkazib berish shartlari",
+                        "mainText": "Toshkent bo‘ylab yetkazib berish 30 000 so‘mdan boshlanadi. Mebelni O‘zbekistonning boshqa shaharlariga ham jo‘natamiz, yetkazib berish shartlari individual tarzda kelishiladi. Mijozga yetkazib berishni bizning xodimlar amalga oshiradi, ular mebelni ko‘tarish va yig‘ishda ham yordam beradi."
+                    },
+                    {
+                        "title": "To‘lov usullari",
+                        "mainText": "Har qanday to‘lov shakli qabul qilinadi — naqd, naqdsiz yoki bank o‘tkazmasi orqali. Siz tovarning 100% narxini oldindan to‘lashingiz yoki umumiy summaning 10% miqdorini depozit sifatida to‘lashingiz, qolgan qismini mebelni ko‘rib chiqish va yetkazib berilgandan keyin to‘lashingiz mumkin."
+                    }
+                ]
+     },
+    "questionsSection": {
+                    "heading": "BIZGA KO‘P BERILADIGAN SAVOLLAR",
+                    "questions": [
+                        {
+                            "question": "Yetkazib berish shartlari qanday?",
+                            "answer": "Toshkent bo‘ylab yetkazib berish 30 000 so‘mdan boshlanadi. Mebelni O‘zbekistonning boshqa shaharlariga ham jo‘natamiz, yetkazib berish shartlari individual tarzda kelishiladi. Mijozga yetkazib berishni bizning xodimlar amalga oshiradi, ular mebelni ko‘tarish va yig‘ishda ham yordam beradi."
+                        },
+                        {
+                            "question": "To‘lov usullari qanday?",
+                            "answer": "Har qanday to‘lov shakli qabul qilinadi — naqd, naqdsiz yoki bank o‘tkazmasi orqali. Siz tovarning 100% narxini oldindan to‘lashingiz yoki umumiy summaning 10% miqdorini depozit sifatida to‘lashingiz, qolgan qismini mebelni ko‘rib chiqish va yetkazib berilgandan keyin to‘lashingiz mumkin."
+                        },
+                        {
+                            "question": "Buyurtma bergandan keyin qancha kunda tayyor bo‘ladi?",
+                            "answer": "1 kundan 10 kungacha."
+                        },
+                        {
+                            "question": "Kafolat muddati qancha?",
+                            "answer": "Mahsulotlarimiz 10 yillik kafolatga ega."
+                        },
+                        {
+                            "question": "Interyeringizga mos holda buyurtma bera olasizmi?",
+                            "answer": "Ha, buning uchun saytda ariza qoldiring yoki biz bilan bog‘laning."
+                        }
+                    ]
+     },
+    "givingQuestion": {
+    "giveQuestion": "Savollaringiz bormi?",
+    "buttonText": "SAVOL BERISH",
+    "modal": {
+        "title": "Savolingizni yuboring",
+        "titleHelper": "Savolingizni va ma'lumotlaringizni qoldiring, mutaxassislarimiz siz bilan bog'lanadi",
+        "name": "Ismingiz",
+        "yourQuestion": "Savolingiz",
+        "sendQuestion": "Savolni yuborish",
+        "sendDesc": "Ma'lumotlaringiz uchinchi shaxslarga taqdim etilmaydi"
+    }
 }
+
+            
+        
+    
+
 
 
 

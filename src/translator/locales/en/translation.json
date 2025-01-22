@@ -23,7 +23,7 @@
         "guarantyTime" : "Warranty from 3 years on all products",
         "deliveryCost" : "Delivery from 30,000 sum to the door",
        "payWhen" : "Payment upon viewing the furniture"
-            },
+    },
     "categorySection" : {
         "heading" : "We produce 4 main categories of furniture",
         "helperHeading" : "more than 200 types of products in the entire range",
@@ -94,7 +94,7 @@
                     "products" : []
                 }
             ]
-        },
+    },
     "aboutSection": {
     "paragraph": {
         "title": "About Us",
@@ -159,7 +159,7 @@
         }
     ]
      },
-     "collection" : {
+    "collection" : {
         "heading" : "New summer collection from Chinar for your home and establishment",
         "components" : [
             "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
@@ -170,6 +170,89 @@
     "helperText": "Download right now",
     "name": "Your name",
     "download": "DOWNLOAD CATALOG"
+     },
+    "partnerSection" : {
+        "heading" : "Over 50 partners in 16 years"
+    },
+    "qualitySection": {
+            "heading": "We carefully control the production quality, ensuring the durability of our furniture for over 10 years.",
+            "helperText": "The production consists of 7 stages.",
+            "offers": [
+                {
+                    "title": "Selection and preparation of materials",
+                    "image": "/quality/quality1.png"
+                },
+                {
+                    "title": "Frame creation",
+                    "image": "/quality/quality2.png"
+                },
+                {
+                    "title": "Processing and painting",
+                    "image": "/quality/quality3.png"
+                },
+                {
+                    "title": "Weaving",
+                    "image": "/quality/quality4.png"
+                },
+                {
+                    "title": "Assembly",
+                    "image": "/quality/quality5.png"
+                },
+                {
+                    "title": "Quality control",
+                    "image": "/quality/quality6.png"
+                }
+            ]
+    },
+    "deliverySection": {
+                "heading": "WORLDWIDE DELIVERY, PAYMENT AFTER INSPECTION AT YOUR HOME",
+                "elements": [
+                    {
+                        "title": "Delivery Conditions",
+                        "mainText": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                    },
+                    {
+                        "title": "Payment Methods",
+                        "mainText": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                    }
+                ]
+    },
+    "questionsSection": {
+                    "heading": "QUESTIONS WE ARE FREQUENTLY ASKED",
+                    "questions": [
+                        {
+                            "question": "What are the delivery conditions?",
+                            "answer": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                        },
+                        {
+                            "question": "What payment methods are available?",
+                            "answer": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                        },
+                        {
+                            "question": "How many days will it take to be ready after ordering?",
+                            "answer": "From 1 to 10 days."
+                        },
+                        {
+                            "question": "How long is the warranty period?",
+                            "answer": "Our products have a warranty of 10 years."
+                        },
+                        {
+                            "question": "Can you customize according to the interior?",
+                            "answer": "Yes, please leave a request on the website or contact us."
+                        }
+                    ]
+    },
+    "givingQuestion": {
+    "giveQuestion": "Any questions?",
+    "buttonText": "ASK A QUESTION",
+    "modal": {
+        "title": "Submit your question",
+        "titleHelper": "Leave your question and contact information, and our specialists will get in touch with you",
+        "name": "Your name",
+        "yourQuestion": "Your question",
+        "sendQuestion": "Send question",
+        "sendDesc": "Your data will not be shared with third parties"
+    }
 }
-   
+
 }
