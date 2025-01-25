@@ -15,15 +15,15 @@ const Contact = ({bbottom}) => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
   
   return (
-    <Box id = {bbottom ? '#' : 'contacts'} height={smScreen ? '4rem' : mdScreen ? '5rem' :  lgScreen ? '5rem' : '7rem'} width='100%'  
-         position={bbottom ? 'fixed' : 'static'} top={bbottom ? '-20px' : '' }  bgcolor='#FFFFFF'
-         zIndex='2' maxWidth='1440px' p={'1rem 1rem 0 1rem'} borderBottom={bbottom}>
-        <Box height='100%' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem'  >
+    <Box id = {bbottom ? '#' : 'contacts'} height={smScreen ? '4rem' : mdScreen ? '5rem' :  lgScreen ? '5rem' : '7rem'} 
+         bgcolor='#FFFFFF' maxWidth='1440px' width='100%' p='1rem 1rem 0 1rem' borderBottom={bbottom}
+         position={bbottom ? 'fixed' : 'static'} top={bbottom ? '-20px' : '' } zIndex='2'>
+         <Box height='100%' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem'  >
             <Box height='100%' width='100%' display='flex' justifyContent='space-between' alignItems='center'  >
                 <Logo/>
                 <Languages/> 
                 <SocialNetworks bbottom={bbottom}/>
-                <WorkTime/> 
+                <WorkTime bbottom={bbottom}/> 
                 {
                   bbottom && <Button disableTouchRipple sx={{display : xlgScreen ? 'none' : 'block'}} 
                                      onClick={() => setIsMobileMenu(prev => !prev)}>

@@ -34,12 +34,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Stack height='auto' maxWidth='1440px' alignItems='center' px='1rem' spacing={1} ref = {boxRef}>
+      <Stack height='auto' maxWidth='1440px' alignItems='center' px='1rem' spacing={1} gap='0.5rem' ref = {boxRef}>
           <Box height={smScreen ? '4rem' : mdScreen ? '5rem' :  lgScreen ? '5rem' : '7rem'} width='100%'></Box>
           <Contact bbottom={'1px solid rgba(0, 0, 0, 0.2)'}/>
           <Navbar isNavbar={xlgScreen}/>
           <Home/>
-          {/* {(xlgScreen||lgScreen) && <Offers/>}
+          {(xlgScreen||lgScreen) && <Offers/>}
           <Category/>
           <Catalog/>
           <About/>
@@ -51,7 +51,7 @@ function App() {
           <DeliverySection/>
           <QuestionsSections/>
           <GiveQuestion toggleModal={toggleModal} />
-          <Contact bbottom=''/> */}
+          <Contact bbottom=''/>
 
           
           {isModalOpen && 

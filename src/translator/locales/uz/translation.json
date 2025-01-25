@@ -82,15 +82,53 @@
                 },
                 {
                     "name" : "Osiladigan kreslolar",
-                    "products": []
+                    "products" : [
+                        {
+                            "name": "Hanging Chair",
+                            "color": "grey",
+                            "image": "/category/hanging1.png"
+                        },
+                        {
+                            "name": "Hanging Chair",
+                            "color": "blue",
+                            "image": "/category/hanging1.png"
+                        },
+                        {
+                            "name": "Hanging Chair",
+                            "color": "white",
+                            "image": "/category/hanging1.png"
+                        }
+                    ]
                 },
                 {
                     "name" : "Divan va kreslolar",
-                    "products" : []
+                    "products" : [
+                        {
+                            "name": "divan",
+                            "color": "tilla rang",
+                            "image": "/category/sofa1.png"
+                        },
+                        {
+                            "name": "divan",
+                            "color": "kulrang",
+                            "image": "/category/sofa grey.png"
+                        },
+                        {
+                            "name": "divan",
+                            "color": "yashil",
+                            "image": "/category/sofagreen.png"
+                        }
+                    ]
                 },
                 {
                     "name" : "Shezlonglar",
-                    "products" : []
+                    "products" : [
+                        {
+                            "name": "shezlong",
+                            "color": "kulrang",
+                            "image": "/category/lounger.png"
+                        }
+                    ]
                 }
             ]
      },

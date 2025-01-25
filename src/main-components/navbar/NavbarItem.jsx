@@ -3,7 +3,7 @@ import React from 'react'
 import useScreenSizes from '../../hooks/ScreenSizes'
 import { useTranslation } from 'react-i18next'
 
-const NavbarItem = ({item, url}) => {
+const NavbarItem = ({item, url, direct}) => {
   const {t} = useTranslation()
   const links = t('navLinks', {returnObjects : true})
   return (
@@ -17,7 +17,7 @@ const NavbarItem = ({item, url}) => {
       }
     }}>
        <Link href = {url} sx={{textDecoration : 'none', cursor : 'pointer', width : '100%'}}>
-         <Typography fontSize='22px' color='black' textTransform='capitalize' >{links[item]}</Typography>
+         <Typography fontSize='22px' color={direct === 'column' ? '#ffffff' : 'black'} textTransform='capitalize' >{links[item]}</Typography>
        </Link>
     </MenuItem>
   )

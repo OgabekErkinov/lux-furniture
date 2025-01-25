@@ -22,7 +22,7 @@ const Images = () => {
             images.map((image, idx) => {
                 return (
                     <Box component='img' src={image} data-aos = 'fade-up' data-aos-delay = {idx*200} 
-                         height = '25rem' width = '100%' key={idx} borderRadius='12px'/>
+                         height = '20rem' width = '100%' key={idx} borderRadius='12px'/>
                 )
             })
          }

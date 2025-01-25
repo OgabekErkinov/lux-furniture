@@ -19,7 +19,7 @@ const GiveQuestion = ({ toggleModal }) => {
         </Box>
 
         
-        <Box height="60px" width="240px" bgcolor="#94C11F" borderRadius="2px">
+        <Box height="60px" width="240px" bgcolor="rgba(20, 146, 3, 0.84)" borderRadius="2px">
           <Button sx={{ height: '100%', width: '100%', p: 'auto' }} onClick={toggleModal}>
             <Typography fontSize="18px" color="#ffffff">
               {t('givingQuestion.buttonText')}

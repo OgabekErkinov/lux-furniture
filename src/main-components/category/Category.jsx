@@ -17,11 +17,11 @@ const Category = () => {
     },[])
 
   return (
-    <Box width='96%' height='30rem' px='12px' color='black'>
-      <Box height='100%' width='100%' display='flex' flexDirection='column' justifyContent='center'>
+    <Box width='96%' height='26rem' px='12px' color='black'>
+      <Box height='100%' width='100%' display='flex' flexDirection='column' justifyContent='space-between'>
 
         {/* .................categories heading............................................... */}
-        <Box width={smScreen ? '80%' : mdScreen ? '60%' : lgScreen ? '60%' : '50%'} height='40%' 
+        <Box width={smScreen ? '80%' : mdScreen ? '60%' : lgScreen ? '60%' : '50%'} height='30%' 
              display='flex' flexDirection='column' justifyContent='center' gap='0.4rem' mx='auto' >
             <Typography variant='h4' data-aos = 'fade-down'
                         fontSize={xlgScreen ? '40px' : lgScreen ? '28px' : '20px'} 
@@ -35,7 +35,7 @@ const Category = () => {
 
         {/* ........categories with images ................................................... */}
 
-        <Box height = '50%' width = '100%' textAlign='center'>
+        <Box height = '60%' width = '100%' textAlign='center'>
            <Box width='90%' height='100%' mx='auto' display='grid' 
                 gridTemplateColumns={smScreen || mdScreen ? 'repeat(2,1fr)' : 'repeat(4,1fr)'} gap='1rem'>
            {
@@ -53,7 +53,7 @@ const Category = () => {
                                  {category?.name}
                                 </Typography>
                                <Typography bgcolor='green' height='16px' borderRadius = "2px" fontSize='12px' 
-                                           width='30%' display={xlgScreen ? 'block' : 'none'}>
+                                           color='#FFFFFF' width='30%' display={xlgScreen ? 'block' : 'none'}>
                                             {category?.count}
                                 </Typography>
                             </Box>

@@ -20,7 +20,7 @@ const About = () => {
         
            <Box height='auto' width='100%'>
               <Box width='100%' height='auto' display='grid' justifyContent='center'  gap='1rem'
-                  gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? 'auto' : 'auto auto'}
+                  gridTemplateColumns={xlgScreen ? 'repeat(3, 1fr)' : smScreen ? '1fr' : '1fr 1fr'}
                   >
 
                   <Heading about={about}/>

@@ -14,8 +14,8 @@ const Component = ({component, idx}) => {
 
      return (
        <Box data-aos = 'fade-up' data-aos-delay = {idx*100}
-            width='100%' height='20rem'  bgcolor='#DFECBC' overflow='hidden'
-            color = {!component.image? '#000000' : '#FFFFFF'} borderRadius='8px' key={idx}
+            width='100%' height='15rem'  bgcolor='rgba(7, 153, 19, 0.97)' overflow='hidden'
+            color = {'#FFFFFF'} borderRadius='8px' key={idx}
             sx={{
             backgroundImage : `url(${component.image})`,
             backgroundSize : 'cover' }}>

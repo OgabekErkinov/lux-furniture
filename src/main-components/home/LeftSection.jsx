@@ -17,17 +17,17 @@ const LeftSection = () => {
         }, [])
 
   return (
-    <Box width='100%' height='100%' >
+    <Box width='100%' height='90%' >
         
-        <Stack height='auto' width='100%' justifyContent='center' gap='1rem'>
+        <Stack height='100%' width='100%' justifyContent='space-around' alignItems='center' gap='1rem'>
         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay="0">
             <Box width='10%' bgcolor='black' height='1px'></Box>
-            <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>
+            <Typography fontSize='20px'>{t('home.fromManufacturer')}</Typography>
         </Box>
 
         <Box width='100%' display='flex' flexWrap='wrap'>
-            <Typography fontWeight='500' fontSize='48px' data-aos = 'fade-right' data-aos-delay="200">
-                     <span style = {{color:'green',fontWeight :'500', fontSize :'48px'}}>
+            <Typography fontWeight='500' fontSize='42px' data-aos = 'fade-right' data-aos-delay="200">
+                     <span style = {{color:'green',fontWeight :'500', fontSize :'42px'}}>
                         {t('home.furnitureForCustomer.first')}
                     </span>
                        {t('home.furnitureForCustomer.second')}    
@@ -35,7 +35,7 @@ const LeftSection = () => {
         </Box>
 
         <Box width='100%'>
-              <Typography fontSize='22px' lineHeight='3rem' data-aos = 'fade-right' data-aos-delay="400">
+              <Typography fontSize='22px' lineHeight='28px' data-aos = 'fade-right' data-aos-delay="400">
                 {t('home.offer')}
               </Typography>
         </Box>

@@ -3,9 +3,9 @@ import React from 'react'
 
 const Furniture = ({furniture}) => {
   return (
-    <Box  bgcolor="#94C11F" borderRadius="10px" height="18rem" width='100%'
+    <Box  bgcolor="rgb(14, 126, 10)" borderRadius="10px" height="18rem" width='100%'
          display="flex" flexDirection="column" justifyContent="space-between">
-        <Typography variant="h6" fontWeight="500" px='5px'>
+        <Typography variant="h6" fontWeight="500" fontSize='16px' p='12px' height='50px'>
                 {furniture.title}
         </Typography>
         <Box component="img" src={furniture.image} alt={furniture.title}

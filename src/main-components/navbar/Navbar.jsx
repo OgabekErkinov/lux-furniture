@@ -10,7 +10,7 @@ const Navbar = ({isNavbar, direct}) => {
         {
           navbarItems.map((item, idx) =>  {
             return (
-                <NavbarItem item={item} url={`#${item}`} key={idx}/>
+                <NavbarItem item={item} url={`#${item}`} direct = {direct} key={idx}/>
             )
           })
         }

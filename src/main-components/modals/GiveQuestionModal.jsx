@@ -107,7 +107,7 @@ const GiveQuestionModal = ({closeModal}) => {
                          </Stack>
 
                          <Stack height='auto' width='100%' alignItems='center' my='1rem'>
-                            <Box height='48px' width='300px' bgcolor='#94C11F' borderRadius='2px'>
+                            <Box height='48px' width='300px' bgcolor='rgba(6, 172, 1, 0.84)' borderRadius='2px'>
                                 <Button sx={{height : '100%', width : '100%'}} onClick={(e) => sendMessage(e)}>
                                     <Typography color='#ffffff'>{modalTexts.sendQuestion}</Typography>
                                 </Button>

@@ -9,7 +9,7 @@ const Home = () => {
     const {lgScreen, xlgScreen} = useScreenSizes()
   
   return (
-    <Box id = 'home' width='100%' height='auto' px='32px' display='grid' gridTemplateColumns='1fr' 
+    <Box id = 'home' width='100%' height={xlgScreen||lgScreen ? 'auto' : '1340px'} px='24px' display='grid' gridTemplateColumns='1fr' 
          rowGap='5px' justifyContent='center' color='black' gridTemplateRows='1fr'>
 
         <Box height='auto' width='100%' display='grid' gap='1rem' justifyContent='center'

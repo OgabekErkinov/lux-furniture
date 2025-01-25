@@ -18,8 +18,9 @@ const Products = ({products}) => {
                     return (
                         <Box height='18rem' width='100%' bgcolor='#FAFAFA' color='#000000' borderRadius='12px' py='5%'
                              display='flex' flexDirection='column' justifyContent='space-between' key={idx}>
-                            <Box component='img' src={product.image} height='60%' width = '50%' mx='auto'/>
-                            <Stack height='30%' width='98%' mx='auto' justifyContent='flex-end'>
+                            <Box component='img' src={product.image} height='60%' width = '50%' mx='auto' 
+                                 boxShadow='0 0 10px 1px rgba(51, 51, 51, 0.72)' borderRadius='10px'/>
+                            <Stack height='30%' width='90%' mx='auto' justifyContent='flex-end' pl='12px'>
                                 <Typography fontSize='14px' >{product.name}</Typography>
                                 <Typography fontSize='10px' color='grey'>{product.color}</Typography>
                             </Stack>

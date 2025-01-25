@@ -39,10 +39,11 @@ const DownloadSection = () => {
       const isValidNumber = number.startsWith('+998') && number.length === 13;
       setIsNumber(isValidNumber);
     
-      if (isValidNumber) {
-        handleDownload();
+      if (!isValidNumber||name.length < 3) {
+        alert('Invalid number or name:'+ number + ` \nname : ${name}`);  
       } else {
-        console.log('Invalid number:', number);
+        handleDownload();
+        
       }
     };
 
@@ -65,7 +66,7 @@ const DownloadSection = () => {
                                 width : '100%', height : '3rem', p : '5px'}}
                                 value={number}
                                 onChange={(e) => handleChangeNumber(e.target.value)}/> 
-                    <Box width='100%' height = '3rem' p='5px' mx='auto' bgcolor='#94C11F' borderRadius='6px' >
+                    <Box width='100%' height = '3rem' p='5px' mx='auto' bgcolor='green' borderRadius='6px' >
                        <Button sx={{height : '100%', width : '100%'}} onClick={()=>handleClick()}>
                           <Typography color='#ffffff'>{t('downloadSection.download')}</Typography>
                        </Button>

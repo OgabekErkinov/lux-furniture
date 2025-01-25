@@ -8,7 +8,7 @@ const SocialNetworks = ({bbottom}) => {
  
     const {t} = useTranslation()
   return (
-    <Box height={xlgScreen ? '5rem' : 'auto'} width='100%' display={xlgScreen|| lgScreen || !bbottom ? 'flex' : 'none'} alignItems='center'>
+    <Box height={xlgScreen ? '5rem' : 'auto'} width='240px' display={xlgScreen|| lgScreen || !bbottom ? 'flex' : 'none'} alignItems='center'>
         <Stack height='100%' width='100%' direction={smScreen ? 'column' : !xlgScreen ?  'row' : 'column'} alignItems='center' justifyContent='center' gap='0.5rem'>
            {
             xlgScreen && <Typography fontSize='14px'

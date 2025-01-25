@@ -55,45 +55,84 @@
         "heading" : "Каталог готовых изделий",
         "helperHeading" : "которые можно купить здесь и сейчас",
         "anyProduct": "В этом каталоге пока нет товаров..!",
-        "catalogies" : [
-            {
-                "name" : "Комплекты",
-                "products" : [
-                    {
-                        "name" : "Стул Венеция",
-                        "color" : "Белый",
-                        "image" : "/category/whiteVenetsiya.png"
-                    },
-                    {
-                        "name" : "Стул ALLY VBP-206",
-                        "color" : "Светло бежевый",
-                        "image" : "/category/vbp208.png"
-                    },
-                    {
-                        "name" : "Стул Рио",
-                        "color" : "Велюрово синий",
-                        "image" : "/category/rio.png"
-                    },
-                    {
-                        "name" : "Стул Виктория",
-                        "color" : "Желтый",
-                        "image" : "/category/viktoriya.png"
-                    }
+            "catalogies": [
+              {
+                "name": "Комплекты",
+                "products": [
+                  {
+                    "name": "Стул Венеция",
+                    "color": "Белый",
+                    "image": "/category/whiteVenetsiya.png"
+                  },
+                  {
+                    "name": "Стул ALLY VBP-206",
+                    "color": "Светло бежевый",
+                    "image": "/category/vbp208.png"
+                  },
+                  {
+                    "name": "Стул Рио",
+                    "color": "Велюрово синий",
+                    "image": "/category/rio.png"
+                  },
+                  {
+                    "name": "Стул Виктория",
+                    "color": "Желтый",
+                    "image": "/category/viktoriya.png"
+                  }
                 ]
-            },
-            {
-                "name" : "Подвесные кресла",
-                "products" : []
-            },
-            {
-                "name" : "Диваны и кресла",
-                "products" : []
-            },
-            {
-                "name" : "Шезлонги",
-                "products" : []
-            }
-        ]
+              },
+              {
+                "name": "Подвесные кресла",
+                "products": [
+                  {
+                    "name": "Подвесное кресло",
+                    "color": "Серый",
+                    "image": "/category/hanging1.png"
+                  },
+                  {
+                    "name": "Подвесное кресло",
+                    "color": "Синий",
+                    "image": "/category/hanging1.png"
+                  },
+                  {
+                    "name": "Подвесное кресло",
+                    "color": "Белый",
+                    "image": "/category/hanging1.png"
+                  }
+                ]
+              },
+              {
+                "name": "Диваны и кресла",
+                "products": [
+                  {
+                    "name": "Диван",
+                    "color": "Золотистый",
+                    "image": "/category/sofa1.png"
+                  },
+                  {
+                    "name": "Диван",
+                    "color": "Серый",
+                    "image": "/category/sofa grey.png"
+                  },
+                  {
+                    "name": "Диван",
+                    "color": "Зеленый",
+                    "image": "/category/sofagreen.png"
+                  }
+                ]
+              },
+              {
+                "name": "Шезлонги",
+                "products": [
+                  {
+                    "name": "Шезлонг",
+                    "color": "Серый",
+                    "image": "/category/lounger.png"
+                  }
+                ]
+              }
+            ]
+          
     },
     "aboutSection" : {
         "paragraph" : {

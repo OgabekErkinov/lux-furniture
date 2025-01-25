@@ -9,8 +9,8 @@ const Logo = () => {
     const { t } = useTranslation()
     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
     const logoDescDisplay = xlgScreen ? 'block' : 'none'
-    const logoHeightSize = xlgScreen ? '6rem' : lgScreen ? '4rem' : '2rem'
-    const logoWidthSize = xlgScreen ? '18rem' : lgScreen ? '12rem' : '6rem'
+    const logoHeightSize = xlgScreen ? '5rem' : lgScreen ? '4rem' : '2rem'
+    const logoWidthSize = xlgScreen ? '220px' : lgScreen ? '12rem' : '6rem'
   return (
     <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>
            

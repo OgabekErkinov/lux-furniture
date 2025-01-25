@@ -33,9 +33,10 @@ const DownloadButton = () => {
                  bottom='20%' height='60%' width='30%'>
                 <Box component='img' src={homeImages.img4} height='100%' width='100%' />
             </Box>
-            <Stack bgcolor='#94C11F' color='#FFFFFF' width='100%' height='5rem' justifyContent='center' borderRadius='10px'>
-                <Typography variant='h4' fontSize={smScreen ? '12px' : '18px'}>{t('home.downloadCatalog')}</Typography>
-                <Typography fontSize={smScreen ? '8px' : '12px'}>{t('home.buttonDesc')}</Typography>
+
+            <Stack bgcolor='green' color='#FFFFFF' width='100%' height='5rem' justifyContent='center' borderRadius='10px'>
+                <Typography variant='h4' fontWeight='600' fontSize={smScreen ? '12px' : '16px'}>{t('home.downloadCatalog')}</Typography>
+                <Typography fontSize={smScreen ? '8px' : '10px'}>{t('home.buttonDesc')}</Typography>
             </Stack>
         </Button>
        

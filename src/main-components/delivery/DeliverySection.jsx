@@ -16,8 +16,8 @@ const DeliverySection = () => {
                     {
                         components.map((item, idx) => {
                             return (
-                                <Box width='auto' height='320px' bgcolor='#94C11F' borderRadius='10px' padding = '1rem' key={idx}>
-                                    <Stack height='100%' width='100%' justifyContent='flex-end' gap='1rem' pb='1rem'>
+                                <Box width='auto' height='320px' bgcolor='rgba(0, 121, 16, 0.9)' borderRadius='10px' padding = '1rem' key={idx}>
+                                    <Stack height='100%' width='100%' justifyContent='space-around' gap='1rem' pb='1rem'>
                                         <Typography fontWeight='700' fontSize='24px'>{item.title}</Typography>
                                         <Typography fontSize='18px'>{item.mainText}</Typography>
                                     </Stack>

@@ -83,15 +83,53 @@
                 },
                 {
                     "name" : "Hanging chairs",
-                    "products" : []
+                    "products" : [
+                        {
+                            "name": "Hanging Chair",
+                            "color": "grey",
+                            "image": "/category/hanging1.png"
+                        },
+                        {
+                            "name": "Hanging Chair",
+                            "color": "blue",
+                            "image": "/category/hanging1.png"
+                        },
+                        {
+                            "name": "Hanging Chair",
+                            "color": "white",
+                            "image": "/category/hanging1.png"
+                        }
+                    ]
                 },
                 {
                     "name" :"Sofas and armchairs",
-                    "products" : []
+                    "products" : [
+                        {
+                            "name": "Sofa",
+                            "color": "golden",
+                            "image": "/category/sofa1.png"
+                        },
+                        {
+                            "name": "Sofa",
+                            "color": "grey",
+                            "image": "/category/sofa grey.png"
+                        },
+                        {
+                            "name": "Sofa",
+                            "color": "green",
+                            "image": "/category/sofagreen.png"
+                        }
+                    ]
                 },
                 {
                     "name" :"Sun loungers",
-                    "products" : []
+                    "products" : [
+                        {
+                            "name": "sun lounger",
+                            "color": "grey",
+                            "image": "/category/lounger.png"
+                        }
+                    ]
                 }
             ]
     },
