@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 20,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1737525879079,
@@ -88,6 +88,30 @@
                 {
                     "date": 1737528079678,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n             </Typography>\r\n         </Box>\r\n \r\n         <Box width='100%'>\r\n-              <Typography fontSize='22px' lineHeight='2rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n+              <Typography fontSize='22px' lineHeight='3rem' data-aos = 'fade-right' data-aos-delay=\"400\">\r\n                 {t('home.offer')}\r\n               </Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737786050274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='36rem' width='100%' justifyContent='center' gap='1rem'>\r\n+        <Stack height='aut' width='100%' justifyContent='center' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737786102353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='aut' width='100%' justifyContent='center' gap='1rem'>\r\n-        <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n+        <Stack height='auto' width='100%' justifyContent='center' gap='1rem'>\r\n+        <Box width='100%' display='flex' alignItems='center' gap='8px' mt='5px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737786141112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n         <Stack height='auto' width='100%' justifyContent='center' gap='1rem'>\r\n-        <Box width='100%' display='flex' alignItems='center' gap='8px' mt='5px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n+        <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1737786150476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='auto' width='100%' justifyContent='center' gap='1rem'>\r\n+        <Stack height='auto' width='100%' justifyContent='space-evenly' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737786157219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n   return (\r\n     <Box width='100%' height='100%' gap='1rem'>\r\n         \r\n-        <Stack height='auto' width='100%' justifyContent='space-evenly' gap='1rem'>\r\n+        <Stack height='aut' width='100%' justifyContent='center' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
+                },
+                {
+                    "date": 1737786241428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,11 @@\n           })\r\n         }, [])\r\n \r\n   return (\r\n-    <Box width='100%' height='100%' gap='1rem'>\r\n+    <Box width='100%' height='100%' >\r\n         \r\n-        <Stack height='aut' width='100%' justifyContent='center' gap='1rem'>\r\n+        <Stack height='auto' width='100%' justifyContent='center' gap='1rem'>\r\n         <Box width='100%' display='flex' alignItems='center' gap='8px' data-aos = 'fade-right' data-aos-delay=\"0\">\r\n             <Box width='10%' bgcolor='black' height='1px'></Box>\r\n             <Typography fontSize='24px'>{t('home.fromManufacturer')}</Typography>\r\n         </Box>\r\n"
                 }
             ],
             "date": 1737525879079,
