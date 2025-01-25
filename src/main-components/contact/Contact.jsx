@@ -21,7 +21,7 @@ const Contact = ({bbottom}) => {
          <Box height='100%' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem'  >
             <Box height='100%' width='100%' display='flex' justifyContent='space-between' alignItems='center'  >
                 <Logo/>
-                <Languages/> 
+                <Languages bbottom={bbottom}/> 
                 <SocialNetworks bbottom={bbottom}/>
                 <WorkTime bbottom={bbottom}/> 
                 {
