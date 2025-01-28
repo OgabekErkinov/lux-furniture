@@ -1,12 +1,12 @@
 import { CloseOutlined } from '@mui/icons-material';
 import { Box, Button } from '@mui/material';
-import React from 'react';
+
 
 const ButtonToggle = ({ toggle, setToggle }) => {
   return (
-    <Box height="48px" width="48px" borderRadius='50%' m='10px' bgcolor='#67C15E' display='flex' justifyContent='center'>
+    <Box height="48px" width="48px" overflow='hidden' borderRadius='50%' m='10px' bgcolor='#67C15E' display='flex' justifyContent='center'>
       <Button disableTouchRipple
-        sx={{ height: '100%', width: '100%' }}
+        sx={{ height: '100%', width: '100%'}}
         onClick={() => setToggle(!toggle)}
       >
         <CloseOutlined

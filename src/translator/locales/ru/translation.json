@@ -87,17 +87,22 @@
                   {
                     "name": "Подвесное кресло",
                     "color": "Серый",
-                    "image": "/category/hanging1.png"
+                    "image": "/category/hanging1.jpg"
                   },
                   {
                     "name": "Подвесное кресло",
                     "color": "Синий",
-                    "image": "/category/hanging1.png"
+                    "image": "/category/hanging2.png"
                   },
                   {
                     "name": "Подвесное кресло",
                     "color": "Белый",
-                    "image": "/category/hanging1.png"
+                    "image": "/category/hanging3.png"
+                  },
+                  {
+                    "name": "Подвесное кресло",
+                    "color": "Белый",
+                    "image": "/category/hanging3.png"
                   }
                 ]
               },
@@ -107,17 +112,22 @@
                   {
                     "name": "Диван",
                     "color": "Золотистый",
-                    "image": "/category/sofa1.png"
+                    "image": "/category/sofa2.webp"
                   },
                   {
                     "name": "Диван",
                     "color": "Серый",
-                    "image": "/category/sofa grey.png"
+                    "image": "/category/sofanew.webp"
                   },
                   {
                     "name": "Диван",
                     "color": "Зеленый",
-                    "image": "/category/sofagreen.png"
+                    "image": "/category/sofa3.png"
+                  },
+                  {
+                    "name": "Диван",
+                    "color": "Зеленый",
+                    "image": "/category/sofa3.png"
                   }
                 ]
               },
@@ -127,7 +137,22 @@
                   {
                     "name": "Шезлонг",
                     "color": "Серый",
-                    "image": "/category/lounger.png"
+                    "image": "/category/shezlong1.png"
+                  },
+                  {
+                    "name": "Шезлонг",
+                    "color": "Серый",
+                    "image": "/category/shezlong2.png"
+                  },
+                  {
+                    "name": "Шезлонг",
+                    "color": "Серый",
+                    "image": "/category/shezlong1.png"
+                  },
+                  {
+                    "name": "Шезлонг",
+                    "color": "Серый",
+                    "image": "/category/shezlong2.png"
                   }
                 ]
               }

@@ -87,17 +87,22 @@
                         {
                             "name": "Hanging Chair",
                             "color": "grey",
-                            "image": "/category/hanging1.png"
+                            "image": "/category/hanging1.jpg"
                         },
                         {
                             "name": "Hanging Chair",
                             "color": "blue",
-                            "image": "/category/hanging1.png"
+                            "image": "/category/hanging2.png"
                         },
                         {
                             "name": "Hanging Chair",
                             "color": "white",
-                            "image": "/category/hanging1.png"
+                            "image": "/category/hanging3.png"
+                        },
+                        {
+                            "name": "Hanging Chair",
+                            "color": "white",
+                            "image": "/category/hanging3.png"
                         }
                     ]
                 },
@@ -107,17 +112,22 @@
                         {
                             "name": "Sofa",
                             "color": "golden",
-                            "image": "/category/sofa1.png"
+                            "image": "/category/sofa2.webp"
                         },
                         {
                             "name": "Sofa",
                             "color": "grey",
-                            "image": "/category/sofa grey.png"
+                            "image": "/category/sofanew.webp"
                         },
                         {
                             "name": "Sofa",
                             "color": "green",
-                            "image": "/category/sofagreen.png"
+                            "image": "/category/sofa3.png"
+                        },
+                        {
+                            "name": "Sofa",
+                            "color": "green",
+                            "image": "/category/sofa3.png"
                         }
                     ]
                 },
@@ -127,7 +137,22 @@
                         {
                             "name": "sun lounger",
                             "color": "grey",
-                            "image": "/category/lounger.png"
+                            "image": "/category/shezlong1.png"
+                        },
+                        {
+                            "name": "sun lounger",
+                            "color": "grey",
+                            "image": "/category/shezlong2.png"
+                        },
+                        {
+                            "name": "sun lounger",
+                            "color": "grey",
+                            "image": "/category/shezlong1.png"
+                        },
+                        {
+                            "name": "sun lounger",
+                            "color": "grey",
+                            "image": "/category/shezlong2.png"
                         }
                     ]
                 }

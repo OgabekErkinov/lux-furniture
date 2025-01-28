@@ -84,19 +84,24 @@
                     "name" : "Osiladigan kreslolar",
                     "products" : [
                         {
-                            "name": "Hanging Chair",
-                            "color": "grey",
-                            "image": "/category/hanging1.png"
+                            "name": "O'rindiq",
+                            "color": "kulrang",
+                            "image": "/category/hanging1.jpg"
                         },
                         {
-                            "name": "Hanging Chair",
-                            "color": "blue",
-                            "image": "/category/hanging1.png"
+                            "name": "O'rindiqlar",
+                            "color": "ko'k",
+                            "image": "/category/hanging2.png"
                         },
                         {
-                            "name": "Hanging Chair",
-                            "color": "white",
-                            "image": "/category/hanging1.png"
+                            "name": "O'rindiqlar",
+                            "color": "oq",
+                            "image": "/category/hanging3.png"
+                        },
+                        {
+                            "name": "O'rindiqlar",
+                            "color": "oq",
+                            "image": "/category/hanging3.png"
                         }
                     ]
                 },
@@ -106,17 +111,22 @@
                         {
                             "name": "divan",
                             "color": "tilla rang",
-                            "image": "/category/sofa1.png"
+                            "image": "/category/sofa2.webp"
                         },
                         {
                             "name": "divan",
                             "color": "kulrang",
-                            "image": "/category/sofa grey.png"
+                            "image": "/category/sofanew.webp"
                         },
                         {
                             "name": "divan",
                             "color": "yashil",
-                            "image": "/category/sofagreen.png"
+                            "image": "/category/sofa3.png"
+                        },
+                        {
+                            "name": "divan",
+                            "color": "yashil",
+                            "image": "/category/sofa3.png"
                         }
                     ]
                 },
@@ -126,7 +136,22 @@
                         {
                             "name": "shezlong",
                             "color": "kulrang",
-                            "image": "/category/lounger.png"
+                            "image": "/category/shezlong1.png"
+                        },
+                        {
+                            "name": "shezlong",
+                            "color": "kulrang",
+                            "image": "/category/shezlong2.png"
+                        },
+                        {
+                            "name": "shezlong",
+                            "color": "kulrang",
+                            "image": "/category/shezlong1.png"
+                        },
+                        {
+                            "name": "shezlong",
+                            "color": "kulrang",
+                            "image": "/category/shezlong2.png"
                         }
                     ]
                 }

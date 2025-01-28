@@ -18,7 +18,7 @@ const ImagesFurnitures = () => {
   return (
     <Box height='90%' width='98%' display='grid' 
          gridTemplateColumns={(smScreen || mdScreen) ? '1fr' : '1.5fr 1fr'} gap='2%' justifyContent='center'>
-        <Box component='img' src={homeImages.img1} height={xlgScreen ? '36rem' : '32rem'} width='100%' 
+        <Box component='img' src='/home1.png' height={xlgScreen ? '36rem' : '32rem'} width='100%' 
              borderRadius='0.5rem' data-aos = 'zoom-in'/>
              
         <Box height={xlgScreen ? '36rem' : '32rem'} width='100%' display='grid' gridTemplateRows={smScreen || mdScreen ? '1fr' : '1fr 3fr'}
@@ -29,7 +29,7 @@ const ImagesFurnitures = () => {
            <Box height='80%' width='100%' display='grid' gridTemplateColumns={smScreen || mdScreen ? '1fr' : '1fr 4fr 0fr'}
                 gridTemplateRows={smScreen||mdScreen ? '0fr 1fr 1fr' : '1fr'}>
                   <Box></Box>
-                     <Box component='img' src={homeImages.img2} height={xlgScreen||lgScreen ? '100%' : '80%'} width='100%' borderRadius='0.5rem' 
+                     <Box component='img' src='/home2.jfif' height={xlgScreen||lgScreen ? '100%' : '80%'} width='100%' borderRadius='0.5rem' 
                             data-aos = 'fade-left'/>
                       <Box height='100%'>
                         {smScreen||mdScreen && <Offers/>}
@@ -37,7 +37,7 @@ const ImagesFurnitures = () => {
                   </Box>
                   
         {/* ........second box in bottom........................................................... */}
-                  <Box component='img' src={homeImages.img3} height={xlgScreen||lgScreen ? '100%':'70%'} width='100%' borderRadius='0.5rem'
+                  <Box component='img' src='/home3.png' height={xlgScreen||lgScreen ? '100%':'70%'} width='100%' borderRadius='0.5rem'
                           data-aos = 'fade-up'/>
 
         </Box>

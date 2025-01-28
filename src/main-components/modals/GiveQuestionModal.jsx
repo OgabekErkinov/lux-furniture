@@ -62,7 +62,7 @@ const GiveQuestionModal = ({closeModal}) => {
         <Stack height='100%' width='100%'>
 
             <Box height = '20vh' width='100%' display='flex' justifyContent='flex-end' 
-                 pr='2rem' sx={{backdropFilter : 'blur(10px)'}}  pt='2rem'>
+                 pr='2rem' sx={{backdropFilter : 'blur(10px)'}}  pt='1rem'>
                 <Button sx={{height : '48px', width : '48px', position : 'absolute', zIndex : '3'}}
                         onClick={() => closeModal(false)}>
                      <CloseOutlined
