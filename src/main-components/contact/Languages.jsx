@@ -7,7 +7,7 @@ import { languages } from '../../constants/constantas.js'
 
 const Languages = ({bbottom}) => {
     const {t, i18n} = useTranslation()
-    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
+    const {smScreen} = useScreenSizes()
     const [currentLanguage, setCurrentLanguage] = useState('en')
     
     const handleLanguage = (lang) => {
@@ -18,7 +18,8 @@ const Languages = ({bbottom}) => {
    
   return (
     <Box height='100%'  width='80px'>
-      <Box display={bbottom ? 'flex' : 'none'} justifyContent='center' alignItems='center' height='100%' width='100%'  gap='2px'>
+      <Box display={bbottom ? 'flex' : 'none'} justifyContent='center' alignItems='center' 
+           height='100%' width='100%'  gap='2px'>
             {
               languages.map((language, idx) => {
                 if(language.name !== currentLanguage){
@@ -28,7 +29,7 @@ const Languages = ({bbottom}) => {
                          width={!smScreen ? '36px' : '24px'}
                         onClick={() => handleLanguage(language.name)} />        
                        )} }) }
-    </Box>
+      </Box>
     </Box>
 
   )

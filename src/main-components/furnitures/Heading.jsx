@@ -4,12 +4,12 @@ import useScreenSizes from '../../hooks/ScreenSizes'
 const Heading = ({furnitures}) => {
     const {smScreen, mdScreen, lgScreen} = useScreenSizes()
   return (
-    <Box mb="1rem" width='100%' height='auto'>
+    <Box mb="1rem" width='100%' height='auto' px='1rem'>
         <Typography variant="h4" fontWeight="700" color='#000000' fontSize={smScreen ? '18px' : mdScreen ? '24px' : '36px'}
                     width={smScreen||mdScreen ? '100%' : lgScreen ? '80%' : '50%'}>
             {furnitures.heading}
         </Typography>
-        <Typography color="textSecondary" my='1rem'>{furnitures.helperText}</Typography>
+        <Typography color="textSecondary" my='1rem' fontSize={smScreen ? '16px' : '20px'}>{furnitures.helperText}</Typography>
     </Box>
   )
 }

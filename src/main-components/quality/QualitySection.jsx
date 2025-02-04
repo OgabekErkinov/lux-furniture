@@ -10,13 +10,13 @@ const QualitySection = () => {
     const offers = t('qualitySection.offers', {returnObjects : true})
     const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
   return (
-    <Box height='auto' width='100%' id = 'guarantees'>
+    <Box height='auto' width='90%' id = 'guarantees'>
         <Stack height='auto' width='100%'>
             <Heading/>
             <Box height='auto' width='100%' display='grid' gap='0.2rem'
                 gridTemplateColumns={xlgScreen ? 'repeat(6, 1fr)' : lgScreen ? 'repeat(3, 1fr)' : mdScreen ? 'repeat(2, 1fr)' : '1fr'}>
             {
-              offers.map((item, idx) => {
+             Array.isArray(offers) && offers.map((item, idx) => {
                 return (
                     <Component title={item?.title} image={item?.image} key={idx}/>
                 )

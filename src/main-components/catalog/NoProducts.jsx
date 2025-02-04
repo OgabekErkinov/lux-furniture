@@ -7,7 +7,7 @@ const NoProducts = () => {
   return (
     <Box height='15rem' width='100%' border='1px solid grey' display='flex'alignItems='center'>
         <Typography width='100%' textAlign='center' color='#000000'>
-            {t('catalogSection.anyProduct')}
+            {t('catalog.noProduct')}
         </Typography>
     </Box>
   )

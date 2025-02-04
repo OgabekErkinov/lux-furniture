@@ -7,12 +7,12 @@ import LazyLoading from '../../helper-components/loading/LazyLoading'
 
 const Logo = () => {
     const { t } = useTranslation()
-    const {smScreen, mdScreen, lgScreen, xlgScreen} = useScreenSizes()
+    const {lgScreen, xlgScreen} = useScreenSizes()
     const logoDescDisplay = xlgScreen ? 'block' : 'none'
-    const logoHeightSize = xlgScreen ? '5rem' : lgScreen ? '4rem' : '2rem'
-    const logoWidthSize = xlgScreen ? '220px' : lgScreen ? '12rem' : '6rem'
-  return (
-    <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>
+    const logoHeightSize = xlgScreen ? '4rem' : '3rem'
+    const logoWidthSize = xlgScreen ? '14rem' : lgScreen ? '10rem' : '8rem'
+    return (
+        <Stack direction='row' alignItems='center' height='auto' width='auto' gap='12px'>
            
             <Link href = '/' height='auto' width='auto'>
               {
@@ -21,9 +21,9 @@ const Logo = () => {
             </Link>
             
             <Typography height='auto' width='6rem' display={logoDescDisplay} fontSize='12px'>
-               {t('logoDescription')}
+               {t('logoText')}
             </Typography>
-    </Stack>
+        </Stack>
   )
 }
 

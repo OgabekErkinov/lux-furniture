@@ -17,7 +17,7 @@ const ToggleItem = ({question, answer}) => {
                    <Typography width='auto' fontWeight='500' fontSize={smScreen ? '16px' : '22px'}>
                         {question}
                     </Typography>
-                   <ButtonToggle toggle={toggle} setToggle={setToggle}/>
+                   <ButtonToggle toggle={toggle}/>
                 </Stack>
              {
                 toggle && <Box height={toggle ? 'auto' : '0px'} width='70%' my='0.5rem'>

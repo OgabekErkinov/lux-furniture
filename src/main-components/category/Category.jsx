@@ -39,7 +39,7 @@ const Category = () => {
            <Box width='90%' height='100%' mx='auto' display='grid' 
                 gridTemplateColumns={smScreen || mdScreen ? 'repeat(2,1fr)' : 'repeat(4,1fr)'} gap='1rem'>
            {
-                categories.map((category, idx) => {
+                Array.isArray(categories) && categories.map((category, idx) => {
                     return ( 
                       <Box height='100%' width='100%' position = 'relative' key={idx} borderRadius='0.5rem'
                            data-aos = 'fade-down' data-aos-delay = {`${idx * 200}`}

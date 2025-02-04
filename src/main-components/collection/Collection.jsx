@@ -17,9 +17,9 @@ const Collection = () => {
                                     {t('collection.heading')}
                     </Typography>
                 </Box>
-                <Box width="90%" height="80%" mx='auto' display="flex" flexDirection='column' gap='1rem'>
-                    <Box component="img" src={components[0]} height={smScreen || mdScreen ? '15rem' : '20rem'} width="100%" borderRadius='12px' />
-                    <Box height='100%' width='100%' display='grid' gridTemplateColumns={smScreen ? '1fr' : '1fr 1.3fr'} gap='1rem'>
+                <Box width="90%" height="80%" mx='auto' display="flex" flexDirection='column' alignItems='center' gap='1rem'>
+                    <Box component="img" src={components[0]} height={smScreen || mdScreen ? '15rem' : '25rem'} width="80%" borderRadius='12px' />
+                    <Box height='100%' width='80%' display='grid' gridTemplateColumns={smScreen ? '1fr' : '1fr 1.3fr'} gap='1rem'>
                        <Box component="img" src={components[1]} height={smScreen || mdScreen ? '15rem' : '20rem'} width="100%" borderRadius='12px'/>
                        <Box component="img" src={components[2]} height={smScreen || mdScreen ? '15rem' : '20rem'} width="100%" borderRadius='12px'/>
                     </Box>

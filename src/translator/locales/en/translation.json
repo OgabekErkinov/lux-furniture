@@ -1,6 +1,6 @@
 {
-    "logoDescription" : "Production of premium-class woven furniture in Tashkent",
-    "onlineAsk" : "Ask a question, we are online.",
+    "logoText" : "Production of premium-class woven furniture in Tashkent",
+    "socialText" : "Ask a question, we are online.",
     "callUs" : "Call: 10:00 AM - 8:00 PM",
     "navLinks" : {
         "home" : "home" ,
@@ -13,48 +13,22 @@
         "contacts" :  "contacts"
     },
     "home" : {
-        "fromManufacturer" : "from the manufacturer",
-        "furnitureForCustomer" : 
-                           { "first" : "Wicker",
-                             "second" : " furniture for your business"},
-        "offer" : "We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. ",
-        "downloadCatalog" : "DOWNLOAD CATALOG",
-        "buttonDesc" : "more than 200 types of furniture",
-        "guarantyTime" : "Warranty from 3 years on all products",
-        "deliveryCost" : "Delivery from 30,000 sum to the door",
-       "payWhen" : "Payment upon viewing the furniture"
-    },
-    "categorySection" : {
-        "heading" : "We produce 4 main categories of furniture",
-        "helperHeading" : "more than 200 types of products in the entire range",
-        "categories" : [
-            {
-                 "name" : "Kits",
-                 "image" : "/category/complekt.png",
-                 "count" : "15 products"
+                "helperText" : "from the manufacturer",
+                "heading" :  { "first" : "Wicker",
+                                "second" : " furniture for your business"},
+                "mainText" : "We present a special collection of wicker furniture for business - from elegant chairs and tables for cafes and restaurants to cozy corners for relaxation and lounge areas. ",
+                "downloadCatalog" : "DOWNLOAD CATALOG",
+                "buttonText" : "more than 200 types of furniture",
+                "guarantyTime" : "Warranty from 3 years on all products",
+                "deliveryCost" : "Delivery from 30,000 sum to the door",
+               "payWhen" : "Payment upon viewing the furniture"
             },
-            {
-                "name" : "Hanging chairs",
-                "image" : "/category/osma.png",
-                "count" : "7 products"
-
-            },
-            {
-                "name" : "Sofas and armchairs",
-                "image" : "/category/sofakreslo.png",
-                "count" : "3 products"
-            },
-            {
-                "name" : "Sun loungers",
-                "image" : "/category/lounger.png",
-                "count" : "1 products"
-            }
-        ]
-    },
-    "catalogSection": {
+    "catalog": {
             "heading": "Catalog of Ready-Made Products",
             "helperHeading": "which can be bought here and now",
-            "anyProduct" : "we haven't products on this catalogue yet..!",
+            "noProduct" : "we haven't products on this catalogue yet..!",
+            "goCatalog" : "go to catalog",
+            "swiperHeading" : "Wicker furniture sets",
             "catalogies": [
                 {
                     "name": "Kits",
@@ -72,7 +46,7 @@
                         {
                             "name": "Chair Rio",
                             "color": "Velvet Blue",
-                            "image": "/category/rio.png"
+                            "image": "/category/rio.webp"
                         },
                         {
                             "name": "Chair Victoria",
@@ -87,22 +61,22 @@
                         {
                             "name": "Hanging Chair",
                             "color": "grey",
-                            "image": "/category/hanging1.jpg"
+                            "image": "/category/hanging1.webp"
                         },
                         {
                             "name": "Hanging Chair",
                             "color": "blue",
-                            "image": "/category/hanging2.png"
+                            "image": "/category/hanging2.webp"
                         },
                         {
                             "name": "Hanging Chair",
                             "color": "white",
-                            "image": "/category/hanging3.png"
+                            "image": "/category/hanging3.webp"
                         },
                         {
                             "name": "Hanging Chair",
                             "color": "white",
-                            "image": "/category/hanging3.png"
+                            "image": "/category/hanging3.webp"
                         }
                     ]
                 },
@@ -122,12 +96,12 @@
                         {
                             "name": "Sofa",
                             "color": "green",
-                            "image": "/category/sofa3.png"
+                            "image": "/category/sofa1.webp"
                         },
                         {
                             "name": "Sofa",
                             "color": "green",
-                            "image": "/category/sofa3.png"
+                            "image": "/category/sofa grey.webp"
                         }
                     ]
                 },
@@ -137,28 +111,28 @@
                         {
                             "name": "sun lounger",
                             "color": "grey",
-                            "image": "/category/shezlong1.png"
+                            "image": "/category/shezlong1.webp"
                         },
                         {
                             "name": "sun lounger",
                             "color": "grey",
-                            "image": "/category/shezlong2.png"
+                            "image": "/category/shezlong2.webp"
                         },
                         {
                             "name": "sun lounger",
                             "color": "grey",
-                            "image": "/category/shezlong1.png"
+                            "image": "/category/shezlong1.webp"
                         },
                         {
                             "name": "sun lounger",
                             "color": "grey",
-                            "image": "/category/shezlong2.png"
+                            "image": "/category/shezlong2.webp"
                         }
                     ]
                 }
             ]
     },
-    "aboutSection": {
+    "about": {
     "paragraph": {
         "title": "About Us",
         "paragraph": "Our company, LLC “Firdavs Mebel,” has been successfully operating in the furniture market since 2008. Over these years, we have accumulated invaluable practical experience. Every technological and production process has been refined to the smallest detail, and every movement has been perfected. We offer FURNITURE under the brand “СНINAR,” made from synthetic rattan with a wide range of products, and the collection is constantly being updated."
@@ -167,12 +141,12 @@
         {
             "type": "employees",
             "result": "60+",
-            "image" : "/about/about1.png"
+            "image" : "/about/about1.webp"
         },
         {
             "type": "countries for export",
             "result": "7",
-            "image" : "/about/about2.png"
+            "image" : "/about/about2.webp"
         },
         {
             "type": "years of experience",
@@ -189,13 +163,14 @@
             "result": "200+",
             "image" : ""
         }
-    ]
+    ],
+    "images" : ["/about/about3.webp", "/about/about4.webp"]
     
     },
     "furnituresSection": {
-    "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
-    "helperText": "Of various complexities and configurations",
-    "components": [
+         "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
+         "helperText": "Of various complexities and configurations",
+         "components": [
         {
             "title": "Woven furniture is often used in gardens, on terraces, and balconies",
             "image": "./delivery/balcon.png"
@@ -222,21 +197,21 @@
         }
     ]
      },
-    "collection" : {
+     "collection" : {
         "heading" : "New summer collection from Chinar for your home and establishment",
         "components" : [
             "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
         ]
     },
     "downloadSection": {
-    "title": "200+ projects in the photo catalog",
-    "helperText": "Download right now",
-    "name": "Your name",
-    "download": "DOWNLOAD CATALOG"
-     },
+            "title": "200+ projects in the photo catalog",
+            "helperText": "Download right now",
+            "name": "Your name",
+            "download": "DOWNLOAD CATALOG"
+                       },
     "partnerSection" : {
-        "heading" : "Over 50 partners in 16 years"
-    },
+            "heading" : "Over 50 partners in 16 years"
+                        },
     "qualitySection": {
             "heading": "We carefully control the production quality, ensuring the durability of our furniture for over 10 years.",
             "helperText": "The production consists of 7 stages.",
@@ -320,6 +295,74 @@
         "errorSend": "An error occurred while sending the message..!"
 
     }
+     },
+    "category": {
+      "heading": "Catalog of Ready-Made Products",
+      "helperText": "products available for immediate purchase",
+      "products": [
+        {
+          "id": "1",
+          "image": "/catalog/kravat.jfif",
+          "name": "Sherona Barhat Grey",
+          "type": "Double Beds",
+          "price": "21 990"
+        },
+        {
+          "id": "2",
+          "image": "/catalog/shkaf.jfif",
+          "name": "Avignon-1",
+          "type": "Buffets",
+          "price": "18 990"
+        },
+        {
+          "id": "3",
+          "image": "/catalog/tortma.jfif",
+          "name": "Stella Oak Sonoma",
+          "type": "Dressers",
+          "price": "8 990"
+        },
+        {
+          "id": "4",
+          "image": "/catalog/tomb.jfif",
+          "name": "Ravenna-1 Light",
+          "type": "Dressers",
+          "price": "14 990"
+        },
+        {
+          "id": "5",
+          "image": "/catalog/ayStul.jfif",
+          "name": "Benfleet Grey",
+          "type": "Coffee Tables",
+          "price": "7 290"
+        },
+        {
+          "id": "6",
+          "image": "/catalog/parta.jfif",
+          "name": "Tiffany Woodline Cream",
+          "type": "Writing Desks",
+          "price": "10 990"
+        },
+        {
+          "id": "7",
+          "image": "/catalog/shkaf3.jfif",
+          "name": "Valencia Beige",
+          "type": "Wardrobes",
+          "price": "19 990"
+        },
+        {
+          "id": "8",
+          "image": "/catalog/garderob.jfif",
+          "name": "Light-3-170-240 White",
+          "type": "Wardrobes",
+          "price": "27 290"
+        }
+      ]
+    },
+    "notFound": {
+  "heading": ["404", "Page Not Found"],
+  "text": "Sorry, the page was not found. The link you followed may be broken, or the page may have been removed. Please return to the main page.",
+  "button": "Return to Home"
 }
+
 
 }

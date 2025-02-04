@@ -8,20 +8,22 @@ const SocialNetworks = ({bbottom}) => {
  
     const {t} = useTranslation()
   return (
-    <Box height={xlgScreen ? '5rem' : 'auto'} width='240px' display={xlgScreen|| lgScreen || !bbottom ? 'flex' : 'none'} alignItems='center'>
-        <Stack height='100%' width='100%' direction={smScreen ? 'column' : !xlgScreen ?  'row' : 'column'} alignItems='center' justifyContent='center' gap='0.5rem'>
+    <Box height={xlgScreen ? '5rem' : 'auto'} width='11rem' 
+         display={xlgScreen|| lgScreen || !bbottom ? 'flex' : 'none'} alignItems='center'>
+        <Stack height='100%' width='100%' direction={smScreen ? 'column' : !xlgScreen ?  'row' : 'column'} 
+               alignItems='center' justifyContent='center' gap='0.5rem'>
            {
             xlgScreen && <Typography fontSize='14px'
                                      textAlign='center'>
-                                {t('onlineAsk')}
+                                {t('socialText')}
                          </Typography>
            }
            <Stack direction='row' gap={smScreen ? '4px' : '12px'} justifyContent='center'>
                <Link height='100%' width='100%' href = 'https://chinar.uz' target = '_blank'>
-                  <FaWhatsapp color="green" size={!smScreen ? '36px' : '20px'}/>
+                  <FaWhatsapp color="green" size={!smScreen ? '34px' : '18px'}/>
               </Link>
               <Link href = 'https://t.me/@Only_2008' target = '_blank' height='100%' width='100%'>
-                 <FaTelegram color="#20aabd" size={!smScreen ? '36px' : '20px'}/> 
+                 <FaTelegram color="#20aabd" size={!smScreen ? '34px' : '18px'}/> 
               </Link>
            </Stack>
         </Stack> 

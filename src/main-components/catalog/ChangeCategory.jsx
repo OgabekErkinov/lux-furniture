@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 const ChangeCategory = ({handleClick, currentCatalog}) => {
     const {t} = useTranslation()
-    const catalogies = t('catalogSection.catalogies', {returnObjects : true})
+    const catalogies = t('catalog.catalogies', {returnObjects : true})
 
     useEffect(()=>{
         Aos.init({
@@ -16,7 +16,7 @@ const ChangeCategory = ({handleClick, currentCatalog}) => {
   return (
     <Box width='100%' height='100%' display='flex' flexWrap='wrap' justifyContent='center'>
         {
-          catalogies.map((item, idx) => {
+          Array.isArray(catalogies) && catalogies.map((item, idx) => {
                 return (
                     <Box height='2rem' width='150px' key={idx} data-aos = 'fade-up' data-aos-delay = {idx * 200}
                          borderRadius='12px'

@@ -15,10 +15,10 @@ const Contact = ({bbottom}) => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
   
   return (
-    <Box id = {bbottom ? '#' : 'contacts'} height={smScreen ? '4rem' : mdScreen ? '5rem' :  lgScreen ? '5rem' : '7rem'} 
-         bgcolor='#FFFFFF' maxWidth='1440px' width='100%' p='1rem 1rem 0 1rem' borderBottom={bbottom}
+    <Box id = {bbottom ? '#' : 'contacts'} width = {bbottom? '100%' : '90%'} borderBottom={bbottom}
          position={bbottom ? 'fixed' : 'static'} top={bbottom ? '-20px' : '' } zIndex='2'>
-         <Box height='100%' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem'  >
+         <Box height={smScreen ? '4rem' : mdScreen ? '5rem' :  lgScreen ? '5rem' : '6rem'} 
+              maxWidth='1440px' width='100%' bgcolor='#FFFFFF'  color='black' p='1rem 1rem 0 1rem'>
             <Box height='100%' width='100%' display='flex' justifyContent='space-between' alignItems='center'  >
                 <Logo/>
                 <Languages bbottom={bbottom}/> 
@@ -35,8 +35,8 @@ const Contact = ({bbottom}) => {
                                      <MobileMenu setIsMobileMenu = {setIsMobileMenu}/>     
                                  </Portal>
                 }  
+            </Box>
          </Box>
-       </Box>
     </Box>
     
     

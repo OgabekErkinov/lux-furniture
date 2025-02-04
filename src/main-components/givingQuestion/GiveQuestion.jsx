@@ -8,7 +8,7 @@ const GiveQuestion = ({ toggleModal }) => {
   const { mdScreen, lgScreen, xlgScreen } = useScreenSizes();
 
   return (
-    <Box height="auto" width="100%">
+    <Box height="auto" width="90%">
       <Stack height="auto" width="auto" alignItems="flex-start" gap="1rem">
         {/* Title */}
         <Box height="auto" width="100%">
