@@ -13,7 +13,7 @@ const DownloadSection = () => {
     const [number, setNumber] = useState('+998')
     const [isError, setIsError] = useState({ name: false, number: false })
 
-    // Telefon raqamini formatlash
+    
     const handleChangeNumber = (string) => {
         const sanitized = string.replace(/\D/g, '').slice(0, 12);
         if (sanitized.startsWith('998')) {
@@ -50,28 +50,26 @@ const DownloadSection = () => {
                     <Box display='grid' gridTemplateColumns={smScreen || mdScreen ? '1fr' : '1fr 1fr 1fr'} gap='0.5rem'
                         alignItems='center' justifyContent='center'>
 
-                        {/* Ism uchun input */}
+                        
                         <TextField
                             placeholder={t('downloadSection.name')}
                             variant="outlined"
                             sx={{ width: '100%', height: '3rem' }}
                             error={isError.name}
-                            helperText={isError.name ? "Ism kamida 3 ta harf bo‘lishi kerak" : ""}
                             onChange={(e) => setName(e.target.value)}
                         />
 
-                        {/* Telefon raqami uchun input */}
+                        
                         <TextField
                             placeholder="901234567"
                             variant="outlined"
                             sx={{ width: '100%', height: '3rem' }}
                             value={number}
                             error={isError.number}
-                            helperText={isError.number ? "Telefon raqami noto‘g‘ri" : ""}
                             onChange={(e) => handleChangeNumber(e.target.value)}
                         />
 
-                        {/* Yuklab olish tugmasi */}
+                        
                         <Box width='100%' height='3rem' p='5px' mx='auto' bgcolor='green' borderRadius='6px'>
                             <Button sx={{ height: '100%', width: '100%' }} onClick={handleClick}>
                                 <Typography color='#ffffff'>{t('downloadSection.download')}</Typography>
