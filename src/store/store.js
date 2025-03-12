@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import favouritesReducer from './favouriteSlice'
+import { create } from 'zustand';  
 
-export const store = configureStore({
-    reducer : {
-        favourites : favouritesReducer
-    }
-})
+const useStore = create((set) => ({
+  modalOpen: false,
+  toggleModal: () => set((state) => ({ modalOpen: !state.modalOpen })),
+}));
+
+export default useStore;

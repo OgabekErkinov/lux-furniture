@@ -2,6 +2,7 @@
     "logoText" : "Toshkentda premium toifadagi to'qilgan mebellar ishlab chiqarish",
     "socialText" : "Savol bering, biz onlaynmiz",
     "callUs" : "Ish vaqti: 10:00 - 20:00",
+    "furnitures-desc" : "Lux Furnitures dan sizning uyingiz uchun yangi yozgi to'qilgan mebel kolleksiyasi",
     "navLinks" : {
         "home" : "bosh sahifa" ,
         "catalog" :  "katalog",
@@ -23,110 +24,119 @@
          "deliveryCost": "30 000 so'mdan eshikgacha yetkazib berish",
          "payWhen" : "Mebelni ko'rishda to/'lov"
      },
-     "catalog": {
+    "catalog": {
             "heading": "Yakuniy mahsulotlar katalogi",
-            "helperHeading": "ularni hozir va shu yerda sotib olish mumkin",
+            "heading2":"Biz 4 ta asosiy turdagi mebel ishlab chiqaramiz.",
+            "text": "ularni hozir va shu yerda sotib olish mumkin",
+            "text2" : "More than 200 types of products in all assortment.",
             "anyProduct": "Bu katalogda hozircha mahsulotlar mavjud emas..!",
             "goCatalog" : "Katalogga o'tish",
-            "swiperHeading" : "Pletinli mebel to‘plamlari",
             "catalogies": [
                             {
-                             "name": "Kits",
+                             "name": "Komplektlar",
+                             "banner":"/category/sets-banner.webp",
+                             "main" : "/category/kits-main.webp",
                              "products": [
                                     {
                                         "name": "Stul Venedisiya",
                                         "color": "Oq",
-                                        "image": "/category/whiteVenetsiya.png"
+                                        "image": "/category/whiteVenetsiya.webp"
                                     },
                                     {
                                         "name": "Stul ALLY VBP-206",
                                         "color": "Yengil bej",
-                                        "image": "/category/vbp208.png"
+                                        "image": "/category/vbp208.webp"
                                     },
                                     {
                                         "name": "Stul Rio",
                                         "color": "Velur ko'k",
-                                        "image": "/category/rio.png"
+                                        "image": "/category/rio.webp"
                                     },
                                     {
                                         "name": "Stul Viktoriya",
                                         "color": "Sariq",
-                                        "image": "/category/viktoriya.png"
+                                        "image": "/category/viktoriya.webp"
                                     }
                                 ]
                             },
                             {
                                 "name" : "Osiladigan kreslolar",
+                                "banner" : "/category/hanging-banner.webp",
+                                "main" : "/category/main-hanging.webp",
                                 "products" : [
                                     {
                                         "name": "O'rindiq",
                                         "color": "kulrang",
-                                        "image": "/category/hanging1.jpg"
+                                        "image": "/category/main-hanging1.webp"
                                     },
                                     {
                                         "name": "O'rindiqlar",
                                         "color": "ko'k",
-                                        "image": "/category/hanging2.png"
+                                        "image": "/category/main-hanging2.webp"
                                     },
                                     {
                                         "name": "O'rindiqlar",
                                         "color": "oq",
-                                        "image": "/category/hanging3.png"
+                                        "image": "/category/main-hanging3.webp"
                                     },
                                     {
                                         "name": "O'rindiqlar",
                                         "color": "oq",
-                                        "image": "/category/hanging3.png"
+                                        "image": "/category/main-hanging4.webp"
                                     }
                                 ]
                             },
                             {
                                 "name" : "Divan va kreslolar",
+                                "banner":"/category/sofa-banner.webp",
+                                "main" : "/category/main-sofa.webp",
                                 "products" : [
                                     {
                                         "name": "divan",
                                         "color": "tilla rang",
-                                        "image": "/category/sofa2.webp"
+                                        "image": "/category/armchair1.webp"
                                     },
                                     {
                                         "name": "divan",
                                         "color": "kulrang",
-                                        "image": "/category/sofanew.webp"
+                                        "image": "/category/armchair2.webp"
                                     },
                                     {
                                         "name": "divan",
                                         "color": "yashil",
-                                        "image": "/category/sofa3.png"
+                                        "image": "/category/armchair3.webp"
                                     },
                                     {
                                         "name": "divan",
                                         "color": "yashil",
-                                        "image": "/category/sofa3.png"
+                                        "image": "/category/armchair4.webp"
                                     }
                                 ]
                             },
                             {
                                 "name" : "Shezlonglar",
+                                "banner":"/category/lounger-banner.webp",
+                                "main" : "/category/main-shezlong.webp",
                                 "products" : [
                                     {
                                         "name": "shezlong",
                                         "color": "kulrang",
-                                        "image": "/category/shezlong1.png"
+                                        "image": "/category/main-lounger1.webp"
                                     },
                                     {
                                         "name": "shezlong",
                                         "color": "kulrang",
-                                        "image": "/category/shezlong2.png"
+                                        "image": "/category/main-lounger2.webp"
                                     },
                                     {
                                         "name": "shezlong",
                                         "color": "kulrang",
-                                        "image": "/category/shezlong1.png"
+                                        "image": "/category/main-lounger3.webp"
                                     },
                                     {
                                         "name": "shezlong",
                                         "color": "kulrang",
-                                        "image": "/category/shezlong2.png"
+                                        "image": "/category/main-lounger4.webp"
                                     }
                                 ]
                             }
@@ -197,10 +207,7 @@
                     ]
                      },
     "collection" : {
-                "heading" : "Chinardan yangi yozgi kolleksiya uyingiz va muassasangiz uchun",
-                "components" : [
-                  "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
-                 ]
+                "heading" : "'Lux-Furnitures' dan yangi yozgi kolleksiya uyingiz va muassasangiz uchun"
         },
     "downloadSection": {
                     "title": "200+ loyiha tasvir katalogida",
@@ -360,17 +367,15 @@
     "heading": ["404", "Sahifa topilmadi"],
      "text": "Kechirasiz, sahifa topilmadi. Siz bosgan havola noto‘g‘ri bo‘lishi yoki sahifa o‘chirib tashlangan bo‘lishi mumkin. Iltimos, bosh sahifaga qayting.",
      "button": "Bosh sahifaga qaytish"
-}
-
-
-
-            
-        
-    
-
-
-
-
-    
-
-}
+    },
+        "toasts": {
+          "field_required": "Iltimos, maydonni to‘ldiring",
+          "invalid_number": "Telefon raqam noto‘g‘ri formatda",
+          "short_name": "Ism kamida 3 ta harf bo‘lishi kerak",
+          "submission_failed": "Ma'lumotlarni yuborib bo‘lmadi",
+          "download_failed": "Katalogni yuklab bo‘lmadi",
+          "submission_success": "Ma'lumot muvaffaqiyatli yuborildi",
+          "download_success": "Katalog muvaffaqiyatli yuklab olindi"
+        }
+      }
+      

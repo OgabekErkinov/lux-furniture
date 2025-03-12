@@ -2,6 +2,7 @@
     "logoText" : "Production of premium-class woven furniture in Tashkent",
     "socialText" : "Ask a question, we are online.",
     "callUs" : "Call: 10:00 AM - 8:00 PM",
+    "furnitures-desc" : "New summer collection of woven furniture from Lux-Furnitures for your home",
     "navLinks" : {
         "home" : "home" ,
         "catalog" :  "catalog",
@@ -11,6 +12,7 @@
         "delivery" :  "delivery" ,
         "vacancy" : "vacancy" ,
         "contacts" :  "contacts"
+        
     },
     "home" : {
                 "helperText" : "from the manufacturer",
@@ -24,345 +26,359 @@
                "payWhen" : "Payment upon viewing the furniture"
             },
     "catalog": {
-            "heading": "Catalog of Ready-Made Products",
-            "helperHeading": "which can be bought here and now",
-            "noProduct" : "we haven't products on this catalogue yet..!",
-            "goCatalog" : "go to catalog",
-            "swiperHeading" : "Wicker furniture sets",
-            "catalogies": [
-                {
-                    "name": "Kits",
-                    "products": [
+                    "heading": "Catalog of Ready-Made Products",
+                    "heading2":"We produce 4 main categories of furniture.",
+                    "text": "which can be bought here and now",
+                    "text2" : "More than 200 types of products in all assortment.",
+                    "noProduct" : "we haven't products on this catalogue yet..!",
+                    "goCatalog" : "go to catalog",
+                    "catalogies": [
                         {
-                            "name": "Chair Venice",
-                            "color": "White",
-                            "image": "/category/whiteVenetsiya.png"
+                            "name": "Sets",
+                            "banner" : "/category/sets-banner.webp",
+                            "main" : "/category/kits-main.webp",
+                            "products": [
+                                {
+                                    "name": "Chair Venice",
+                                    "color": "White",
+                                    "image": "/category/whiteVenetsiya.png"
+                                },
+                                {
+                                    "name": "Chair ALLY VBP-206",
+                                    "color": "Light Beige",
+                                    "image": "/category/vbp208.png"
+                                },
+                                {
+                                    "name": "Chair Rio",
+                                    "color": "Velvet Blue",
+                                    "image": "/category/rio.webp"
+                                },
+                                {
+                                    "name": "Chair Victoria",
+                                    "color": "Yellow",
+                                    "image": "/category/viktoriya.png"
+                                }
+                            ]
                         },
                         {
-                            "name": "Chair ALLY VBP-206",
-                            "color": "Light Beige",
-                            "image": "/category/vbp208.png"
+                            "name" : "Hanging chairs",
+                            "banner":"/category/hanging-banner.webp",
+                            "main" : "/category/main-hanging.webp",
+                            "products" : [
+                                {
+                                    "name": "Hanging Chair",
+                                    "color": "grey",
+                                    "image": "/category/main-hanging1.webp"
+                                },
+                                {
+                                    "name": "Hanging Chair",
+                                    "color": "blue",
+                                    "image": "/category/main-hanging2.webp"
+                                },
+                                {
+                                    "name": "Hanging Chair",
+                                    "color": "white",
+                                    "image": "/category/main-hanging3.webp"
+                                },
+                                {
+                                    "name": "Hanging Chair",
+                                    "color": "white",
+                                    "image": "/category/main-hanging4.webp"
+                                }
+                            ]
                         },
                         {
-                            "name": "Chair Rio",
-                            "color": "Velvet Blue",
-                            "image": "/category/rio.webp"
+                            "name" :"Sofas and armchairs",
+                            "banner":"/category/sofa-banner.webp",
+                            "main" : "/category/main-sofa.webp",
+                            "products" : [
+                                {
+                                    "name": "Sofa",
+                                    "color": "golden",
+                                    "image": "/category/armchair1.webp"
+                                },
+                                {
+                                    "name": "Sofa",
+                                    "color": "grey",
+                                    "image": "/category/armchair2.webp"
+                                },
+                                {
+                                    "name": "Sofa",
+                                    "color": "green",
+                                    "image": "/category/armchair3.webp"
+                                },
+                                {
+                                    "name": "Sofa",
+                                    "color": "green",
+                                    "image": "/category/armchair4.webp"
+                                }
+                            ]
                         },
                         {
-                            "name": "Chair Victoria",
-                            "color": "Yellow",
-                            "image": "/category/viktoriya.png"
+                            "name" :"Sun loungers",
+                            "banner":"/category/lounger-banner.webp",
+                            "main" : "/category/main-shezlong.webp",
+                            "products" : [
+                                {
+                                    "name": "sun lounger row",
+                                    "color": "grey",
+                                    "image": "/category/main-lounger1.webp"
+                                },
+                                {
+                                    "name": "sun lounger double row",
+                                    "color": "white",
+                                    "image": "/category/main-lounger2.webp"
+                                },
+                                {
+                                    "name": "sun lounger double row",
+                                    "color": "brown",
+                                    "image": "/category/main-lounger3.webp"
+                                },
+                                {
+                                    "name": "sun lounger row",
+                                    "color": "white",
+                                    "image": "/category/main-lounger4.webp"
+                                }
+                            ]
                         }
                     ]
+            },
+            "about": {
+              "paragraph": {
+                  "title": "About Us",
+                  "paragraph": "Our company, LLC “Firdavs Mebel,” has been successfully operating in the furniture market since 2008. Over these years, we have accumulated invaluable practical experience. Every technological and production process has been refined to the smallest detail, and every movement has been perfected. We offer FURNITURE under the brand “СНINAR,” made from synthetic rattan with a wide range of products, and the collection is constantly being updated."
+            },
+            "components": [
+                {
+                    "type": "employees",
+                    "result": "60+",
+                    "image" : "/about/about1.webp"
                 },
                 {
-                    "name" : "Hanging chairs",
-                    "products" : [
-                        {
-                            "name": "Hanging Chair",
-                            "color": "grey",
-                            "image": "/category/hanging1.webp"
-                        },
-                        {
-                            "name": "Hanging Chair",
-                            "color": "blue",
-                            "image": "/category/hanging2.webp"
-                        },
-                        {
-                            "name": "Hanging Chair",
-                            "color": "white",
-                            "image": "/category/hanging3.webp"
-                        },
-                        {
-                            "name": "Hanging Chair",
-                            "color": "white",
-                            "image": "/category/hanging3.webp"
-                        }
-                    ]
+                    "type": "countries for export",
+                    "result": "7",
+                    "image" : "/about/about2.webp"
                 },
                 {
-                    "name" :"Sofas and armchairs",
-                    "products" : [
-                        {
-                            "name": "Sofa",
-                            "color": "golden",
-                            "image": "/category/sofa2.webp"
-                        },
-                        {
-                            "name": "Sofa",
-                            "color": "grey",
-                            "image": "/category/sofanew.webp"
-                        },
-                        {
-                            "name": "Sofa",
-                            "color": "green",
-                            "image": "/category/sofa1.webp"
-                        },
-                        {
-                            "name": "Sofa",
-                            "color": "green",
-                            "image": "/category/sofa grey.webp"
-                        }
-                    ]
+                    "type": "years of experience",
+                    "result": "16",
+                    "image" : ""
                 },
                 {
-                    "name" :"Sun loungers",
-                    "products" : [
-                        {
-                            "name": "sun lounger",
-                            "color": "grey",
-                            "image": "/category/shezlong1.webp"
-                        },
-                        {
-                            "name": "sun lounger",
-                            "color": "grey",
-                            "image": "/category/shezlong2.webp"
-                        },
-                        {
-                            "name": "sun lounger",
-                            "color": "grey",
-                            "image": "/category/shezlong1.webp"
-                        },
-                        {
-                            "name": "sun lounger",
-                            "color": "grey",
-                            "image": "/category/shezlong2.webp"
-                        }
-                    ]
+                    "type": "satisfied clients",
+                    "result": "60,000+",
+                    "image" : ""
+                },
+                {
+                    "type": "product types",
+                    "result": "200+",
+                    "image" : ""
+                }
+            ],
+            "images" : ["/about/about3.webp", "/about/about4.webp"]
+            
+            },
+            "furnituresSection": {
+                 "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
+                 "helperText": "Of various complexities and configurations",
+                 "components": [
+                {
+                    "title": "Woven furniture is often used in gardens, on terraces, and balconies",
+                    "image": "./delivery/balcon.png"
+                },
+                {
+                    "title": "Woven sofas and armchairs can add lightness and elegance to a living room",
+                    "image": "./delivery/guests.png"
+                },
+                {
+                    "title": "Furniture for kitchens and dining rooms",
+                    "image": "/delivery/kitchen.png"
+                },
+                {
+                    "title": "Woven furniture can add a touch of romance and naturalness to the bedroom.",
+                    "image": "/delivery/dining.png"
+                },
+                {
+                    "title": "Furniture sets for restaurants and cafes",
+                    "image": "/delivery/kafe.png"
+                },
+                {
+                    "title": "A woven rocking chair can be the perfect spot to relax in any corner of the home or garden.",
+                    "image": "/delivery/garden.png"
                 }
             ]
-    },
-    "about": {
-    "paragraph": {
-        "title": "About Us",
-        "paragraph": "Our company, LLC “Firdavs Mebel,” has been successfully operating in the furniture market since 2008. Over these years, we have accumulated invaluable practical experience. Every technological and production process has been refined to the smallest detail, and every movement has been perfected. We offer FURNITURE under the brand “СНINAR,” made from synthetic rattan with a wide range of products, and the collection is constantly being updated."
-    },
-    "components": [
-        {
-            "type": "employees",
-            "result": "60+",
-            "image" : "/about/about1.webp"
-        },
-        {
-            "type": "countries for export",
-            "result": "7",
-            "image" : "/about/about2.webp"
-        },
-        {
-            "type": "years of experience",
-            "result": "16",
-            "image" : ""
-        },
-        {
-            "type": "satisfied clients",
-            "result": "60,000+",
-            "image" : ""
-        },
-        {
-            "type": "product types",
-            "result": "200+",
-            "image" : ""
-        }
-    ],
-    "images" : ["/about/about3.webp", "/about/about4.webp"]
-    
-    },
-    "furnituresSection": {
-         "heading": "Since 2008, we have crafted over 100,000 pieces of furniture",
-         "helperText": "Of various complexities and configurations",
-         "components": [
-        {
-            "title": "Woven furniture is often used in gardens, on terraces, and balconies",
-            "image": "./delivery/balcon.png"
-        },
-        {
-            "title": "Woven sofas and armchairs can add lightness and elegance to a living room",
-            "image": "./delivery/guests.png"
-        },
-        {
-            "title": "Furniture for kitchens and dining rooms",
-            "image": "/delivery/kitchen.png"
-        },
-        {
-            "title": "Woven furniture can add a touch of romance and naturalness to the bedroom.",
-            "image": "/delivery/dining.png"
-        },
-        {
-            "title": "Furniture sets for restaurants and cafes",
-            "image": "/delivery/kafe.png"
-        },
-        {
-            "title": "A woven rocking chair can be the perfect spot to relax in any corner of the home or garden.",
-            "image": "/delivery/garden.png"
-        }
-    ]
-     },
-     "collection" : {
-        "heading" : "New summer collection from Chinar for your home and establishment",
-        "components" : [
-            "/collection/collect1.png", "/collection/collect2.png", "/collection/collect3.png"
-        ]
-    },
-    "downloadSection": {
-            "title": "200+ projects in the photo catalog",
-            "helperText": "Download right now",
-            "name": "Your name",
-            "download": "DOWNLOAD CATALOG"
-                       },
-    "partnerSection" : {
-            "heading" : "Over 50 partners in 16 years"
-                        },
-    "qualitySection": {
-            "heading": "We carefully control the production quality, ensuring the durability of our furniture for over 10 years.",
-            "helperText": "The production consists of 7 stages.",
-            "offers": [
-                {
-                    "title": "Selection and preparation of materials",
-                    "image": "/quality/quality1.png"
-                },
-                {
-                    "title": "Frame creation",
-                    "image": "/quality/quality2.png"
-                },
-                {
-                    "title": "Processing and painting",
-                    "image": "/quality/quality3.png"
-                },
-                {
-                    "title": "Weaving",
-                    "image": "/quality/quality4.png"
-                },
-                {
-                    "title": "Assembly",
-                    "image": "/quality/quality5.png"
-                },
-                {
-                    "title": "Quality control",
-                    "image": "/quality/quality6.png"
-                }
-            ]
-    },
-    "deliverySection": {
-                "heading": "WORLDWIDE DELIVERY, PAYMENT AFTER INSPECTION AT YOUR HOME",
-                "elements": [
-                    {
-                        "title": "Delivery Conditions",
-                        "mainText": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
-                    },
-                    {
-                        "title": "Payment Methods",
-                        "mainText": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
-                    }
-                ]
-    },
-    "questionsSection": {
-                    "heading": "QUESTIONS WE ARE FREQUENTLY ASKED",
-                    "questions": [
+             },
+             "collection" : {
+                "heading" : "New summer collection from Lux-Furnitures for your home and establishment"
+            },
+            "downloadSection": {
+                    "title": "200+ projects in the photo catalog",
+                    "helperText": "Download right now",
+                    "name": "Your name",
+                    "download": "DOWNLOAD CATALOG"
+                               },
+            "partnerSection" : {
+                    "heading" : "Over 50 partners in 16 years"
+                                },
+            "qualitySection": {
+                    "heading": "We carefully control the production quality, ensuring the durability of our furniture for over 10 years.",
+                    "helperText": "The production consists of 7 stages.",
+                    "offers": [
                         {
-                            "question": "What are the delivery conditions?",
-                            "answer": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                            "title": "Selection and preparation of materials",
+                            "image": "/quality/quality1.png"
                         },
                         {
-                            "question": "What payment methods are available?",
-                            "answer": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                            "title": "Frame creation",
+                            "image": "/quality/quality2.png"
                         },
                         {
-                            "question": "How many days will it take to be ready after ordering?",
-                            "answer": "From 1 to 10 days."
+                            "title": "Processing and painting",
+                            "image": "/quality/quality3.png"
                         },
                         {
-                            "question": "How long is the warranty period?",
-                            "answer": "Our products have a warranty of 10 years."
+                            "title": "Weaving",
+                            "image": "/quality/quality4.png"
                         },
                         {
-                            "question": "Can you customize according to the interior?",
-                            "answer": "Yes, please leave a request on the website or contact us."
+                            "title": "Assembly",
+                            "image": "/quality/quality5.png"
+                        },
+                        {
+                            "title": "Quality control",
+                            "image": "/quality/quality6.png"
                         }
                     ]
-    },
-    "givingQuestion": {
-    "giveQuestion": "Any questions?",
-    "buttonText": "ASK A QUESTION",
-    "modal": {
-        "title": "Submit your question",
-        "titleHelper": "Leave your question and contact information, and our specialists will get in touch with you",
-        "name": "Your name",
-        "yourQuestion": "Your question",
-        "sendQuestion": "Send question",
-        "sendDesc": "Your data will not be shared with third parties",
-        "errorFill": "You need to fill in the fields",
-        "alertSuccess": "The message was sent successfully..!",
-        "errorSend": "An error occurred while sending the message..!"
-
-    }
-     },
-    "category": {
-      "heading": "Catalog of Ready-Made Products",
-      "helperText": "products available for immediate purchase",
-      "products": [
-        {
-          "id": "1",
-          "image": "/catalog/kravat.jfif",
-          "name": "Sherona Barhat Grey",
-          "type": "Double Beds",
-          "price": "21 990"
-        },
-        {
-          "id": "2",
-          "image": "/catalog/shkaf.jfif",
-          "name": "Avignon-1",
-          "type": "Buffets",
-          "price": "18 990"
-        },
-        {
-          "id": "3",
-          "image": "/catalog/tortma.jfif",
-          "name": "Stella Oak Sonoma",
-          "type": "Dressers",
-          "price": "8 990"
-        },
-        {
-          "id": "4",
-          "image": "/catalog/tomb.jfif",
-          "name": "Ravenna-1 Light",
-          "type": "Dressers",
-          "price": "14 990"
-        },
-        {
-          "id": "5",
-          "image": "/catalog/ayStul.jfif",
-          "name": "Benfleet Grey",
-          "type": "Coffee Tables",
-          "price": "7 290"
-        },
-        {
-          "id": "6",
-          "image": "/catalog/parta.jfif",
-          "name": "Tiffany Woodline Cream",
-          "type": "Writing Desks",
-          "price": "10 990"
-        },
-        {
-          "id": "7",
-          "image": "/catalog/shkaf3.jfif",
-          "name": "Valencia Beige",
-          "type": "Wardrobes",
-          "price": "19 990"
-        },
-        {
-          "id": "8",
-          "image": "/catalog/garderob.jfif",
-          "name": "Light-3-170-240 White",
-          "type": "Wardrobes",
-          "price": "27 290"
-        }
-      ]
-    },
-    "notFound": {
-  "heading": ["404", "Page Not Found"],
-  "text": "Sorry, the page was not found. The link you followed may be broken, or the page may have been removed. Please return to the main page.",
-  "button": "Return to Home"
-}
-
-
-}
+            },
+            "deliverySection": {
+                        "heading": "WORLDWIDE DELIVERY, PAYMENT AFTER INSPECTION AT YOUR HOME",
+                        "elements": [
+                            {
+                                "title": "Delivery Conditions",
+                                "mainText": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                            },
+                            {
+                                "title": "Payment Methods",
+                                "mainText": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                            }
+                        ]
+            },
+            "questionsSection": {
+                            "heading": "QUESTIONS WE ARE FREQUENTLY ASKED",
+                            "questions": [
+                                {
+                                    "question": "What are the delivery conditions?",
+                                    "answer": "Delivery within Tashkent starts from 30,000 UZS. We also ship furniture to other cities in Uzbekistan, with delivery terms discussed individually. Delivery to the client is carried out by our staff, who will also assist with lifting and assembling the furniture."
+                                },
+                                {
+                                    "question": "What payment methods are available?",
+                                    "answer": "Any form of payment is accepted—cashless, cash, or bank transfer. You can pay 100% of the total cost upfront or deposit 10% of the total amount, with the remaining balance paid after inspection and delivery of the furniture to your home."
+                                },
+                                {
+                                    "question": "How many days will it take to be ready after ordering?",
+                                    "answer": "From 1 to 10 days."
+                                },
+                                {
+                                    "question": "How long is the warranty period?",
+                                    "answer": "Our products have a warranty of 10 years."
+                                },
+                                {
+                                    "question": "Can you customize according to the interior?",
+                                    "answer": "Yes, please leave a request on the website or contact us."
+                                }
+                            ]
+            },
+            "givingQuestion": {
+            "giveQuestion": "Any questions?",
+            "buttonText": "ASK A QUESTION",
+            "modal": {
+                "title": "Submit your question",
+                "titleHelper": "Leave your question and contact information, and our specialists will get in touch with you",
+                "name": "Your name",
+                "yourQuestion": "Your question",
+                "sendQuestion": "Send question",
+                "sendDesc": "Your data will not be shared with third parties",
+                "errorFill": "You need to fill in the fields",
+                "alertSuccess": "The message was sent successfully..!",
+                "errorSend": "An error occurred while sending the message..!"
+            
+            }
+             },
+            "category": {
+              "heading": "Catalog of Ready-Made Products",
+              "helperText": "products available for immediate purchase",
+              "products": [
+                {
+                  "id": "1",
+                  "image": "/catalog/kravat.jfif",
+                  "name": "Sherona Barhat Grey",
+                  "type": "Double Beds",
+                  "price": "21 990"
+                },
+                {
+                  "id": "2",
+                  "image": "/catalog/shkaf.jfif",
+                  "name": "Avignon-1",
+                  "type": "Buffets",
+                  "price": "18 990"
+                },
+                {
+                  "id": "3",
+                  "image": "/catalog/tortma.jfif",
+                  "name": "Stella Oak Sonoma",
+                  "type": "Dressers",
+                  "price": "8 990"
+                },
+                {
+                  "id": "4",
+                  "image": "/catalog/tomb.jfif",
+                  "name": "Ravenna-1 Light",
+                  "type": "Dressers",
+                  "price": "14 990"
+                },
+                {
+                  "id": "5",
+                  "image": "/catalog/ayStul.jfif",
+                  "name": "Benfleet Grey",
+                  "type": "Coffee Tables",
+                  "price": "7 290"
+                },
+                {
+                  "id": "6",
+                  "image": "/catalog/parta.jfif",
+                  "name": "Tiffany Woodline Cream",
+                  "type": "Writing Desks",
+                  "price": "10 990"
+                },
+                {
+                  "id": "7",
+                  "image": "/catalog/shkaf3.jfif",
+                  "name": "Valencia Beige",
+                  "type": "Wardrobes",
+                  "price": "19 990"
+                },
+                {
+                  "id": "8",
+                  "image": "/catalog/garderob.jfif",
+                  "name": "Light-3-170-240 White",
+                  "type": "Wardrobes",
+                  "price": "27 290"
+                }
+              ]
+            },
+            "notFound": {
+            "heading": ["404", "Page Not Found"],
+            "text": "Sorry, the page was not found. The link you followed may be broken, or the page may have been removed. Please return to the main page.",
+            "button": "Return to Home"
+            },
+                "toasts": {
+                  "field_required": "Please fill out this field",
+                  "invalid_number": "Invalid phone number format",
+                  "short_name": "Name must be at least 3 characters",
+                  "submission_failed": "Failed to submit data",
+                  "download_failed": "Catalog couldn't be downloaded",
+                  "submission_success": "Data submitted successfully",
+                  "download_success": "Catalog downloaded successfully"
+                }
+              }
+              
