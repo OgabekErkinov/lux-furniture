@@ -98,7 +98,7 @@ const Navbar = () => {
 
       {/* Mobil menyu */}
       <Drawer anchor="right" open={mobileOpen} onClose={() => setMobileOpen(false)}>
-        <Box sx={{ width: 250, p: 2, background : 'linear-gradient(to bottom, rgb(1, 75, 1), rgb(0, 212, 0))' }}>
+        <Box sx={{ width: 300, p: 2, background : 'linear-gradient(to bottom right, rgba(5, 88, 5, 0.78),rgb(8, 82, 8))' }}>
           
           {/* Yopish tugmasi */}
           <IconButton onClick={() => setMobileOpen(false)} sx={{ position: "absolute", top: 8, right: 8 }}>
@@ -113,8 +113,6 @@ const Navbar = () => {
         justifyContent='center' 
         height='150px' 
         width='100%' 
-        boxShadow='2px 1px 5px 1px rgba(3, 83, 16, 0.5)' 
-        borderRadius='8px' 
         p={2}
         sx={{ transition: 'all 0.3s ease', '&:hover': { boxShadow: '0 4px 10px rgba(3, 83, 16, 0.7)' } }}
       >
@@ -123,7 +121,9 @@ const Navbar = () => {
           fontWeight='700' 
           fontSize='24px' 
           color='rgb(0, 196, 33)' 
-          sx={{ marginTop: '8px' }}>
+          sx={{ marginTop: '8px', background: "linear-gradient(45deg, rgb(24, 121, 40), rgb(34, 190, 60))",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent", }}>
           Lux Furniture
         </Typography>
              </Box>

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Box, Typography } from "@mui/material";
-import React from "react";
+import React, { memo } from "react";
 import useMedia from "../hooks/useMedia";
 import { useTranslation } from "react-i18next";
 
@@ -46,7 +46,7 @@ const ProductCard = ({ product, xs, sm }) => (
 );
 
 const CatalogPage = () => {
-  const { name } = useParams(); // URL'dan category nomini olamiz
+  const { name } = useParams();
   const cleanName = name?.replace(":", "").trim(); // Name ni tozalash
   const { xs, sm } = useMedia(); // Media querylar
   const { t } = useTranslation();
@@ -67,7 +67,7 @@ const CatalogPage = () => {
           alt="banner"
           width="100%"
           height="100%"
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
         />
       </Box>
 
@@ -97,4 +97,4 @@ const CatalogPage = () => {
   );
 };
 
-export default CatalogPage;
+export default memo(CatalogPage);

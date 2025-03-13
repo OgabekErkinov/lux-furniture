@@ -39,14 +39,14 @@ const Footer = () => {
                 {/* Telefon raqam */}
                 <Stack textAlign="center">
                     <Typography fontSize={{ xs: "14px", md: "16px" }}>{t("callUs")}</Typography>
+                    
+                    {/* Ish vaqti */}
+                <Stack textAlign="center" display={{ xs: 'none', md: 'flex' }} direction='row'>
                     <Typography fontWeight="600" fontSize={{ xs: "16px", md: "18px" }}>+998 71 500 00 00</Typography>
                 </Stack>
-
-                {/* Ish vaqti */}
-                <Stack textAlign="center" display={{ xs: 'none', md: 'flex' }}>
-                    <Typography fontSize={{ xs: "14px", md: "16px" }}>{t("workHours")}</Typography>
-                    <Typography fontWeight="600" fontSize={{ xs: "16px", md: "18px" }}>09:00 - 18:00</Typography>
                 </Stack>
+
+                
             </Stack>
         </Box>
     );
