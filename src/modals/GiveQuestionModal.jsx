@@ -88,7 +88,8 @@ const GiveQuestionModal = () => {
   };
 
   return (
-    <Box position="fixed" zIndex={99} top={0} left={0} display={modalOpen ? 'block' : 'none'} width="100%" height="100%">
+    <Box position="fixed" zIndex={99} top={0} left={0} display={modalOpen ? 'block' : 'none'} 
+         width="100%" height="100%">
 
       <Box width="100%" height="10vh" 
         sx={{ backdropFilter: 'blur(5px)' }} 
@@ -113,12 +114,13 @@ const GiveQuestionModal = () => {
           <Box height="90vh" width="100%" display="flex" justifyContent="center">
             <Stack height="100%" width='100%' minWidth="300px" alignItems="center" gap="1rem">
               
-              <Box component="img" src='/logo.png' height="90px" width="90px" />
+              <Box component="img" src='/logo.webp' height="90px" width="90px" />
               <Stack height="auto" width="100%" my="1rem" alignItems="center">
                 <Typography color="#000000" fontSize={xs ? '24px' : lg ? '32px' : '28px'} textAlign="center">
                   {modalTexts.title}
                 </Typography>
-                <Typography width={lg ? '60%' : '100%'} textAlign="center" color="#000000" fontSize={xs ? '14px' : '18px'}>
+                <Typography width={lg ? '60%' : '100%'} textAlign="center" color="#000000" 
+                            fontSize={xs ? '14px' : '18px'}>
                   {modalTexts.titleHelper}
                 </Typography>
               </Stack>

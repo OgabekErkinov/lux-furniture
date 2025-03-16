@@ -41,12 +41,12 @@
                                 {
                                     "name": "Chair Venice",
                                     "color": "White",
-                                    "image": "/category/whiteVenetsiya.png"
+                                    "image": "/category/whiteVenetsiya.webp"
                                 },
                                 {
                                     "name": "Chair ALLY VBP-206",
                                     "color": "Light Beige",
-                                    "image": "/category/vbp208.png"
+                                    "image": "/category/vbp208.webp"
                                 },
                                 {
                                     "name": "Chair Rio",
@@ -56,7 +56,7 @@
                                 {
                                     "name": "Chair Victoria",
                                     "color": "Yellow",
-                                    "image": "/category/viktoriya.png"
+                                    "image": "/category/viktoriya.webp"
                                 }
                             ]
                         },

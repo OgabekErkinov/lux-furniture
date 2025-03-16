@@ -55,7 +55,7 @@ const HomeImages = () => {
   
           {/* Image Section */}
           <Box display="flex" flexDirection={xs||sm ? "column" : "row"} height="auto" px="12px" gap="8px">
-            <Box component="img" src="/home1.webp" height={xs ? "40vh" : sm ? '60vh' : '70vh'} 
+            <Box component="img" src="/home1.webp" loading='lazy' height={xs ? "40vh" : sm ? '60vh' : '70vh'} 
                  width={xs ? "100%" : sm ? "90%" : "60%"} mx="auto"
                  borderRadius="8px" data-aos="zoom-in"></Box> {/* main left image */}
                  
@@ -63,7 +63,7 @@ const HomeImages = () => {
                  width={xs ? "100%" : sm ? "90%" : "40%"} gap="8px" mx="auto"> {/* main right part */}
                   
               <Box height="auto" width="100%" display="flex" flexDirection={xs ? "column" : "row"} gap="12px">
-                <Box component="img" src="/home2.jfif" height={xs||sm ? "30vh" : "25vh"} 
+                <Box component="img" src="/home2.jfif" loading='lazy' height={xs||sm ? "30vh" : "25vh"} 
                      width={xs ? "100%" : sm ? "60%" :"70%"} 
                      borderRadius="8px" ml={xs||sm ? "none" : "auto"} data-aos="fade-left" />
 
@@ -74,7 +74,7 @@ const HomeImages = () => {
 
               </Box>
 
-              <Box component="img" src="/home3.webp" height={xs ? "30vh" : sm ? "50vh" : "45vh"} width="100%" 
+              <Box component="img" src="/home3.webp" loading='lazy' height={xs ? "30vh" : sm ? "50vh" : "45vh"} width="100%" 
                    borderRadius="8px" data-aos="fade-up" />
             </Box>
           </Box>

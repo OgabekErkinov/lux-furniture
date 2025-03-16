@@ -9,12 +9,12 @@ const Footer = () => {
     const { xs, sm, md, lg, xl } = useMedia();
 
     return (
-        <Box component="footer" width="100%" bgcolor="#fff" py={3} px={2} boxShadow={1}>
-            <Stack direction="row" flexWrap="wrap" justifyContent="space-between" alignItems="center">
+        <Box component="footer" width="100%" bgcolor="#fff" pt={2} px={2} boxShadow={1}>
+            <Stack direction="row" justifyContent="space-between" alignItems="center">
                 {/* Logo va Yozuv */}
-                <Stack direction="row" alignItems="center" spacing={1}>
-                    <Link href="/">
-                        <Box component="img" src='/logo.png' sx={{ height: { xs: "40px", md: "60px" }, width: "auto" }} />
+                <Stack direction="row" alignItems="center">
+                    <Link href="/" sx={{mt : '10px'}}>
+                        <Box component="img" src='/logo.webp' sx={{ height: { xs: "60px", md: "80px" }, width: "auto" }} />
                     </Link>
                     <Typography fontSize='12px' fontWeight="bold" display={{ xs: "none", sm: "block" }} width='128px'>
                         {t("logoText")}

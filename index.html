@@ -1,16 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <title>lux-furnitures</title>
+    <meta name="description" content="Lux Furnitures - hashamatli va zamonaviy mebel mahsulotlari. Yangi kolleksiyalar va yuqori sifatli mahsulotlar bilan tanishing!" />
+    <meta name="keywords" content="hashamatli mebel, zamonaviy mebel, mebel do‘koni, interyer dizayn, yuqori sifat" />
+    <meta name="author" content="Lux Furnitures" />
+
+    <!-- Open Graph (Facebook, LinkedIn uchun) -->
+    <meta property="og:title" content="Lux Furnitures - Zamonaviy va Hashamatli Mebel" />
+    <meta property="og:description" content="Lux Furnitures - hashamatli va zamonaviy mebel mahsulotlari. Yangi kolleksiyalar bilan tanishing!" />
+    <meta property="og:image" content="/logo.webp" />
+    <meta property="og:url" content="https://www.lux-furnitures.uz" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/webp" href="/logo.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;900&display=swap"
+    />
+
+    <title>Lux Furnitures - Zamonaviy va Hashamatli Mebel</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FurnitureStore",
+        "name": "Lux Furnitures",
+        "image": "/logo.webp",
+        "url": "https://lux-furnitures.uz",
+        "description": "Hashamatli mebel do‘koni - zamonaviy dizayn va sifatli mahsulotlar.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street",
+          "addressLocality": "Toshkent",
+          "addressCountry": "UZ"
+        },
+        "telephone": "+998 97 229 32 99"
+      }
+    </script>
+
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>

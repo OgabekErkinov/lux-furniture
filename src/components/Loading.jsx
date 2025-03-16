@@ -1,4 +1,11 @@
-import { CircularProgress, Box } from "@mui/material";
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import { keyframes } from "@emotion/react";
+
+const scaleAnimation = keyframes`
+  0% { transform: scale(1); }
+  100% { transform: scale(1.2); }
+`;
 
 const Loading = () => {
   return (
@@ -7,17 +14,36 @@ const Loading = () => {
         position: "fixed",
         top: 0,
         left: 0,
-        width: "100vw",
-        height: "100vh",
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(240, 240, 240, 0.9)", // Oqish fon
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        bgcolor: "rgba(255, 255, 255, 0.8)", // Yengil oq fon (agar kerak bo‘lsa)
-        backdropFilter: "blur(5px)", // Orqa fonni biroz xira qilish
-        zIndex: 9999, // Eng yuqorida bo‘lishi uchun
+        flexDirection: "column",
+        zIndex: 9999,
       }}
     >
-      <CircularProgress size={60} color="primary" />
+      <Box
+        component="img"
+        src="/logo.webp"
+        alt="Lux Furnitures"
+        sx={{
+          width: 80,
+          height: "auto",
+          animation: `${scaleAnimation} 1.5s infinite alternate ease-in-out`,
+        }}
+      />
+      <Typography
+        variant="h5"
+        sx={{
+          mt: 2,
+          fontWeight: "bold",
+          color: "#333",
+        }}
+      >
+        Lux Furnitures
+      </Typography>
     </Box>
   );
 };

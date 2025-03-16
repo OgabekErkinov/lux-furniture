@@ -26,9 +26,9 @@ const Navbar = () => {
         <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", p: 2 }}>
           
           {/* Logo va Yozuv */}
-          <Stack direction="row" alignItems="center" spacing={1}>
-            <Link href="/">
-              <Box component="img" src='/logo.png' sx={{ height: { xs: "40px", md: "60px" }, width: "auto" }} />
+          <Stack direction="row" alignItems="center">
+            <Link href="/" sx={{mt : '10px'}}>
+              <Box component="img" src='/logo.webp' sx={{ height: { xs: "60px", md: "100px" }, width: "auto" }} />
             </Link>
             <Typography
               fontSize='12px'
